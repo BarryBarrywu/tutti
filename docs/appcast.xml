@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Tutti</title>
+        <link>https://github.com/BarryBarrywu/tutti</link>
+        <description>Tutti release feed</description>
+        <language>en</language>
+        <item>
+            <title>1.5.0</title>
+            <pubDate>Sat, 04 Jul 2026 17:49:54 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.5.0</link>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="whats-new-in-1.5.0"&gt;What’s new in 1.5.0&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Music steps aside when other apps play.&lt;/strong&gt; When you
+watch a video, join a meeting, or take a call, the Spotify or Apple
+Music you’re playing fades out and pauses on its own — then fades back
+in at its original volume once the other sound stops, so you don’t
+scramble to pause and find your place again. Hit play yourself anytime
+and it stops interfering. Turn it on under Settings → Sound. Free.
+Spotify and Apple Music only.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stereo separation across devices (Tutti Pro).&lt;/strong&gt; Split
+left and right channels across two speakers, so a pair of separate
+speakers works as one stereo setup — one on the left, one on the right —
+instead of every device playing the same full mix. Open the spatial
+panel under Output, set each speaker to Left or Right, and Tutti routes
+the channels for you. Works with wired speakers, display speakers, and
+Bluetooth speakers, and it lands each channel on the right speaker even
+on multi-channel outputs like a Studio Display.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presets remember your stereo setup.&lt;/strong&gt; Save a stereo
+arrangement into a preset and it’s tagged “Stereo” in the list, so you
+can tell at a glance which presets split left and right across
+devices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presets remember per-device latency tuning.&lt;/strong&gt; When a
+Bluetooth speaker plays alongside a wired one, Bluetooth usually lags,
+so you nudge the faster device’s latency to line them up. That tuning is
+now saved in each preset — one delay for “Living room + Bluetooth,” back
+to zero for “Mac only” — so switching presets re-syncs everything
+automatically instead of you adjusting it by hand every time. (Thanks to
+LINE6 for the suggestion.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Left-right balance for each speaker.&lt;/strong&gt; Expand a
+device in the output list to reveal a balance slider, so you can lean
+one speaker’s sound toward the left or right — handy when a speaker sits
+off to one side and you want to even things out. Presets remember it,
+alongside the latency tuning. (Thanks to 胖虎是条大锦鲤！旺旺旺旺旺财！
+for the suggestion.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Per-app equalizer.&lt;/strong&gt; Tap an app’s equalizer button in
+the Output panel to expand a draggable EQ curve inline, then shape bass,
+vocals, and treble, or apply a built-in preset. Free, and your tuned
+curve is remembered by presets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No more muffled Bluetooth headphones after calls.&lt;/strong&gt;
+Using Bluetooth headphones for a call or meeting often drags the whole
+headset down to phone-call quality, leaving it muffled long after you
+hang up. Turn on “Keep Bluetooth headphones in high quality” under
+Settings → Sound and Tutti uses the built-in microphone during calls, so
+your headphones stay crisp.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Steadier multi-device playback.&lt;/strong&gt; When you send audio
+to several devices at once, changing tracks, a Bluetooth headset
+dropping and reconnecting, or adding and removing devices in the panel
+would sometimes cause noise, let another app leak through, or even go
+silent. This release puts an end to that — everyday actions no longer
+interrupt playback or interfere with each other, and a Bluetooth device
+that drops out mid-song reconnects and picks up on its own. (Thanks to
+小红薯66B50391 for the report.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volume keys and scroll now control everything,
+free.&lt;/strong&gt; Using your keyboard’s volume keys — or a two-finger
+scroll over the panel — to change every speaker at once used to be a Pro
+feature. It’s free for everyone now: grant Accessibility once under
+Settings → Shortcuts and the volume keys drive all your outputs
+together.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bigger, easier-to-drag per-app volume sliders.&lt;/strong&gt; Each
+app’s volume slider now sits on its own full-width row, so it’s longer
+and easier to set precisely — and the row is no longer cramped.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set the volume of a device that’s only playing one
+app.&lt;/strong&gt; When you route an app to a device that isn’t in your main
+output set, that device used to offer only mute — no way to change its
+level. It now shows a volume slider, so you can turn the sound playing
+on it up or down right there, without adding it to your main output
+first.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hide apps you don’t want to manage.&lt;/strong&gt; Some apps
+(browsers, chat apps) show up the moment they make a sound. Right-click
+any app and choose “Ignore This App” to drop it from the list and stop
+Tutti from touching its audio; ignored apps tuck into a row at the
+bottom of the app list — open it to bring any of them back.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output icons that match your devices.&lt;/strong&gt; The output
+list now shows an icon for what each device actually is — your MacBook,
+Mac Studio, Mac mini, HomePod, Apple TV, or display speakers — instead
+of a generic speaker, so it’s easier to tell your devices apart at a
+glance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optional volume numbers, in percent or dB.&lt;/strong&gt; Prefer
+exact values? Turn on “Show volume numbers” under Settings → Panel and
+every volume slider — in the panel and the volume HUD — shows a number.
+Choose percentage (0–100) or decibels; for individual output and input
+devices the dB reading is the real level the device itself reports. Off
+by default. The sliders also pick up the system’s touch of fading the
+dot while you drag.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make Tutti your color.&lt;/strong&gt; Under Settings → Appearance
+you can now set the accent color used across Tutti: follow the macOS
+system color as before, or choose your own — a single color, or a
+two-color gradient. The light and dark mode switch moved here too, so
+how Tutti looks now lives in one place.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Size the panel the way you like it.&lt;/strong&gt; Under Settings
+→ Panel, pick Compact, Comfortable, or Spacious to tighten or loosen the
+spacing of the whole panel — smaller to fit more on screen, larger for
+easier tapping. (Thanks to 胖虎是条大锦鲤！旺旺旺旺旺财！ for the
+suggestion.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hide the output list if you don’t need it.&lt;/strong&gt; If you
+only ever send audio to one device, the output list is just clutter. You
+can now switch it off under Settings → Panel, the same way you already
+hide the other cards.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A quick tour on first launch.&lt;/strong&gt; New to Tutti? A short
+animated walkthrough now introduces multi-device output, per-app volume,
+stereo, latency tuning, and presets, running right on the real panels.
+Replay it anytime under Settings → General.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed the scroll direction for volume.&lt;/strong&gt; Hover over
+the panel and swipe up or down with two fingers to change the volume —
+the direction was reversed, so swiping up turned it down. Now swiping up
+raises the volume and swiping down lowers it, the way you’d expect.
+(Thanks to Zekun for the report.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Links to follow Tutti and its maker.&lt;/strong&gt; The About
+screen now has social links: Xiaohongshu and Bilibili in Chinese,
+Telegram and X everywhere else.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.5.0/Tutti-1.5.0.zip" length="4415880" type="application/octet-stream" sparkle:edSignature="JxLNt0YN9bm3rTe4eHTS9LYhWDPt6i1ne0ybdLLlNQg5csMX+k9FffKPGlJlkDBDZ0zort+F27HfB3wlZN3+CA==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;1.5.0 新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;别的 App 一出声，音乐自动让位。&lt;/strong&gt;
+看视频、开会或接听通话时，正在播放的 Spotify 或 Apple Music
+会自动淡出并暂停；等对方安静下来，再淡入接着播、回到原来的音量，不用手忙脚乱地暂停又找回进度。你随时手动点开播放，它就不再插手。在「设置
+→ 声音」里打开即可，免费。仅支持 Spotify 与 Apple Music。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跨设备立体声左右声道（Tutti Pro）。&lt;/strong&gt;
+把两台音箱拆成真正的左右声道——一台只放左声道、一台只放右声道，而不再是每台都播放完整的混音。在「输出」下方的空间面板里，把每台音箱指派为「左」或「右」，Tutti
+会自动把声道送到对应设备。有线音箱、显示器扬声器、蓝牙音箱都支持；即使遇到
+Studio Display 这类多通道设备，也能把声道准确送到对应那台。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;预设记住立体声设置。&lt;/strong&gt;
+把立体声配置保存进预设后，预设列表里会标上「立体声」，一眼就能看出哪些预设包含左右声道分离，切换时不必再逐个回想。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;预设记住每台设备的延迟微调。&lt;/strong&gt;
+蓝牙音箱和有线音箱一起播放时，蓝牙往往慢半拍，得给快的那台加一点延迟才同步。现在这份延迟微调会被预设记住——「客厅
++ 蓝牙」用一套延迟、「只用
+Mac」回到零延迟，一键切换自动对齐，不必每次手动调。（感谢用户
+LINE6）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;每台设备单独调左右平衡。&lt;/strong&gt;
+在输出列表里展开某台设备，会出现一条平衡滑杆，可以把这台设备的声音偏向左或右——当某台音箱摆得偏一侧、想把整体听感调匀时很方便。预设会像记住延迟一样记住它。（感谢用户胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;给每个 App 单独调音色（均衡器）。&lt;/strong&gt;
+在「输出」面板里点某个 App
+的均衡器按钮，就地展开一条可拖动的均衡曲线，低音、人声、高音随手调，或一键套用内置音效。免费，调好的音色会被预设记住。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;蓝牙耳机开会后不再发闷。&lt;/strong&gt;
+用蓝牙耳机开会或通话时，整副耳机常被系统降到电话级音质、声音发闷，结束后还得手动去系统设置里调回来。打开「设置
+→
+声音」里的「保持蓝牙耳机高音质」，开会时自动改用内置麦克风，让耳机一直保持高音质输出。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多设备播放更稳定。&lt;/strong&gt;
+同时往多台设备放声音时，切歌、蓝牙耳机断开再连回、在面板里增减设备，以前偶尔会冒出杂音、让别的
+App
+漏音、甚至突然没声。这一版把这些情况彻底解决了——日常操作不再打断播放，也不会互相干扰；蓝牙设备中途掉线再连回来，也能自动接上继续播。（感谢用户小红薯66B50391）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音量键和滚动现在能一次控制全部，免费。&lt;/strong&gt;
+用键盘上的音量键、或在面板上两指滚动来一次调节所有扬声器，以前是 Pro
+功能，现在对所有人免费。在「设置 →
+快捷键」里授权一次辅助功能，音量键就能同时控制所有输出设备。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;应用音量条更大、更好拖。&lt;/strong&gt;
+「输出」面板里每个应用的音量条移到了单独一行、占满整行宽度，比以前更长，拖起来更顺手，那一行也不再拥挤。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;单独指派了应用的设备也能调音量。&lt;/strong&gt;
+当你把某个应用指派到一台不在主输出里的设备播放时，那台设备以前只能静音、没法调音量。现在它会显示一条音量条，可以直接调节它上面播放声音的大小，不必先把它加进主输出。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可以隐藏不想管的应用。&lt;/strong&gt;
+有些应用（比如浏览器、聊天软件）一响就会跑进列表。现在右键任意应用选「忽略此应用」，它就从列表里消失、Tutti
+也不再处理它的声音；被忽略的应用会收在应用列表底部，点开就能一键恢复。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;设备图标更贴合实物。&lt;/strong&gt;
+输出列表现在会按设备本身显示图标——你的 MacBook、Mac Studio、Mac
+mini、HomePod、Apple
+TV、显示器扬声器，而不再是统一的喇叭图标，一眼就能分清哪台是哪台。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可选的音量数字，百分比或分贝。&lt;/strong&gt;
+想看精确数值？在「设置 →
+面板」打开「音量条显示数字」，面板里、以及按音量键时的提示里，每条音量条右侧都会显示数字。可以选百分比（0–100）或分贝；单台输出、输入设备的分贝是设备本身报告的真实电平。默认关闭。音量条还顺手对齐了系统手感——拖动时圆点会变半透明。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;给 Tutti 换上你的颜色。&lt;/strong&gt; 在「设置 →
+外观」里，现在可以设置 Tutti 全局使用的强调色：像以前一样跟随 macOS
+系统颜色，或自己指定——单独一种颜色，或一个双色渐变。浅色/深色模式的切换也挪到了这里，关于
+Tutti 外观的设置都集中在一处。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;面板疏密可调。&lt;/strong&gt; 在「设置 →
+面板」里选择紧凑、舒适或宽松，调整整个面板的间距——紧凑能在屏幕上放下更多，宽松则更好点按。（感谢用户胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;用不到输出列表可以隐藏。&lt;/strong&gt;
+如果你始终只往一台设备发声，输出列表就是多余的。现在可以在「设置 →
+面板」里把它关掉，和隐藏其它卡片的方式一样。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;首次启动的功能导览。&lt;/strong&gt; 第一次用
+Tutti？现在会有一段简短的动画演示，直接在真实面板上介绍多设备输出、应用音量、立体声、延迟补偿和预设。随时可在「设置
+→ 通用」里重看。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;触控板滑动调音量的方向修正。&lt;/strong&gt;
+把指针停在面板上、用触控板两指上下滑动调音量时，之前方向是反的（上滑反而变小）。现在改成上滑变大、下滑变小，符合直觉。（感谢用户泽坤）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关注作者的链接。&lt;/strong&gt;
+「关于」页面新增社交媒体链接：中文显示小红书、哔哩哔哩，其他语言显示
+Telegram 和 X。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;1.5.0 新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;別的 App 一出聲，音樂自動讓位。&lt;/strong&gt;
+看影片、開會或接聽通話時，正在播放的 Spotify 或 Apple Music
+會自動淡出並暫停；等對方安靜下來，再淡入接著播、回到原本的音量，不用手忙腳亂地暫停又找回進度。你隨時手動點開播放，它就不再插手。在「設定
+→ 聲音」裡打開即可，免費。僅支援 Spotify 與 Apple Music。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跨裝置立體聲左右聲道（Tutti Pro）。&lt;/strong&gt;
+把兩台喇叭拆成真正的左右聲道——一台只播放左聲道、一台只播放右聲道，而不再是每台都播放完整的混音。在「輸出」下方的空間面板裡，把每台喇叭指派為「左」或「右」，Tutti
+會自動把聲道送到對應裝置。有線喇叭、顯示器喇叭、藍牙喇叭都支援；即使遇到
+Studio Display 這類多聲道裝置，也能把聲道準確送到對應那台。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;預設記住立體聲設定。&lt;/strong&gt;
+把立體聲配置儲存進預設後，預設清單裡會標上「立體聲」，一眼就能看出哪些預設包含左右聲道分離，切換時不必再逐個回想。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;預設記住每台裝置的延遲微調。&lt;/strong&gt;
+藍牙喇叭和有線喇叭一起播放時，藍牙往往慢半拍，得給快的那台加一點延遲才同步。現在這份延遲微調會被預設記住——「客廳
++ 藍牙」用一套延遲、「只用
+Mac」回到零延遲，一鍵切換自動對齊，不必每次手動調。（感謝用戶
+LINE6）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;每台裝置單獨調左右平衡。&lt;/strong&gt;
+在輸出清單裡展開某台裝置，會出現一條平衡滑桿，可以把這台裝置的聲音偏向左或右——當某台喇叭擺得偏一側、想把整體聽感調勻時很方便。預設會像記住延遲一樣記住它。（感謝用戶胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;為每個 App 單獨調音色（等化器）。&lt;/strong&gt;
+在「輸出」面板裡點某個 App
+的等化器按鈕，就地展開一條可拖動的等化曲線，低音、人聲、高音隨手調，或一鍵套用內建音效。免費，調好的音色會被預設記住。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;藍牙耳機開會後不再發悶。&lt;/strong&gt;
+用藍牙耳機開會或通話時，整副耳機常被系統降到電話級音質、聲音發悶，結束後還得手動去系統設定裡調回來。開啟「設定
+→
+聲音」裡的「保持藍牙耳機高音質」，開會時自動改用內建麥克風，讓耳機一直保持高音質輸出。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多裝置播放更穩定。&lt;/strong&gt;
+同時往多台裝置放聲音時，切歌、藍牙耳機斷開再連回、在面板裡增減裝置，以前偶爾會冒出雜音、讓別的
+App
+漏音、甚至突然沒聲。這一版把這些情況徹底解決了——日常操作不再打斷播放，也不會互相干擾；藍牙裝置中途掉線再連回來，也能自動接上繼續播。（感謝用戶小红薯66B50391）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音量鍵和捲動現在能一次控制全部，免費。&lt;/strong&gt;
+用鍵盤上的音量鍵、或在面板上兩指捲動來一次調整所有喇叭，以前是 Pro
+功能，現在對所有人免費。在「設定 →
+快速鍵」裡授權一次輔助使用，音量鍵就能同時控制所有輸出裝置。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;應用音量條更大、更好拖。&lt;/strong&gt;
+「輸出」面板裡每個應用的音量條移到了單獨一行、佔滿整行寬度，比以前更長，拖起來更順手，那一行也不再擁擠。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;單獨指派了應用的裝置也能調音量。&lt;/strong&gt;
+當你把某個應用指派到一台不在主輸出裡的裝置播放時，那台裝置以前只能靜音、沒法調音量。現在它會顯示一條音量條，可以直接調整它上面播放聲音的大小，不必先把它加進主輸出。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可以隱藏不想管的應用。&lt;/strong&gt;
+有些應用（比如瀏覽器、聊天軟體）一響就會跑進清單。現在右鍵任意應用選「忽略此應用」，它就從清單裡消失、Tutti
+也不再處理它的聲音；被忽略的應用會收在應用清單底部，點開就能一鍵恢復。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;裝置圖示更貼合實物。&lt;/strong&gt;
+輸出清單現在會按裝置本身顯示圖示——你的 MacBook、Mac Studio、Mac
+mini、HomePod、Apple
+TV、顯示器喇叭，而不再是統一的喇叭圖示，一眼就能分清哪台是哪台。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可選的音量數字，百分比或分貝。&lt;/strong&gt;
+想看精確數值？在「設定 →
+面板」開啟「音量條顯示數字」，面板裡、以及按音量鍵時的提示裡，每條音量條右側都會顯示數字。可以選百分比（0–100）或分貝；單台輸出、輸入裝置的分貝是裝置本身回報的真實電平。預設關閉。音量條還順手對齊了系統手感——拖動時圓點會變半透明。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;給 Tutti 換上你的顏色。&lt;/strong&gt; 在「設定 →
+外觀」裡，現在可以設定 Tutti 全域使用的強調色：像以前一樣跟隨 macOS
+系統顏色，或自己指定——單獨一種顏色，或一個雙色漸層。淺色/深色模式的切換也挪到了這裡，關於
+Tutti 外觀的設定都集中在一處。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;面板疏密可調。&lt;/strong&gt; 在「設定 →
+面板」裡選擇緊湊、舒適或寬鬆，調整整個面板的間距——緊湊能在螢幕上放下更多，寬鬆則更好點按。（感謝用戶胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;用不到輸出清單可以隱藏。&lt;/strong&gt;
+如果你始終只往一台裝置發聲，輸出清單就是多餘的。現在可以在「設定 →
+面板」裡把它關掉，和隱藏其它卡片的方式一樣。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;首次啟動的功能導覽。&lt;/strong&gt; 第一次用
+Tutti？現在會有一段簡短的動畫示範，直接在真實面板上介紹多裝置輸出、應用程式音量、立體聲、延遲補償和預設。隨時可在「設定
+→ 一般」裡重看。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;觸控板滑動調音量的方向修正。&lt;/strong&gt;
+把指標停在面板上、用觸控板兩指上下滑動調音量時，之前方向是反的（上滑反而變小）。現在改成上滑變大、下滑變小，符合直覺。（感謝用戶澤坤）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;關注作者的連結。&lt;/strong&gt;
+「關於」頁面新增社群媒體連結：中文顯示小紅書、嗶哩嗶哩，其他語言顯示
+Telegram 和 X。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
+            <title>1.4.2</title>
+            <pubDate>Thu, 25 Jun 2026 12:00:35 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.4.2</link>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="whats-new-in-1.4.2"&gt;What’s new in 1.4.2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Shortcuts, Siri, and Spotlight support (Tutti Pro).&lt;/strong&gt;
+Control Tutti from the Shortcuts app, by asking Siri, or right from
+Spotlight — switch presets, mute, or set the volume — and wire it into
+your automations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Global volume keyboard shortcuts (Tutti Pro).&lt;/strong&gt; Set
+your own keys to raise or lower the volume of all your speakers at once
+— handy if your keyboard has no dedicated volume keys, since these work
+without them.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Per-device volume shortcuts (Tutti Pro).&lt;/strong&gt; Pick any
+output device and give it its own keys to turn its volume up or down, or
+mute it — control one speaker without touching the others. (thanks to
+Charlie)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desktop widgets (Tutti Pro).&lt;/strong&gt; See your output status
+and devices at a glance, and adjust volume, mute, output devices, or
+presets right from the desktop without opening the app.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pick your menu bar icon.&lt;/strong&gt; Choose how Tutti looks up
+top: the classic waves, or one of ten instruments. The icon fills out as
+the volume rises and turns red when muted. Instruments unlock the more
+you listen through Tutti, and Tutti Pro unlocks every one right away.
+Tutti can also let you know each time a new icon is unlocked. (thanks to
+胖虎是条大锦鲤！旺旺旺旺旺财！)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reorder your lists.&lt;/strong&gt; Right-click any item in the
+output, apps, input, or presets lists to move it to the top, up, or down
+— put what you use most right where you want it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keep an app in the list.&lt;/strong&gt; Right-click an app and
+choose Keep in List, and it stays put even when it isn’t playing — handy
+for setting its volume and output ahead of time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rename and hide input devices.&lt;/strong&gt; Previously only
+output devices supported this; now microphones and other inputs can be
+renamed and hidden too, matching the output list.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;See where each app’s sound goes.&lt;/strong&gt; An output device
+now shows small badges of the apps routed to it, so you can tell at a
+glance which app is playing where without opening a menu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clearer about devices Tutti can’t control.&lt;/strong&gt; Some
+outputs (like many external displays and digital outputs) don’t let
+Tutti change their volume or mute them. Tutti now marks these with a
+lock, both in the device list and when you route an app to one, so you
+know that device can’t be turned down or silenced.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tooltips everywhere.&lt;/strong&gt; Hover over any button or
+indicator in the panel and a short hint explains what it does, so
+first-timers never get lost.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A more consistent volume UI.&lt;/strong&gt; Every panel and the
+volume HUD drop the redundant percentage numbers (the slider already
+shows the level), and clicking the icon at the start of any row now
+mutes it, click again to restore, so the whole app works the same
+way.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed: renaming an output device now also updates its name
+in an app’s output-routing menu.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed: app icon looked slightly puffy on macOS 15.&lt;/strong&gt;
+(thanks to 胖虎是条大锦鲤！旺旺旺旺旺财！)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed: an app you’d set a volume for no longer lingers in
+the apps list after you quit it.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed: turning off Tutti’s Accessibility permission in
+System Settings while it was running could freeze the keyboard and
+mouse, forcing a restart.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed: with Settings open, the menu bar panel could stay on
+screen and be hard to dismiss.&lt;/strong&gt; Clicking the menu bar icon now
+brings Settings to the front; close Settings and the panel tidies away
+with it. (thanks to 有胡子的三哥)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.4.2/Tutti-1.4.2.zip" length="3762508" type="application/octet-stream" sparkle:edSignature="av5qfqniTFH3vnJDlMd1IW0jb6q1eBKxOLRk/I3BRE/22s4cmQhveMgJVNo7pwHAZ569bYLqjLfpRZWvxAqYBQ==" />
+            <description xml:lang="zh-Hans">&lt;h2 id="更新内容"&gt;1.4.2 更新内容&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;支持「快捷指令」、Siri 和聚焦搜索（Tutti Pro）。&lt;/strong&gt;
+现在可以用快捷指令、对 Siri
+说话或在聚焦搜索里直接切换预设、静音、调整音量，把 Tutti
+接进你的自动化流程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全局音量快捷键（Tutti Pro）。&lt;/strong&gt;
+可以自己设一组按键，一下调高或调低所有扬声器的音量。就算你的键盘没有专门的音量键，这组快捷键照样能用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;为单个设备设置音量快捷键（Tutti Pro）。&lt;/strong&gt;
+挑任意一台输出设备，给它单独设按键来调高、调低或静音，单独控制某一台，不影响其他扬声器。（感谢用户
+Charlie）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;新增桌面小组件（Tutti Pro）。&lt;/strong&gt;
+输出状态和设备一眼可见，还能直接在桌面调整音量、静音、切换输出设备或预设，不用打开
+App。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自选菜单栏图标。&lt;/strong&gt; 现在可以挑 Tutti
+在菜单栏里的样子：经典声波，或十种乐器之一。音量越大图标线条越满，静音时变红。用
+Tutti 听得越久，能解锁的乐器越多，Tutti Pro
+则直接全部解锁。解锁新图标时还能让 Tutti 提醒你。（感谢用户
+胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;列表可以自己排顺序了。&lt;/strong&gt;
+输出、应用、输入和预设这几个列表，右键任意一项都能「置顶 / 上移 /
+下移」，把常用的排到前面，按自己的习惯来。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;应用可以「常驻」。&lt;/strong&gt;
+右键某个应用选「常驻」，它就会一直留在列表里，哪怕没在播放也不会消失，方便你提前调好音量和输出设备。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入设备也能重命名和隐藏了。&lt;/strong&gt;
+之前只有输出设备支持，现在麦克风等输入设备也能改名、隐藏，和输出列表保持一致。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一眼看清每个应用的声音去了哪。&lt;/strong&gt;
+输出设备的图标上现在会显示被指派给它的应用小图标，不打开菜单也能看出哪个应用在哪台设备出声。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更清楚哪些设备 Tutti 控制不了。&lt;/strong&gt;
+有些输出（比如不少外接显示器和数字输出）不允许 Tutti 调音量或静音。Tutti
+现在会给这类设备加上一把锁，在设备列表里、以及把应用指派给它时都会标出，让你知道这台设备没法被调低或静音。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;每个按钮都有了说明。&lt;/strong&gt;
+鼠标停在面板上的按钮或图标上，会出现一句简短说明，告诉你这个功能是干什么的，第一次用也不迷路。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音量界面更统一。&lt;/strong&gt;
+各个面板和音量提示去掉了多余的百分比数字（滑杆已经能看出大小），现在点任意一行前面的图标就能静音，再点恢复，整个
+App 的操作方式一致了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修复：改了输出设备的名字，应用的「指定输出」菜单里也会同步显示新名字。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修复：在 macOS 15 上 App
+图标看起来偏胖的问题。&lt;/strong&gt;（感谢用户
+胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修复：关掉或退出一个调过音量的应用后，它不再无故残留在应用列表里。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修复：在 Tutti
+运行时于系统设置里关闭它的辅助功能权限，可能导致键盘和鼠标失灵、只能强制重启的问题。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修复：打开设置后，菜单栏面板留在屏幕上、不容易关掉的问题。&lt;/strong&gt;
+现在设置开着时点菜单栏图标会把设置窗带到最前，关掉设置窗，面板就会自动收起。（感谢用户
+有胡子的三哥）&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="更新內容"&gt;1.4.2 更新內容&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;支援「捷徑」、Siri 和聚焦搜尋（Tutti Pro）。&lt;/strong&gt;
+現在可以用捷徑、對 Siri
+說話或在聚焦搜尋裡直接切換預設、靜音、調整音量，把 Tutti
+接進你的自動化流程。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全域音量快捷鍵（Tutti Pro）。&lt;/strong&gt;
+可以自己設一組按鍵，一下調高或調低所有揚聲器的音量。就算你的鍵盤沒有專門的音量鍵，這組快捷鍵照樣能用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;為單個裝置設定音量快捷鍵（Tutti Pro）。&lt;/strong&gt;
+挑任意一台輸出裝置，給它單獨設按鍵來調高、調低或靜音，單獨控制某一台，不影響其他揚聲器。（感謝使用者
+Charlie）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;新增桌面小工具（Tutti Pro）。&lt;/strong&gt;
+輸出狀態和裝置一眼可見，還能直接在桌面調整音量、靜音、切換輸出裝置或預設，不用打開
+App。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自選選單列圖示。&lt;/strong&gt; 現在可以挑 Tutti
+在選單列裡的樣子：經典聲波，或十種樂器之一。音量越大圖示線條越滿，靜音時變紅。用
+Tutti 聽得越久，能解鎖的樂器越多，Tutti Pro
+則直接全部解鎖。解鎖新圖示時還能讓 Tutti 提醒你。（感謝使用者
+胖虎是條大錦鯉！旺旺旺旺旺財！）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;列表可以自己排順序了。&lt;/strong&gt;
+輸出、應用、輸入和預設這幾個列表，右鍵任意一項都能「置頂 / 上移 /
+下移」，把常用的排到前面，按自己的習慣來。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;應用可以「常駐」。&lt;/strong&gt;
+右鍵某個應用選「常駐」，它就會一直留在列表裡，即使沒在播放也不會消失，方便你提前調好音量和輸出裝置。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;輸入裝置也能重新命名和隱藏了。&lt;/strong&gt;
+之前只有輸出裝置支援，現在麥克風等輸入裝置也能改名、隱藏，和輸出列表保持一致。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一眼看清每個應用的聲音去了哪。&lt;/strong&gt;
+輸出裝置的圖示上現在會顯示被指派給它的應用小圖示，不打開選單也能看出哪個應用在哪台裝置出聲。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更清楚哪些裝置 Tutti 控制不了。&lt;/strong&gt;
+有些輸出（例如不少外接顯示器和數位輸出）不允許 Tutti 調音量或靜音。Tutti
+現在會給這類裝置加上一把鎖，在裝置列表裡、以及把應用指派給它時都會標出，讓你知道這台裝置沒法被調低或靜音。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;每個按鈕都有了說明。&lt;/strong&gt;
+滑鼠停在面板上的按鈕或圖示上，會出現一句簡短說明，告訴你這個功能是做什麼的，第一次用也不迷路。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音量介面更統一。&lt;/strong&gt;
+各個面板和音量提示去掉了多餘的百分比數字（滑桿已經能看出大小），現在點任意一行前面的圖示就能靜音，再點恢復，整個
+App 的操作方式一致了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修復：改了輸出裝置的名字，應用的「指定輸出」選單裡也會同步顯示新名字。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修復：在 macOS 15 上 App
+圖示看起來偏胖的問題。&lt;/strong&gt;（感謝使用者
+胖虎是條大錦鯉！旺旺旺旺旺財！）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修復：關掉或結束一個調過音量的應用後，它不再無故殘留在應用列表裡。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修復：在 Tutti
+執行時於系統設定裡關閉它的輔助功能權限，可能導致鍵盤和滑鼠失靈、只能強制重啟的問題。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修復：打開設定後，選單列面板留在螢幕上、不容易關掉的問題。&lt;/strong&gt;
+現在設定開著時點選單列圖示會把設定視窗帶到最前，關掉設定視窗，面板就會自動收起。（感謝使用者
+有鬍子的三哥）&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+            <title>1.4.1</title>
+            <pubDate>Sat, 20 Jun 2026 09:51:43 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.4.1</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="whats-new-in-1.4.1"&gt;What’s new in 1.4.1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;New per-app Turbo boost.&lt;/strong&gt; Some apps are just quiet.
+Tap the bolt icon at the end of an app’s row to give that one app a 2×
+boost so it plays louder than the rest — made for an app that’s too
+quiet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fixed: the app-volume “authorization needed” prompt no
+longer cries wolf.&lt;/strong&gt; In some cases Tutti kept showing
+“Authorization needed to control app volume” even though you’d already
+granted it — for example whenever a video was paused. Tutti now checks
+the authorization state in a more reliable way: a Mac that’s already
+granted is no longer nagged, and when permission genuinely hasn’t been
+granted yet, tapping the prompt brings up the system dialog
+directly.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.4.1/Tutti-1.4.1.zip" length="2921497" type="application/octet-stream" sparkle:edSignature="lS8Ti9L8Y/ywChXY6F+b4rv5cm4TUD4giITd8R0yLceT5qPkN9KGjR1TLlY+NZkUyA0/PfL2wHOw5+0KaxDtCA==" />
+            <description xml:lang="zh-Hans">&lt;h2 id="更新内容"&gt;1.4.1 更新内容&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;应用音量新增 Turbo（增益）。&lt;/strong&gt;
+有些应用本身声音就偏小。现在点应用那一行末尾的闪电图标，就能把它单独再放大一倍，比其他应用更响——专门给太安静的应用用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修复：应用音量的「需要授权」提示不再误报。&lt;/strong&gt;
+之前在某些情况下，明明已经授权过，过一会儿又会跳出「需要授权才能控制应用音量」（比如把视频暂停时）。现在
+Tutti
+用更可靠的方式判断授权状态：已经授权就不会再无故提示；确实还没授权时，点这个提示会直接弹出系统授权框，一步到位。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="更新內容"&gt;1.4.1 更新內容&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;應用音量新增 Turbo（增益）。&lt;/strong&gt;
+有些應用本身聲音就偏小。現在點應用那一列末尾的閃電圖示，就能把它單獨再放大一倍，比其他應用更響——專門給太安靜的應用用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修復：應用音量的「需要授權」提示不再誤報。&lt;/strong&gt;
+之前在某些情況下，明明已經授權過，過一會兒又會跳出「需要授權才能控制應用音量」（例如把影片暫停時）。現在
+Tutti
+用更可靠的方式判斷授權狀態：已經授權就不會再無故提示；確實還沒授權時，點這個提示會直接彈出系統授權框，一步到位。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+    </channel>
+</rss>

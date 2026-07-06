@@ -1,0 +1,171 @@
+<p align="right"><a href="README.md">English</a> · 中文</p>
+
+<p align="center">
+  <img src="docs/screenshots/icon.png" alt="Tutti 应用图标" width="128" height="128">
+</p>
+
+<h1 align="center">Tutti</h1>
+
+<p align="center"><em>一处声音，处处响起。</em></p>
+
+<p align="center">macOS 本该内置、却始终没有的菜单栏音频控制中心 —<br>多设备同放、逐 App 音量与 EQ、Now Playing,以及即将到来的 iPhone 遥控。</p>
+
+<p align="center">
+  <a href="https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg"><strong>⬇︎ 下载 macOS 版</strong></a>
+  ·
+  <a href="https://tutti.barrybarrywu.com">官网</a>
+  ·
+  <a href="https://github.com/BarryBarrywu/tutti/releases">历史版本</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/BarryBarrywu/tutti?style=flat-square&color=blue&label=release" alt="版本">
+  <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 13+">
+  <img src="https://img.shields.io/github/downloads/BarryBarrywu/tutti/total?style=flat-square&color=orange&label=downloads" alt="下载量">
+  <img src="https://img.shields.io/badge/Pro-¥买断_$7.99-38bdf8?style=flat-square" alt="Pro $7.99 买断">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/panel.webp" alt="Tutti 菜单栏面板(浅色与深色)" width="720">
+</p>
+
+<p align="center"><sub><strong>无虚拟驱动 · 无系统扩展 · 无遥测 · 无账号。</strong>经 Apple 公证。退出 Tutti,你的音频设置原样如初。</sub></p>
+
+## 为什么用 Tutti
+
+macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,仅此而已。你没法同时向两个音箱放声,没法给每个 App 单独设音量,也没法只给某个 App 调 EQ 而不动其他。Tutti 就是补上这块空白的控制中心:一个面板管好每个输出、每个 App、每一档音量 —— 全部基于 Apple 自家音频框架,不往系统里装任何东西。
+
+## ✨ v1.6.0 即将上线
+
+**Tutti Remote —— 用 iPhone 遥控 Mac 的声音。**窝在沙发上就能切换预设、挑选输出音箱、调节每台设备和每个 App 的音量,还能用 iPod 式转盘控制播放。通过局域网配对,控制权始终在 Mac 这一侧。
+
+<p align="center">
+  <img src="docs/screenshots/ios-now-playing.png" alt="Tutti Remote —— Now Playing" width="240">
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/ios-devices.png" alt="Tutti Remote —— 设备与预设" width="240">
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/ios-app-volume.png" alt="Tutti Remote —— 逐 App 音量" width="240">
+</p>
+
+**Raycast 扩展** —— 不打开 Tutti,直接在 Raycast 里静音、设音量、切预设。
+
+## 功能
+
+### 多设备输出
+- **一次放给所有音箱** —— 勾选多个输出,Tutti 即时组建 CoreAudio 聚合设备,并保持时钟同步。
+- **也可以只放一个** —— 只选一台时,Tutti 直接切换系统默认输出,不建聚合。
+- **主音量 + 每设备音量与静音** —— 一个总滑块管全部,每个输出还有独立滑块和静音。
+- **三态状态** —— 全部在放、部分静音、全部静音,配同色状态点。
+- **热插拔不断音** —— 播放中增减音箱,声音不中断。
+
+### 逐 App 音频控制 &nbsp;`macOS 14.4+`
+- **逐 App 音量 + Turbo** &nbsp;`免费` —— 给每个 App 单独的音量;Turbo 可加 2× 增益。无驱动,走原生音频 tap。
+- **逐 App 均衡器** &nbsp;`免费` —— 为任意 App 拖动 6 段 EQ 曲线,或套用内置预设。
+- **逐 App 输出** &nbsp;`Pro` —— 把不同 App 送到不同音箱:通话留在笔记本,音乐充满房间。
+- **看清声音去哪** —— 输出设备上会显示路由到它的 App 小徽标。
+- **忽略不想管的 App** —— 右键任意 App 把它收进列表底部。
+
+### Pro 强力工具
+- **预设** &nbsp;`Pro` —— 保存设备 + 音量 + 逐 App 组合,一键切换;每个预设配一个 emoji。
+- **全局快捷键** &nbsp;`Pro` —— 在任意 App 里用热键打开面板、静音、切预设,或微调某个 App 的音量。
+- **跨设备立体声配对** &nbsp;`Pro` —— 左声道给一台音箱、右声道给另一台 —— 两台音箱,一对立体声。
+- **每台音箱左右平衡** &nbsp;`Pro` —— 音箱摆得偏一侧时,把它的声音往一边偏一点。
+- **逐设备延迟微调** &nbsp;`Pro` —— 蓝牙音箱慢半拍时,凭耳朵加一点延迟对齐。
+- **桌面小组件** &nbsp;`Pro` —— 不开 App,在桌面看状态、设备,调音量、切预设。
+
+### Now Playing 与媒体
+- **Now Playing 卡片** —— Spotify、Apple Music 的歌曲、封面、播放/暂停/切歌,都在面板里。
+- **通话与视频自动让路** &nbsp;`免费` —— 有通话或视频出声时淡出并暂停音乐,结束后按原音量淡入。
+- **麦克风输入卡片** —— 在面板里挑选输入设备、调节音量或静音。
+
+### 蓝牙与同步
+- **自行重连** —— 编组里的蓝牙音箱短暂掉线后,重连即自动归队,不中断播放。
+- **耳机电量** —— 设备上报时,在设备名旁显示;AirPods 有专属图标。
+- **通话后保持高音质** —— 通话时改用内置麦克风,耳机不会卡在闷闷的通话音质里。
+- **始终同步** —— 时钟漂移补偿让有线和蓝牙音箱对齐,不会越放越偏。
+
+### 菜单栏 · 快捷键 · 那些小细节
+- **菜单栏快捷菜单** —— 不打开面板就能切设备、换预设、全部静音。
+- **音量接管** —— 键盘音量键和滚轮全局驱动聚合输出。
+- **Shortcuts、Siri 与 Spotlight** —— 在自动化里切预设、静音或设音量。
+- **指哪滚哪** —— 悬停某台设备、某个 App 或麦克风,滚轮只调它。
+- **自选菜单栏图标** —— 经典声波,或十种乐器之一;图标随音量升高而填充。
+- **睡眠定时 · 渐入渐出 · 浅色/深色/跟随系统 · 登录启动 · 自动更新** —— 该有的省心功能都有。
+
+### 即将到来
+- **iPhone 遥控** &nbsp;`v1.6.0 即将上线` —— 见 [v1.6.0 即将上线](#-v160-即将上线)。
+- **Raycast 扩展** &nbsp;`v1.6.0 即将上线` —— 在 Raycast 里静音、设音量、切预设。
+
+## 免费 vs Pro
+
+上面所有不带标签的功能都是**永久免费**。每次全新安装首启还送 **7 天 Pro 试用** —— 无需 key。试用结束后,所有免费功能继续无限使用。
+
+**Pro 解锁:**
+
+| | |
+|---|---|
+| **预设** | 一键切换设备 + 音量 + 逐 App 组合 |
+| **全局快捷键** | 在任意 App 内控制 Tutti |
+| **立体声配对与左右平衡** | 把声道拆到不同音箱 |
+| **逐设备延迟微调** | 凭耳朵对齐慢半拍的蓝牙音箱 |
+| **逐 App 输出路由** | 把不同 App 送到不同音箱 |
+| **桌面小组件** | 在桌面查看状态与控制 |
+
+- **一次性 $7.99,无订阅。**未来所有 Pro 新功能免费包含。
+- **每个授权可激活 2 台 Mac。**在 设置 › 许可 里激活与停用。
+- **14 天无理由退款** —— 发邮件到 support@barrybarrywu.com 即可。
+
+<p align="center">
+  <a href="https://checkout.dodopayments.com/buy/pdt_0NfolyiommnaLUYQ5aPqn"><strong>解锁 Tutti Pro —— $7.99</strong></a>
+</p>
+
+## 与同类对比
+
+优秀的 Mac 音频工具各自解决了其中一块。Tutti 站在这里。
+
+| | Tutti | Background Music | FineTune | SoundSource | Audio Hijack |
+|---|:---:|:---:|:---:|:---:|:---:|
+| 同一声音同放多个输出 | ✓ | — | ✓ | — | ✓ |
+| 逐 App 音量与 EQ | ✓¹ | ✓ | ✓ | ✓ | ✓ |
+| 逐 App 输出路由 | ✓¹ | — | ✓ | ✓ | ✓ |
+| 一键设备预设 | ✓ | — | — | — | — |
+| **跨设备立体声配对** | ✓ | — | — | — | — |
+| **逐设备蓝牙延迟微调** | ✓ | — | — | — | — |
+| **Now Playing 控制**(播放/暂停/切歌) | ✓ | — | — | — | — |
+| **iPhone 遥控** | ✓ *(v1.6.0)* | — | — | — | — |
+| 无虚拟驱动 / 无系统扩展 | ✓² | — | ✓ | — | — |
+| 免费使用 | ✓ | ✓ | ✓ | — | — |
+
+¹ 逐 App 功能走原生 macOS 音频 tap,需 macOS 14.4 及以上。
+² 多输出用 CoreAudio 聚合设备,逐 App 走原生 tap —— 不往系统装任何东西。Background Music 会装虚拟音频设备;SoundSource、Audio Hijack 会装系统扩展。
+
+## 使用场景
+
+- **一起听** —— 客厅音箱和蓝牙耳机同时出声:你外放,朋友戴耳机。
+- **直播与录制** —— 用耳机监听的同时,把声音播给观众或采集卡。
+- **多房间播放** —— 一台 Mac 同时驱动客厅的有线音箱和卧室的另一对。
+- **沙发遥控** —— 不用起身,在 iPhone 上切预设、挑音箱 *(v1.6.0)*。
+- **教学** —— 老师在耳机里听提示,教室音箱同时放给学生。
+
+## AirPlay 与已知限制
+
+- **AirPlay 无法进多输出组** —— macOS 不允许 AirPlay 接收端(HomePod、Apple TV、AirPlay 音箱)加入多输出组,且只有第一方 App 能发起 AirPlay 路由。macOS 已路由到 AirPlay 设备后,Tutti 可单独使用它。见 [Roadmap](#roadmap)。
+- **逐 App 功能需 macOS 14.4+** —— 逐 App 音量、Turbo、EQ 和路由依赖 14.4 新增的 Core Audio process tap。在 macOS 13–14.3 上,其余功能照常。
+- **蓝牙电量取决于设备** —— 仅当耳机向 macOS 上报时才显示。
+
+## Roadmap
+
+- **Tutti 内直接路由 AirPlay** —— 不必先去控制中心,直接在面板里挑选与切换 AirPlay 接收端。目前 macOS 把 AirPlay 发现限制在第一方;一旦开放,Tutti 立刻跟上。
+
+## 系统要求
+
+- macOS 13.0 或更高
+- 仅"键盘音量键接管"需要辅助功能权限(滚轮方式无需)
+
+## 多语言
+
+简体中文 · 繁体中文 · 英语 · 日语 · 韩语 · 法语 · 德语 · 意大利语 · 西班牙语。
+
+## 源代码
+
+自 2026 年 7 月起,Tutti 不再公开源代码。本仓库用于下载、发布、驱动自动更新的 appcast,以及问题反馈。二进制文件按 [EULA](https://tutti.barrybarrywu.com/terms) 分发。

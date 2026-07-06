@@ -1,0 +1,61 @@
+name: Notify Telegram on Release
+
+on:
+  release:
+    types: [published]
+  # Manual re-send for a given tag (e.g. when a release-time run failed).
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to announce (e.g. v1.5.0)"
+        required: true
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    # Works for both the release event and a manual dispatch.
+    env:
+      TAG: ${{ github.event.release.tag_name || inputs.tag }}
+    steps:
+      - name: Download release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download "$TAG" \
+            --repo BarryBarrywu/tutti \
+            --pattern "*.zip" --pattern "*.dmg"
+
+      - name: Locate assets
+        id: assets
+        run: |
+          echo "zip=$(ls Tutti-*.zip)" >> "$GITHUB_OUTPUT"
+          echo "dmg=$(ls Tutti.dmg)" >> "$GITHUB_OUTPUT"
+
+      # Keep this short: Telegram sendMessage caps at 4096 chars, and the full
+      # release notes blow past that. Announce + link; the notes live on GitHub.
+      - name: Send announcement
+        uses: cbrgm/telegram-github-action@v1
+        with:
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          to: "-1003724503153" # @tuttiapp channel
+          message: |
+            🎉 Tutti ${{ env.TAG }} is out
+
+            https://github.com/BarryBarrywu/tutti/releases/tag/${{ env.TAG }}
+          disable-web-page-preview: true
+
+      - name: Send zip
+        uses: cbrgm/telegram-github-action@v1
+        with:
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          to: "-1003724503153" # @tuttiapp channel
+          media: ${{ steps.assets.outputs.zip }}
+          media-type: document
+
+      - name: Send dmg
+        uses: cbrgm/telegram-github-action@v1
+        with:
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          to: "-1003724503153" # @tuttiapp channel
+          media: ${{ steps.assets.outputs.dmg }}
+          media-type: document
