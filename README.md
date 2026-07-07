@@ -35,6 +35,16 @@
 
 macOS gives you a volume slider, a device list, and a tiny speaker glyph — and that's it. You can't play to two speakers at once, can't set a different volume per app, can't EQ one app without touching the rest. Tutti is the control center that fills the gap: one panel for every output, every app, and every level — riding Apple's own audio frameworks, with nothing installed into your system.
 
+<p align="center">
+  <img src="docs/screenshots/mac-per-app-eq.webp" alt="Per-app equalizer curve" width="230">
+  &nbsp;
+  <img src="docs/screenshots/mac-stereo-split.webp" alt="Stereo pairing across devices" width="230">
+  &nbsp;
+  <img src="docs/screenshots/mac-latency-balance.webp" alt="Per-device latency and balance" width="230">
+</p>
+
+<p align="center"><sub>Draggable per-app EQ · stereo pairing across two speakers · per-device latency &amp; balance.</sub></p>
+
 ## ✨ Coming soon
 
 **Tutti Remote — control your Mac's audio from your iPhone.** Sit on the couch and switch presets, pick output speakers, set per-device and per-app volume, and drive playback from an iPod-style click wheel. Pairs over your local network; the Mac stays in charge.
