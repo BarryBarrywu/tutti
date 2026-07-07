@@ -35,6 +35,16 @@
 
 macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,仅此而已。你没法同时向两个音箱放声,没法给每个 App 单独设音量,也没法只给某个 App 调 EQ 而不动其他。Tutti 就是补上这块空白的控制中心:一个面板管好每个输出、每个 App、每一档音量 —— 全部基于 Apple 自家音频框架,不往系统里装任何东西。
 
+<p align="center">
+  <img src="docs/screenshots/mac-per-app-eq.webp" alt="逐 App 均衡器曲线" width="230">
+  &nbsp;
+  <img src="docs/screenshots/mac-stereo-split.webp" alt="跨设备立体声配对" width="230">
+  &nbsp;
+  <img src="docs/screenshots/mac-latency-balance.webp" alt="逐设备延迟与左右平衡" width="230">
+</p>
+
+<p align="center"><sub>可拖拽的逐 App EQ · 两台音箱组成立体声 · 逐设备延迟与左右平衡。</sub></p>
+
 ## ✨ v1.6.0 即将上线
 
 **Tutti Remote —— 用 iPhone 遥控 Mac 的声音。**窝在沙发上就能切换预设、挑选输出音箱、调节每台设备和每个 App 的音量,还能用 iPod 式转盘控制播放。通过局域网配对,控制权始终在 Mac 这一侧。
