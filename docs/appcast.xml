@@ -6,6 +6,43 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>1.6.0</title>
+            <pubDate>Tue, 07 Jul 2026 10:34:45 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.6.0</link>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pair an iPhone as a remote to control Tutti — switch presets, pick
+output devices, set each speaker’s volume, control master volume and
+mute, and see what’s playing. Turn it on under Settings → Remote. The
+companion Tutti Remote app is coming to the App Store, free.&lt;/li&gt;
+&lt;li&gt;Raycast support — mute, set the volume, or switch presets straight
+from Raycast. The extension is coming to the Raycast Store.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.6.0/Tutti-1.6.0.zip" length="4826472" type="application/octet-stream" sparkle:edSignature="ZlmYgxgnSv/EigpCsUue3Yn1Tf0gvK3DkuHtYaFAoQIX0D+z7AbuYml6R3CfyV8lXfj1GxpZLF4yW17XA9u8DQ==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;用 iPhone 当遥控器控制
+Tutti——切换预设、挑选输出设备、单独调每台音箱的音量、控制总音量和静音、查看正在播放。在「设置
+→ 遥控」里打开。配套的《Tutti 遥控器》App 即将登陆 App
+Store，免费。&lt;/li&gt;
+&lt;li&gt;接入 Raycast——用 Raycast
+直接静音、调音量、切换预设。配套扩展即将登陆 Raycast Store。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;用 iPhone 當遙控器控制
+Tutti——切換預設、挑選輸出裝置、單獨調每台喇叭的音量、控制總音量和靜音、查看正在播放。在「設定
+→ 遙控」裡打開。配套的《Tutti 遙控器》App 即將登陸 App
+Store，免費。&lt;/li&gt;
+&lt;li&gt;接入 Raycast——用 Raycast
+直接靜音、調音量、切換預設。配套擴充功能即將登陸 Raycast Store。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>1.5.0</title>
             <pubDate>Sat, 04 Jul 2026 17:49:54 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.5.0</link>
@@ -125,7 +162,7 @@ Telegram and X everywhere else.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.5.0/Tutti-1.5.0.zip" length="4415880" type="application/octet-stream" sparkle:edSignature="JxLNt0YN9bm3rTe4eHTS9LYhWDPt6i1ne0ybdLLlNQg5csMX+k9FffKPGlJlkDBDZ0zort+F27HfB3wlZN3+CA==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;1.5.0 新增&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;1.5.0 新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;别的 App 一出声，音乐自动让位。&lt;/strong&gt;
 看视频、开会或接听通话时，正在播放的 Spotify 或 Apple Music
@@ -191,7 +228,8 @@ Tutti？现在会有一段简短的动画演示，直接在真实面板上介绍
 「关于」页面新增社交媒体链接：中文显示小红书、哔哩哔哩，其他语言显示
 Telegram 和 X。&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;1.5.0 新增&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;1.5.0 新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;別的 App 一出聲，音樂自動讓位。&lt;/strong&gt;
 看影片、開會或接聽通話時，正在播放的 Spotify 或 Apple Music
@@ -257,7 +295,8 @@ Tutti？現在會有一段簡短的動畫示範，直接在真實面板上介紹
 「關於」頁面新增社群媒體連結：中文顯示小紅書、嗶哩嗶哩，其他語言顯示
 Telegram 和 X。&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.4.2</title>
             <pubDate>Thu, 25 Jun 2026 12:00:35 +0800</pubDate>
@@ -423,51 +462,6 @@ App 的操作方式一致了。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;修復：打開設定後，選單列面板留在螢幕上、不容易關掉的問題。&lt;/strong&gt;
 現在設定開著時點選單列圖示會把設定視窗帶到最前，關掉設定視窗，面板就會自動收起。（感謝使用者
 有鬍子的三哥）&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.4.1</title>
-            <pubDate>Sat, 20 Jun 2026 09:51:43 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.4.1</link>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="whats-new-in-1.4.1"&gt;What’s new in 1.4.1&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;New per-app Turbo boost.&lt;/strong&gt; Some apps are just quiet.
-Tap the bolt icon at the end of an app’s row to give that one app a 2×
-boost so it plays louder than the rest — made for an app that’s too
-quiet.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fixed: the app-volume “authorization needed” prompt no
-longer cries wolf.&lt;/strong&gt; In some cases Tutti kept showing
-“Authorization needed to control app volume” even though you’d already
-granted it — for example whenever a video was paused. Tutti now checks
-the authorization state in a more reliable way: a Mac that’s already
-granted is no longer nagged, and when permission genuinely hasn’t been
-granted yet, tapping the prompt brings up the system dialog
-directly.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.4.1/Tutti-1.4.1.zip" length="2921497" type="application/octet-stream" sparkle:edSignature="lS8Ti9L8Y/ywChXY6F+b4rv5cm4TUD4giITd8R0yLceT5qPkN9KGjR1TLlY+NZkUyA0/PfL2wHOw5+0KaxDtCA==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="更新内容"&gt;1.4.1 更新内容&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;应用音量新增 Turbo（增益）。&lt;/strong&gt;
-有些应用本身声音就偏小。现在点应用那一行末尾的闪电图标，就能把它单独再放大一倍，比其他应用更响——专门给太安静的应用用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;修复：应用音量的「需要授权」提示不再误报。&lt;/strong&gt;
-之前在某些情况下，明明已经授权过，过一会儿又会跳出「需要授权才能控制应用音量」（比如把视频暂停时）。现在
-Tutti
-用更可靠的方式判断授权状态：已经授权就不会再无故提示；确实还没授权时，点这个提示会直接弹出系统授权框，一步到位。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="更新內容"&gt;1.4.1 更新內容&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;應用音量新增 Turbo（增益）。&lt;/strong&gt;
-有些應用本身聲音就偏小。現在點應用那一列末尾的閃電圖示，就能把它單獨再放大一倍，比其他應用更響——專門給太安靜的應用用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;修復：應用音量的「需要授權」提示不再誤報。&lt;/strong&gt;
-之前在某些情況下，明明已經授權過，過一會兒又會跳出「需要授權才能控制應用音量」（例如把影片暫停時）。現在
-Tutti
-用更可靠的方式判斷授權狀態：已經授權就不會再無故提示；確實還沒授權時，點這個提示會直接彈出系統授權框，一步到位。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
