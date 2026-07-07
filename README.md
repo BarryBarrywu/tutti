@@ -35,7 +35,7 @@
 
 macOS gives you a volume slider, a device list, and a tiny speaker glyph — and that's it. You can't play to two speakers at once, can't set a different volume per app, can't EQ one app without touching the rest. Tutti is the control center that fills the gap: one panel for every output, every app, and every level — riding Apple's own audio frameworks, with nothing installed into your system.
 
-## ✨ Coming in v1.6.0
+## ✨ Coming soon
 
 **Tutti Remote — control your Mac's audio from your iPhone.** Sit on the couch and switch presets, pick output speakers, set per-device and per-app volume, and drive playback from an iPod-style click wheel. Pairs over your local network; the Mac stays in charge.
 
@@ -93,8 +93,8 @@ macOS gives you a volume slider, a device list, and a tiny speaker glyph — and
 - **Sleep timer · gentle fades · Light / Dark / System · launch at login · automatic updates** — the conveniences you'd expect.
 
 ### On the way
-- **iPhone remote** &nbsp;`Coming in v1.6.0` — see [Coming in v1.6.0](#-coming-in-v160).
-- **Raycast extension** &nbsp;`Coming in v1.6.0` — mute, set volume, and switch presets from Raycast.
+- **iPhone remote** &nbsp;`Coming soon` — see [Coming soon](#-coming-soon).
+- **Raycast extension** &nbsp;`Coming soon` — mute, set volume, and switch presets from Raycast.
 
 ## Free vs Pro
 
@@ -132,7 +132,7 @@ Other great Mac audio tools each solve a piece of this. Here's where Tutti stand
 | **Stereo pairing across devices** | ✓ | — | — | — | — |
 | **Per-device Bluetooth latency tuning** | ✓ | — | — | — | — |
 | **Now Playing controls** (play / pause / skip) | ✓ | — | — | — | — |
-| **iPhone remote** | ✓ *(v1.6.0)* | — | — | — | — |
+| **iPhone remote** | ✓ *(soon)* | — | — | — | — |
 | No virtual driver or system extension | ✓² | — | ✓ | — | — |
 | Free to use | ✓ | ✓ | ✓ | — | — |
 
@@ -144,7 +144,7 @@ Other great Mac audio tools each solve a piece of this. Here's where Tutti stand
 - **Shared listening** — living room speaker and Bluetooth headphones at the same time; play out loud while a friend wears headphones.
 - **Streaming & recording** — monitor through headphones while broadcasting to an audience or a capture card.
 - **Multi-room playback** — drive wired speakers in the living room and another pair in the bedroom from one Mac.
-- **Couch control** — switch presets and pick speakers from your iPhone without getting up *(v1.6.0)*.
+- **Couch control** — switch presets and pick speakers from your iPhone without getting up *(soon)*.
 - **Teaching** — the teacher hears prompts in headphones while the classroom speaker plays for students.
 
 ## AirPlay & known limitations
