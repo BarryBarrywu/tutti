@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Email support (license, payment, refund, crash logs, security — privately)
-    url: mailto:support@barrybarrywu.com
-    about: License, payment, refund, privacy, security reports, or a crash log to attach — email me directly.
+  - name: Email support — license, payment, refund, crash logs, security
+    url: https://tutti.barrybarrywu.com/docs#feedback
+    about: These go to support@barrybarrywu.com, not public issues — see the feedback section for how.
   - name: Telegram community
     url: https://t.me/tuttiapp
     about: Ask questions and chat with other Tutti users.
