@@ -1,0 +1,53 @@
+name: Bug Report
+description: Report a reproducible bug or unexpected behavior in Tutti
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tutti is a paid, closed-source Mac app; this repo is where public feedback for it lives.
+
+        **Crash, or need to attach a diagnostics log?** Please email **support@barrybarrywu.com** instead — a log can contain local file paths, so don't paste it in a public issue. (In the app: About → click the logo ten times → reproduce the issue → Export log file.)
+
+        For reproducible behavior that doesn't need a log, fill out the form below.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part of Tutti?
+      options:
+        - Mac app
+        - iPhone remote (Tutti Remote)
+        - Website
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you see?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: e.g. macOS 15.4
+    validations:
+      required: true
