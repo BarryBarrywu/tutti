@@ -1,0 +1,42 @@
+name: Feature Request
+description: Suggest an improvement or new feature for Tutti
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tutti is a paid, closed-source Mac app; this repo is where public feedback for it lives.
+
+        Please keep requests concrete: what workflow is hard today, what you expected Tutti to do, and why it matters.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part of Tutti?
+      options:
+        - Mac app
+        - iPhone remote (Tutti Remote)
+        - Website
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      placeholder: When I use Tutti, I want to...
+    validations:
+      required: true
+  - type: textarea
+    id: desired
+    attributes:
+      label: What would you like Tutti to do?
+      placeholder: A good solution could be...
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround
+      placeholder: Today I work around it by...
+    validations:
+      required: false
