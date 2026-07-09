@@ -176,6 +176,13 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
 
 简体中文 · 繁体中文 · 英语 · 日语 · 韩语 · 法语 · 德语 · 意大利语 · 西班牙语。
 
+## 关注我们
+
+更新、技巧和幕后:
+
+- **小红书** — [tutti 的主页](https://www.xiaohongshu.com/user/profile/64c9b594000000000e0263f1)
+- **哔哩哔哩** — [tutti 的空间](https://space.bilibili.com/217963572)
+
 ## 源代码
 
 自 2026 年 7 月起,Tutti 不再公开源代码。本仓库用于下载、发布、驱动自动更新的 appcast,以及问题反馈。二进制文件按 [EULA](https://tutti.barrybarrywu.com/terms) 分发。

@@ -176,6 +176,13 @@ Other great Mac audio tools each solve a piece of this. Here's where Tutti stand
 
 Simplified Chinese · Traditional Chinese · English · Japanese · Korean · French · German · Italian · Spanish.
 
+## Community
+
+News, tips, and behind-the-scenes:
+
+- **Telegram** — [t.me/tuttiapp](https://t.me/tuttiapp)
+- **X** — [@BarryBarrywu](https://x.com/BarryBarrywu)
+
 ## Source code
 
 As of July 2026, Tutti's source is no longer published. This repository is the home for downloads, releases, the appcast that powers automatic updates, and issue reports. Binaries are distributed under the [EULA](https://tutti.barrybarrywu.com/terms).
