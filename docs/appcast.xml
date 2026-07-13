@@ -6,6 +6,113 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>1.7.0</title>
+            <pubDate>Mon, 13 Jul 2026 22:46:57 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.7.0</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;New Device Guard keeps your audio setup in place. Give your output
+devices a priority order, and if macOS or another app switches your
+default output — or your top device goes offline — Tutti puts it back to
+your choice, or falls back to the next available speaker. You can also
+lock the default output device, input device, and volume so apps like
+Zoom or games can’t change them behind your back; it never overrides a
+change you make yourself. Optional and off by default — turn it on in
+Settings.&lt;/li&gt;
+&lt;li&gt;The Now Playing card now shows what’s actually making sound. When a
+browser, a video player, or any other app is the one playing while your
+music app is paused, the card shows that app’s icon and name instead of
+stale song info, and switches back the moment your music resumes. No
+recording permission needed.&lt;/li&gt;
+&lt;li&gt;You can now set how much each volume-key press or scroll step
+changes the volume, under Settings › Panel › Display. Hold Shift+Option
+for finer steps.&lt;/li&gt;
+&lt;li&gt;Tutti now remembers the speakers you grouped together and each one’s
+volume, and restores them the next time you open it — no need to re-pick
+your setup every session.&lt;/li&gt;
+&lt;li&gt;When Bluetooth headphones (like AirPods) briefly take over from a
+multi-speaker setup, putting them away now switches you back to the
+speaker group and preset you were using — instead of dropping you onto
+one random device. (thanks Jorge Puente)&lt;/li&gt;
+&lt;li&gt;Changing the volume while playing to multiple speakers or a preset
+now plays the system’s feedback sound, just like it does with a single
+speaker. Turn it on or off with “Play feedback when volume is changed”
+in System Settings › Sound. (thanks Jorge Puente)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Muting a group of speakers now survives quitting Tutti and app
+updates. Before, an update could make your speakers start playing sound
+again, or the group could collapse so only one of them was still
+controllable.&lt;/li&gt;
+&lt;li&gt;With “Keep Bluetooth headphones in high quality” turned on, your
+microphone no longer gets switched to a nearby iPhone. Tutti now picks a
+real microphone instead, and leaves your headset mic alone if there
+isn’t one.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.7.0/Tutti-1.7.0.zip" length="5032087" type="application/octet-stream" sparkle:edSignature="EqSBlPBM2kNIok5piWUIPUrYVaaIWf5IF1hBZRMD1yjdKygzYWy8+2FPm/+o43Q0MDv/IW8dYWRwUIjxlTpKAg==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;新增「设备守护」，帮你守住音频设置。给输出设备排个优先顺序，当 macOS
+或别的 App 把默认输出切走、或你的首选设备离线时，Tutti
+会自动切回你选的那台，或退到下一台可用音箱。还能锁定默认输出设备、输入设备和音量，防止
+Zoom、游戏等程序在你不知情时改动；你自己改的永远算数。可选功能，默认关闭，在设置里打开。&lt;/li&gt;
+&lt;li&gt;「正在播放」卡片现在会显示真正在出声的应用。当浏览器、视频播放器或别的
+App 在放声音、而你的音乐 App 是暂停的，卡片会显示那个 App
+的图标和名称，不再停留在过期的歌曲信息；音乐一恢复就切回来。全程不需要任何录音权限。&lt;/li&gt;
+&lt;li&gt;现在可以在「设置 › 面板 ›
+显示」里设置音量键或滚轮每一步调多少音量。按住 Shift+Option
+可以更精细地微调。&lt;/li&gt;
+&lt;li&gt;Tutti
+现在会记住你组在一起的音箱和各自的音量，下次打开时自动恢复——不用每次重新挑设备。&lt;/li&gt;
+&lt;li&gt;用蓝牙耳机（比如
+AirPods）临时打断多设备播放后，把耳机收起来时，Tutti
+会自动切回你之前那组音箱和预设，不再随机只剩一台。（感谢用户 Jorge
+Puente）&lt;/li&gt;
+&lt;li&gt;用多台音箱或预设播放时，调节音量现在会像单台设备一样播放系统的反馈提示音。在「系统设置
+› 声音」的「音量更改时播放反馈」里开关。（感谢用户 Jorge Puente）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;把一组音箱静音后，退出 Tutti 或 App
+自动更新都不会再让它们重新出声了。以前更新后音箱可能突然又响，或者整组只剩一台还能控制。&lt;/li&gt;
+&lt;li&gt;打开「保持蓝牙耳机高音质」后，麦克风不会再被切到旁边的 iPhone
+上。Tutti 现在会改用真正的麦克风；找不到时就保持耳机麦克风不动。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;新增「裝置守護」，幫你守住音訊設定。給輸出裝置排個優先順序，當 macOS
+或別的 App 把預設輸出切走、或你的首選裝置離線時，Tutti
+會自動切回你選的那台，或退到下一台可用喇叭。還能鎖定預設輸出裝置、輸入裝置和音量，防止
+Zoom、遊戲等程式在你不知情時改動；你自己改的永遠算數。可選功能，預設關閉，在設定裡打開。&lt;/li&gt;
+&lt;li&gt;「正在播放」卡片現在會顯示真正在出聲的應用。當瀏覽器、影片播放器或別的
+App 在放聲音、而你的音樂 App 是暫停的，卡片會顯示那個 App
+的圖示和名稱，不再停留在過期的歌曲資訊；音樂一恢復就切回來。全程不需要任何錄音權限。&lt;/li&gt;
+&lt;li&gt;現在可以在「設定 › 面板 ›
+顯示」裡設定音量鍵或滾輪每一步調多少音量。按住 Shift+Option
+可以更精細地微調。&lt;/li&gt;
+&lt;li&gt;Tutti
+現在會記住你組在一起的喇叭和各自的音量，下次打開時自動恢復——不用每次重新挑選裝置。&lt;/li&gt;
+&lt;li&gt;用藍牙耳機（例如
+AirPods）臨時打斷多裝置播放後，把耳機收起來時，Tutti
+會自動切回你之前那組喇叭和預設，不再隨機只剩一台。（感謝使用者 Jorge
+Puente）&lt;/li&gt;
+&lt;li&gt;用多台喇叭或預設播放時，調整音量現在會像單台裝置一樣播放系統的回饋提示音。在「系統設定
+› 聲音」的「音量變更時播放回饋」裡開關。（感謝使用者 Jorge Puente）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;把一組喇叭靜音後，退出 Tutti 或 App
+自動更新都不會再讓它們重新出聲了。以前更新後喇叭可能突然又響，或者整組只剩一台還能控制。&lt;/li&gt;
+&lt;li&gt;開啟「保持藍牙耳機高音質」後，麥克風不會再被切到旁邊的 iPhone
+上。Tutti 現在會改用真正的麥克風；找不到時就保持耳機麥克風不動。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>1.6.1</title>
             <pubDate>Thu, 09 Jul 2026 18:26:57 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.6.1</link>
@@ -23,21 +130,23 @@ system language instead of always in Chinese.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.6.1/Tutti-1.6.1.zip" length="4826457" type="application/octet-stream" sparkle:edSignature="EPqu5eJhrpGMgCc7AwogXbT2nUTTSrSGHGtDyllv3eAucj8JDWeR35bmUpOFydIOKESUi2G/SsYTf7P63y9qAg==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;桌面小组件不再对已购买 Pro 的用户显示「需要 Tutti
 Pro」升级提示。&lt;/li&gt;
 &lt;li&gt;小组件里的设备名现在跟随你在面板里设置的自定义名称——重命名设备后，小组件会同步更新。&lt;/li&gt;
 &lt;li&gt;「快捷指令」里的「切换输出设备」动作现在会跟随系统语言显示，不再始终是中文。&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;桌面小工具不再對已購買 Pro 的使用者顯示「需要 Tutti
 Pro」升級提示。&lt;/li&gt;
 &lt;li&gt;小工具裡的裝置名稱現在會跟隨你在面板裡設定的自訂名稱——重新命名裝置後，小工具會同步更新。&lt;/li&gt;
 &lt;li&gt;「捷徑」裡的「切換輸出裝置」動作現在會跟隨系統語言顯示，不再始終是中文。&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.6.0</title>
             <pubDate>Tue, 07 Jul 2026 10:34:45 +0800</pubDate>
@@ -74,261 +183,6 @@ Tutti——切換預設、挑選輸出裝置、單獨調每台喇叭的音量、
 Store，免費。&lt;/li&gt;
 &lt;li&gt;接入 Raycast——用 Raycast
 直接靜音、調音量、切換預設。配套擴充功能即將登陸 Raycast Store。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.5.0</title>
-            <pubDate>Sat, 04 Jul 2026 17:49:54 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.5.0</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="whats-new-in-1.5.0"&gt;What’s new in 1.5.0&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Music steps aside when other apps play.&lt;/strong&gt; When you
-watch a video, join a meeting, or take a call, the Spotify or Apple
-Music you’re playing fades out and pauses on its own — then fades back
-in at its original volume once the other sound stops, so you don’t
-scramble to pause and find your place again. Hit play yourself anytime
-and it stops interfering. Turn it on under Settings → Sound. Free.
-Spotify and Apple Music only.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stereo separation across devices (Tutti Pro).&lt;/strong&gt; Split
-left and right channels across two speakers, so a pair of separate
-speakers works as one stereo setup — one on the left, one on the right —
-instead of every device playing the same full mix. Open the spatial
-panel under Output, set each speaker to Left or Right, and Tutti routes
-the channels for you. Works with wired speakers, display speakers, and
-Bluetooth speakers, and it lands each channel on the right speaker even
-on multi-channel outputs like a Studio Display.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Presets remember your stereo setup.&lt;/strong&gt; Save a stereo
-arrangement into a preset and it’s tagged “Stereo” in the list, so you
-can tell at a glance which presets split left and right across
-devices.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Presets remember per-device latency tuning.&lt;/strong&gt; When a
-Bluetooth speaker plays alongside a wired one, Bluetooth usually lags,
-so you nudge the faster device’s latency to line them up. That tuning is
-now saved in each preset — one delay for “Living room + Bluetooth,” back
-to zero for “Mac only” — so switching presets re-syncs everything
-automatically instead of you adjusting it by hand every time. (Thanks to
-LINE6 for the suggestion.)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Left-right balance for each speaker.&lt;/strong&gt; Expand a
-device in the output list to reveal a balance slider, so you can lean
-one speaker’s sound toward the left or right — handy when a speaker sits
-off to one side and you want to even things out. Presets remember it,
-alongside the latency tuning. (Thanks to 胖虎是条大锦鲤！旺旺旺旺旺财！
-for the suggestion.)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Per-app equalizer.&lt;/strong&gt; Tap an app’s equalizer button in
-the Output panel to expand a draggable EQ curve inline, then shape bass,
-vocals, and treble, or apply a built-in preset. Free, and your tuned
-curve is remembered by presets.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;No more muffled Bluetooth headphones after calls.&lt;/strong&gt;
-Using Bluetooth headphones for a call or meeting often drags the whole
-headset down to phone-call quality, leaving it muffled long after you
-hang up. Turn on “Keep Bluetooth headphones in high quality” under
-Settings → Sound and Tutti uses the built-in microphone during calls, so
-your headphones stay crisp.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Steadier multi-device playback.&lt;/strong&gt; When you send audio
-to several devices at once, changing tracks, a Bluetooth headset
-dropping and reconnecting, or adding and removing devices in the panel
-would sometimes cause noise, let another app leak through, or even go
-silent. This release puts an end to that — everyday actions no longer
-interrupt playback or interfere with each other, and a Bluetooth device
-that drops out mid-song reconnects and picks up on its own. (Thanks to
-小红薯66B50391 for the report.)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Volume keys and scroll now control everything,
-free.&lt;/strong&gt; Using your keyboard’s volume keys — or a two-finger
-scroll over the panel — to change every speaker at once used to be a Pro
-feature. It’s free for everyone now: grant Accessibility once under
-Settings → Shortcuts and the volume keys drive all your outputs
-together.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bigger, easier-to-drag per-app volume sliders.&lt;/strong&gt; Each
-app’s volume slider now sits on its own full-width row, so it’s longer
-and easier to set precisely — and the row is no longer cramped.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Set the volume of a device that’s only playing one
-app.&lt;/strong&gt; When you route an app to a device that isn’t in your main
-output set, that device used to offer only mute — no way to change its
-level. It now shows a volume slider, so you can turn the sound playing
-on it up or down right there, without adding it to your main output
-first.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hide apps you don’t want to manage.&lt;/strong&gt; Some apps
-(browsers, chat apps) show up the moment they make a sound. Right-click
-any app and choose “Ignore This App” to drop it from the list and stop
-Tutti from touching its audio; ignored apps tuck into a row at the
-bottom of the app list — open it to bring any of them back.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Output icons that match your devices.&lt;/strong&gt; The output
-list now shows an icon for what each device actually is — your MacBook,
-Mac Studio, Mac mini, HomePod, Apple TV, or display speakers — instead
-of a generic speaker, so it’s easier to tell your devices apart at a
-glance.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Optional volume numbers, in percent or dB.&lt;/strong&gt; Prefer
-exact values? Turn on “Show volume numbers” under Settings → Panel and
-every volume slider — in the panel and the volume HUD — shows a number.
-Choose percentage (0–100) or decibels; for individual output and input
-devices the dB reading is the real level the device itself reports. Off
-by default. The sliders also pick up the system’s touch of fading the
-dot while you drag.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Make Tutti your color.&lt;/strong&gt; Under Settings → Appearance
-you can now set the accent color used across Tutti: follow the macOS
-system color as before, or choose your own — a single color, or a
-two-color gradient. The light and dark mode switch moved here too, so
-how Tutti looks now lives in one place.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Size the panel the way you like it.&lt;/strong&gt; Under Settings
-→ Panel, pick Compact, Comfortable, or Spacious to tighten or loosen the
-spacing of the whole panel — smaller to fit more on screen, larger for
-easier tapping. (Thanks to 胖虎是条大锦鲤！旺旺旺旺旺财！ for the
-suggestion.)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hide the output list if you don’t need it.&lt;/strong&gt; If you
-only ever send audio to one device, the output list is just clutter. You
-can now switch it off under Settings → Panel, the same way you already
-hide the other cards.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;A quick tour on first launch.&lt;/strong&gt; New to Tutti? A short
-animated walkthrough now introduces multi-device output, per-app volume,
-stereo, latency tuning, and presets, running right on the real panels.
-Replay it anytime under Settings → General.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fixed the scroll direction for volume.&lt;/strong&gt; Hover over
-the panel and swipe up or down with two fingers to change the volume —
-the direction was reversed, so swiping up turned it down. Now swiping up
-raises the volume and swiping down lowers it, the way you’d expect.
-(Thanks to Zekun for the report.)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Links to follow Tutti and its maker.&lt;/strong&gt; The About
-screen now has social links: Xiaohongshu and Bilibili in Chinese,
-Telegram and X everywhere else.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.5.0/Tutti-1.5.0.zip" length="4415880" type="application/octet-stream" sparkle:edSignature="JxLNt0YN9bm3rTe4eHTS9LYhWDPt6i1ne0ybdLLlNQg5csMX+k9FffKPGlJlkDBDZ0zort+F27HfB3wlZN3+CA==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;1.5.0 新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;别的 App 一出声，音乐自动让位。&lt;/strong&gt;
-看视频、开会或接听通话时，正在播放的 Spotify 或 Apple Music
-会自动淡出并暂停；等对方安静下来，再淡入接着播、回到原来的音量，不用手忙脚乱地暂停又找回进度。你随时手动点开播放，它就不再插手。在「设置
-→ 声音」里打开即可，免费。仅支持 Spotify 与 Apple Music。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;跨设备立体声左右声道（Tutti Pro）。&lt;/strong&gt;
-把两台音箱拆成真正的左右声道——一台只放左声道、一台只放右声道，而不再是每台都播放完整的混音。在「输出」下方的空间面板里，把每台音箱指派为「左」或「右」，Tutti
-会自动把声道送到对应设备。有线音箱、显示器扬声器、蓝牙音箱都支持；即使遇到
-Studio Display 这类多通道设备，也能把声道准确送到对应那台。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;预设记住立体声设置。&lt;/strong&gt;
-把立体声配置保存进预设后，预设列表里会标上「立体声」，一眼就能看出哪些预设包含左右声道分离，切换时不必再逐个回想。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;预设记住每台设备的延迟微调。&lt;/strong&gt;
-蓝牙音箱和有线音箱一起播放时，蓝牙往往慢半拍，得给快的那台加一点延迟才同步。现在这份延迟微调会被预设记住——「客厅
-+ 蓝牙」用一套延迟、「只用
-Mac」回到零延迟，一键切换自动对齐，不必每次手动调。（感谢用户
-LINE6）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;每台设备单独调左右平衡。&lt;/strong&gt;
-在输出列表里展开某台设备，会出现一条平衡滑杆，可以把这台设备的声音偏向左或右——当某台音箱摆得偏一侧、想把整体听感调匀时很方便。预设会像记住延迟一样记住它。（感谢用户胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;给每个 App 单独调音色（均衡器）。&lt;/strong&gt;
-在「输出」面板里点某个 App
-的均衡器按钮，就地展开一条可拖动的均衡曲线，低音、人声、高音随手调，或一键套用内置音效。免费，调好的音色会被预设记住。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;蓝牙耳机开会后不再发闷。&lt;/strong&gt;
-用蓝牙耳机开会或通话时，整副耳机常被系统降到电话级音质、声音发闷，结束后还得手动去系统设置里调回来。打开「设置
-→
-声音」里的「保持蓝牙耳机高音质」，开会时自动改用内置麦克风，让耳机一直保持高音质输出。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;多设备播放更稳定。&lt;/strong&gt;
-同时往多台设备放声音时，切歌、蓝牙耳机断开再连回、在面板里增减设备，以前偶尔会冒出杂音、让别的
-App
-漏音、甚至突然没声。这一版把这些情况彻底解决了——日常操作不再打断播放，也不会互相干扰；蓝牙设备中途掉线再连回来，也能自动接上继续播。（感谢用户小红薯66B50391）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;音量键和滚动现在能一次控制全部，免费。&lt;/strong&gt;
-用键盘上的音量键、或在面板上两指滚动来一次调节所有扬声器，以前是 Pro
-功能，现在对所有人免费。在「设置 →
-快捷键」里授权一次辅助功能，音量键就能同时控制所有输出设备。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;应用音量条更大、更好拖。&lt;/strong&gt;
-「输出」面板里每个应用的音量条移到了单独一行、占满整行宽度，比以前更长，拖起来更顺手，那一行也不再拥挤。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;单独指派了应用的设备也能调音量。&lt;/strong&gt;
-当你把某个应用指派到一台不在主输出里的设备播放时，那台设备以前只能静音、没法调音量。现在它会显示一条音量条，可以直接调节它上面播放声音的大小，不必先把它加进主输出。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;可以隐藏不想管的应用。&lt;/strong&gt;
-有些应用（比如浏览器、聊天软件）一响就会跑进列表。现在右键任意应用选「忽略此应用」，它就从列表里消失、Tutti
-也不再处理它的声音；被忽略的应用会收在应用列表底部，点开就能一键恢复。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;设备图标更贴合实物。&lt;/strong&gt;
-输出列表现在会按设备本身显示图标——你的 MacBook、Mac Studio、Mac
-mini、HomePod、Apple
-TV、显示器扬声器，而不再是统一的喇叭图标，一眼就能分清哪台是哪台。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;可选的音量数字，百分比或分贝。&lt;/strong&gt;
-想看精确数值？在「设置 →
-面板」打开「音量条显示数字」，面板里、以及按音量键时的提示里，每条音量条右侧都会显示数字。可以选百分比（0–100）或分贝；单台输出、输入设备的分贝是设备本身报告的真实电平。默认关闭。音量条还顺手对齐了系统手感——拖动时圆点会变半透明。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;给 Tutti 换上你的颜色。&lt;/strong&gt; 在「设置 →
-外观」里，现在可以设置 Tutti 全局使用的强调色：像以前一样跟随 macOS
-系统颜色，或自己指定——单独一种颜色，或一个双色渐变。浅色/深色模式的切换也挪到了这里，关于
-Tutti 外观的设置都集中在一处。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;面板疏密可调。&lt;/strong&gt; 在「设置 →
-面板」里选择紧凑、舒适或宽松，调整整个面板的间距——紧凑能在屏幕上放下更多，宽松则更好点按。（感谢用户胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;用不到输出列表可以隐藏。&lt;/strong&gt;
-如果你始终只往一台设备发声，输出列表就是多余的。现在可以在「设置 →
-面板」里把它关掉，和隐藏其它卡片的方式一样。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;首次启动的功能导览。&lt;/strong&gt; 第一次用
-Tutti？现在会有一段简短的动画演示，直接在真实面板上介绍多设备输出、应用音量、立体声、延迟补偿和预设。随时可在「设置
-→ 通用」里重看。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;触控板滑动调音量的方向修正。&lt;/strong&gt;
-把指针停在面板上、用触控板两指上下滑动调音量时，之前方向是反的（上滑反而变小）。现在改成上滑变大、下滑变小，符合直觉。（感谢用户泽坤）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;关注作者的链接。&lt;/strong&gt;
-「关于」页面新增社交媒体链接：中文显示小红书、哔哩哔哩，其他语言显示
-Telegram 和 X。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;1.5.0 新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;別的 App 一出聲，音樂自動讓位。&lt;/strong&gt;
-看影片、開會或接聽通話時，正在播放的 Spotify 或 Apple Music
-會自動淡出並暫停；等對方安靜下來，再淡入接著播、回到原本的音量，不用手忙腳亂地暫停又找回進度。你隨時手動點開播放，它就不再插手。在「設定
-→ 聲音」裡打開即可，免費。僅支援 Spotify 與 Apple Music。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;跨裝置立體聲左右聲道（Tutti Pro）。&lt;/strong&gt;
-把兩台喇叭拆成真正的左右聲道——一台只播放左聲道、一台只播放右聲道，而不再是每台都播放完整的混音。在「輸出」下方的空間面板裡，把每台喇叭指派為「左」或「右」，Tutti
-會自動把聲道送到對應裝置。有線喇叭、顯示器喇叭、藍牙喇叭都支援；即使遇到
-Studio Display 這類多聲道裝置，也能把聲道準確送到對應那台。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;預設記住立體聲設定。&lt;/strong&gt;
-把立體聲配置儲存進預設後，預設清單裡會標上「立體聲」，一眼就能看出哪些預設包含左右聲道分離，切換時不必再逐個回想。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;預設記住每台裝置的延遲微調。&lt;/strong&gt;
-藍牙喇叭和有線喇叭一起播放時，藍牙往往慢半拍，得給快的那台加一點延遲才同步。現在這份延遲微調會被預設記住——「客廳
-+ 藍牙」用一套延遲、「只用
-Mac」回到零延遲，一鍵切換自動對齊，不必每次手動調。（感謝用戶
-LINE6）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;每台裝置單獨調左右平衡。&lt;/strong&gt;
-在輸出清單裡展開某台裝置，會出現一條平衡滑桿，可以把這台裝置的聲音偏向左或右——當某台喇叭擺得偏一側、想把整體聽感調勻時很方便。預設會像記住延遲一樣記住它。（感謝用戶胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;為每個 App 單獨調音色（等化器）。&lt;/strong&gt;
-在「輸出」面板裡點某個 App
-的等化器按鈕，就地展開一條可拖動的等化曲線，低音、人聲、高音隨手調，或一鍵套用內建音效。免費，調好的音色會被預設記住。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;藍牙耳機開會後不再發悶。&lt;/strong&gt;
-用藍牙耳機開會或通話時，整副耳機常被系統降到電話級音質、聲音發悶，結束後還得手動去系統設定裡調回來。開啟「設定
-→
-聲音」裡的「保持藍牙耳機高音質」，開會時自動改用內建麥克風，讓耳機一直保持高音質輸出。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;多裝置播放更穩定。&lt;/strong&gt;
-同時往多台裝置放聲音時，切歌、藍牙耳機斷開再連回、在面板裡增減裝置，以前偶爾會冒出雜音、讓別的
-App
-漏音、甚至突然沒聲。這一版把這些情況徹底解決了——日常操作不再打斷播放，也不會互相干擾；藍牙裝置中途掉線再連回來，也能自動接上繼續播。（感謝用戶小红薯66B50391）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;音量鍵和捲動現在能一次控制全部，免費。&lt;/strong&gt;
-用鍵盤上的音量鍵、或在面板上兩指捲動來一次調整所有喇叭，以前是 Pro
-功能，現在對所有人免費。在「設定 →
-快速鍵」裡授權一次輔助使用，音量鍵就能同時控制所有輸出裝置。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;應用音量條更大、更好拖。&lt;/strong&gt;
-「輸出」面板裡每個應用的音量條移到了單獨一行、佔滿整行寬度，比以前更長，拖起來更順手，那一行也不再擁擠。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;單獨指派了應用的裝置也能調音量。&lt;/strong&gt;
-當你把某個應用指派到一台不在主輸出裡的裝置播放時，那台裝置以前只能靜音、沒法調音量。現在它會顯示一條音量條，可以直接調整它上面播放聲音的大小，不必先把它加進主輸出。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;可以隱藏不想管的應用。&lt;/strong&gt;
-有些應用（比如瀏覽器、聊天軟體）一響就會跑進清單。現在右鍵任意應用選「忽略此應用」，它就從清單裡消失、Tutti
-也不再處理它的聲音；被忽略的應用會收在應用清單底部，點開就能一鍵恢復。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;裝置圖示更貼合實物。&lt;/strong&gt;
-輸出清單現在會按裝置本身顯示圖示——你的 MacBook、Mac Studio、Mac
-mini、HomePod、Apple
-TV、顯示器喇叭，而不再是統一的喇叭圖示，一眼就能分清哪台是哪台。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;可選的音量數字，百分比或分貝。&lt;/strong&gt;
-想看精確數值？在「設定 →
-面板」開啟「音量條顯示數字」，面板裡、以及按音量鍵時的提示裡，每條音量條右側都會顯示數字。可以選百分比（0–100）或分貝；單台輸出、輸入裝置的分貝是裝置本身回報的真實電平。預設關閉。音量條還順手對齊了系統手感——拖動時圓點會變半透明。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;給 Tutti 換上你的顏色。&lt;/strong&gt; 在「設定 →
-外觀」裡，現在可以設定 Tutti 全域使用的強調色：像以前一樣跟隨 macOS
-系統顏色，或自己指定——單獨一種顏色，或一個雙色漸層。淺色/深色模式的切換也挪到了這裡，關於
-Tutti 外觀的設定都集中在一處。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;面板疏密可調。&lt;/strong&gt; 在「設定 →
-面板」裡選擇緊湊、舒適或寬鬆，調整整個面板的間距——緊湊能在螢幕上放下更多，寬鬆則更好點按。（感謝用戶胖虎是条大锦鲤！旺旺旺旺旺财！）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;用不到輸出清單可以隱藏。&lt;/strong&gt;
-如果你始終只往一台裝置發聲，輸出清單就是多餘的。現在可以在「設定 →
-面板」裡把它關掉，和隱藏其它卡片的方式一樣。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;首次啟動的功能導覽。&lt;/strong&gt; 第一次用
-Tutti？現在會有一段簡短的動畫示範，直接在真實面板上介紹多裝置輸出、應用程式音量、立體聲、延遲補償和預設。隨時可在「設定
-→ 一般」裡重看。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;觸控板滑動調音量的方向修正。&lt;/strong&gt;
-把指標停在面板上、用觸控板兩指上下滑動調音量時，之前方向是反的（上滑反而變小）。現在改成上滑變大、下滑變小，符合直覺。（感謝用戶澤坤）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;關注作者的連結。&lt;/strong&gt;
-「關於」頁面新增社群媒體連結：中文顯示小紅書、嗶哩嗶哩，其他語言顯示
-Telegram 和 X。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
