@@ -67,6 +67,8 @@ macOS gives you a volume slider, a device list, and a tiny speaker glyph — and
 - **Master + per-device volume & mute** — one slider for everything, plus an individual slider and mute for each output.
 - **Three-state status** — playing on all, partially muted, or all muted, with a matching color dot.
 - **Hot-swap without a gap** — add or remove a speaker mid-playback without cutting the sound.
+- **Device Guard** — set a priority order for your outputs and lock the default output, input, and volume; when macOS or another app switches them behind your back, Tutti puts them back.
+- **Remembers your setup** — your speaker group, per-device volumes, and mute survive quitting Tutti and app updates.
 
 ### Per-app audio control &nbsp;`macOS 14.4+`
 - **Per-app volume & Turbo** &nbsp;`Free` — give each app its own level; Turbo adds a 2× boost. Driver-free, via a native audio tap.
@@ -90,6 +92,7 @@ macOS gives you a volume slider, a device list, and a tiny speaker glyph — and
 
 ### Bluetooth & sync
 - **Reconnects on its own** — a grouped Bluetooth speaker that briefly drops out rejoins when it reconnects, no interruption.
+- **Hands back after headphones** — put your AirPods away and Tutti returns to the speaker group and preset you were using.
 - **Headphone battery** — shown next to the device name when reported; AirPods get their own icon.
 - **Keeps headphones crisp after calls** — uses the built-in mic on calls so your headset doesn't stay stuck at muffled call quality.
 - **Stays in sync** — clock-drift correction keeps wired and Bluetooth speakers aligned instead of drifting apart.
