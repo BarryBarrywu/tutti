@@ -6,6 +6,87 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>1.7.1</title>
+            <pubDate>Wed, 15 Jul 2026 18:30:16 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.7.1</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The About page now has Help and Email feedback entries — open the
+user guide in one tap, or email us directly (your app version is filled
+in automatically so we can help faster).&lt;/li&gt;
+&lt;li&gt;A short gold confetti burst now celebrates a successful Tutti Pro
+activation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The macOS recording indicator in the menu bar no longer stays lit
+after your sound stops. When you use per-app volume or auto-pause, Tutti
+now only listens to audio while something is actually playing and
+releases it the moment playback stops, so the indicator clears on its
+own instead of staying on when nothing is playing. (thanks &lt;span
+class="citation" data-cites="JasonleeQAQ"&gt;@JasonleeQAQ&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;The output-device priority list under Device Guard now shows the
+custom names you gave your devices, matching the rest of the app,
+instead of their raw system names — and updates live when you rename a
+device.&lt;/li&gt;
+&lt;li&gt;AirPods and other Bluetooth headphones no longer drop out of
+playback when they connect or switch modes. They briefly blink offline
+while switching audio profiles, and Tutti used to mistake that blink for
+the device leaving and hand playback back to your other speakers. Tutti
+now waits out the brief blink, so your AirPods stay in the group and the
+music keeps playing. (thanks Jorge Puente)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.7.1/Tutti-1.7.1.zip" length="5074475" type="application/octet-stream" sparkle:edSignature="/wdkbx60yfYEdVPL/8Z1XPKHG7+dMHC7JuqGJ3X/+bdKi81p+PO41lzmuo54Q+u07/9fh2jy0sw97CBSpAsSAA==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;「关于」页新增「使用帮助」和「邮件反馈」入口：一键打开使用文档，或直接给我们发邮件反馈（邮件会自动带上你的
+App 版本号，方便我们更快帮你排查）。&lt;/li&gt;
+&lt;li&gt;成功激活 Tutti Pro 时，会有一小段金色彩带庆祝。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;菜单栏的 macOS
+录音指示灯不会再在声音停止后一直亮着了。使用「应用音量」或「自动暂停」时，Tutti
+现在只在真正有声音播放时才监听音频，播放一停就立即释放，指示灯会自己熄灭，而不是在没有任何声音时还一直亮着。（感谢用户
+&lt;span class="citation"
+data-cites="JasonleeQAQ"&gt;@JasonleeQAQ&lt;/span&gt;）&lt;/li&gt;
+&lt;li&gt;「设备守护」里的输出设备优先级列表现在显示你给设备起的自定义名称，和
+App
+其他地方保持一致，不再显示原始的系统名称；你在面板里重命名设备时，列表也会实时更新。&lt;/li&gt;
+&lt;li&gt;AirPods
+等蓝牙耳机在连接或切换模式时不会再掉出播放了。它们切换音频模式的一瞬间会短暂离线，Tutti
+以前会把这一下误当成设备离开，于是把播放切回其他音箱。现在 Tutti
+会等这短暂的一下过去，AirPods
+就能留在播放组里，音乐也不会中断。（感谢用户 Jorge Puente）&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;「關於」頁新增「使用說明」和「郵件回饋」入口：一鍵打開使用文件，或直接寄信給我們回饋（郵件會自動帶上你的
+App 版本號，方便我們更快幫你排查）。&lt;/li&gt;
+&lt;li&gt;成功啟用 Tutti Pro 時，會有一小段金色彩帶慶祝。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;選單列的 macOS
+錄音指示燈不會再在聲音停止後一直亮著了。使用「應用音量」或「自動暫停」時，Tutti
+現在只在真正有聲音播放時才監聽音訊，播放一停就立即釋放，指示燈會自己熄滅，而不是在沒有任何聲音時還一直亮著。（感謝使用者
+&lt;span class="citation"
+data-cites="JasonleeQAQ"&gt;@JasonleeQAQ&lt;/span&gt;）&lt;/li&gt;
+&lt;li&gt;「裝置守護」裡的輸出裝置優先順序列表現在顯示你給裝置取的自訂名稱，和
+App
+其他地方保持一致，不再顯示原始的系統名稱；你在面板裡重新命名裝置時，列表也會即時更新。&lt;/li&gt;
+&lt;li&gt;AirPods
+等藍牙耳機在連接或切換模式時不會再掉出播放了。它們切換音訊模式的一瞬間會短暫離線，Tutti
+以前會把這一下誤當成裝置離開，於是把播放切回其他喇叭。現在 Tutti
+會等這短暫的一下過去，AirPods
+就能留在播放組裡，音樂也不會中斷。（感謝使用者 Jorge Puente）&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>1.7.0</title>
             <pubDate>Mon, 13 Jul 2026 22:46:57 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.7.0</link>
@@ -55,7 +136,7 @@ isn’t one.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.7.0/Tutti-1.7.0.zip" length="5032087" type="application/octet-stream" sparkle:edSignature="EqSBlPBM2kNIok5piWUIPUrYVaaIWf5IF1hBZRMD1yjdKygzYWy8+2FPm/+o43Q0MDv/IW8dYWRwUIjxlTpKAg==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;新增「设备守护」，帮你守住音频设置。给输出设备排个优先顺序，当 macOS
 或别的 App 把默认输出切走、或你的首选设备离线时，Tutti
@@ -83,7 +164,8 @@ Puente）&lt;/li&gt;
 &lt;li&gt;打开「保持蓝牙耳机高音质」后，麦克风不会再被切到旁边的 iPhone
 上。Tutti 现在会改用真正的麦克风；找不到时就保持耳机麦克风不动。&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;新增「裝置守護」，幫你守住音訊設定。給輸出裝置排個優先順序，當 macOS
 或別的 App 把預設輸出切走、或你的首選裝置離線時，Tutti
@@ -111,7 +193,8 @@ Puente）&lt;/li&gt;
 &lt;li&gt;開啟「保持藍牙耳機高音質」後，麥克風不會再被切到旁邊的 iPhone
 上。Tutti 現在會改用真正的麥克風；找不到時就保持耳機麥克風不動。&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.6.1</title>
             <pubDate>Thu, 09 Jul 2026 18:26:57 +0800</pubDate>
@@ -144,45 +227,6 @@ Pro」升级提示。&lt;/li&gt;
 Pro」升級提示。&lt;/li&gt;
 &lt;li&gt;小工具裡的裝置名稱現在會跟隨你在面板裡設定的自訂名稱——重新命名裝置後，小工具會同步更新。&lt;/li&gt;
 &lt;li&gt;「捷徑」裡的「切換輸出裝置」動作現在會跟隨系統語言顯示，不再始終是中文。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.6.0</title>
-            <pubDate>Tue, 07 Jul 2026 10:34:45 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.6.0</link>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Pair an iPhone as a remote to control Tutti — switch presets, pick
-output devices, set each speaker’s volume, control master volume and
-mute, and see what’s playing. Turn it on under Settings → Remote. The
-companion Tutti Remote app is coming to the App Store, free.&lt;/li&gt;
-&lt;li&gt;Raycast support — mute, set the volume, or switch presets straight
-from Raycast. The extension is coming to the Raycast Store.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.6.0/Tutti-1.6.0.zip" length="4826472" type="application/octet-stream" sparkle:edSignature="ZlmYgxgnSv/EigpCsUue3Yn1Tf0gvK3DkuHtYaFAoQIX0D+z7AbuYml6R3CfyV8lXfj1GxpZLF4yW17XA9u8DQ==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;用 iPhone 当遥控器控制
-Tutti——切换预设、挑选输出设备、单独调每台音箱的音量、控制总音量和静音、查看正在播放。在「设置
-→ 遥控」里打开。配套的《Tutti 遥控器》App 即将登陆 App
-Store，免费。&lt;/li&gt;
-&lt;li&gt;接入 Raycast——用 Raycast
-直接静音、调音量、切换预设。配套扩展即将登陆 Raycast Store。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;用 iPhone 當遙控器控制
-Tutti——切換預設、挑選輸出裝置、單獨調每台喇叭的音量、控制總音量和靜音、查看正在播放。在「設定
-→ 遙控」裡打開。配套的《Tutti 遙控器》App 即將登陸 App
-Store，免費。&lt;/li&gt;
-&lt;li&gt;接入 Raycast——用 Raycast
-直接靜音、調音量、切換預設。配套擴充功能即將登陸 Raycast Store。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
