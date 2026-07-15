@@ -8,7 +8,7 @@
 
 <p align="center"><em>One sound, every speaker.</em></p>
 
-<p align="center">The menu bar audio control center macOS never shipped —<br>multi-output, per-app volume &amp; EQ, Now Playing, and (soon) an iPhone remote.</p>
+<p align="center">The menu bar audio control center macOS never shipped —<br>multi-output, per-app volume &amp; EQ, Now Playing, and an iPhone remote.</p>
 
 <p align="center">
   <a href="https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg"><strong>⬇︎ Download for macOS</strong></a>
@@ -45,9 +45,13 @@ macOS gives you a volume slider, a device list, and a tiny speaker glyph — and
 
 <p align="center"><sub>Draggable per-app EQ · stereo pairing across two speakers · per-device latency &amp; balance.</sub></p>
 
-## ✨ Coming soon
+## 📱 Tutti Remote — now on the App Store
 
-**Tutti Remote — control your Mac's audio from your iPhone.** Sit on the couch and switch presets, pick output speakers, set per-device and per-app volume, and drive playback from an iPod-style click wheel. Pairs over your local network; the Mac stays in charge.
+**Control your Mac's audio from your iPhone.** Sit on the couch and switch presets, pick output speakers, set per-device and per-app volume, and drive playback from an iPod-style click wheel. Pairs over your local network; the Mac stays in charge. The iPhone app is free; controlling your Mac needs Tutti Pro there.
+
+<p align="center">
+  <a href="https://apps.apple.com/app/tutti-remote/id6788375184"><strong>Download Tutti Remote on the App Store →</strong></a>
+</p>
 
 <p align="center">
   <img src="docs/screenshots/ios-now-playing.png" alt="Tutti Remote — Now Playing" width="240">
@@ -56,8 +60,6 @@ macOS gives you a volume slider, a device list, and a tiny speaker glyph — and
   &nbsp;&nbsp;
   <img src="docs/screenshots/ios-app-volume.png" alt="Tutti Remote — per-app volume" width="240">
 </p>
-
-**Raycast extension** — mute, set the volume, or switch presets straight from Raycast, without opening Tutti.
 
 ## Features
 
@@ -106,7 +108,6 @@ macOS gives you a volume slider, a device list, and a tiny speaker glyph — and
 - **Sleep timer · gentle fades · Light / Dark / System · launch at login · automatic updates** — the conveniences you'd expect.
 
 ### On the way
-- **iPhone remote** &nbsp;`Coming soon` — see [Coming soon](#-coming-soon).
 - **Raycast extension** &nbsp;`Coming soon` — mute, set volume, and switch presets from Raycast.
 
 ## Free vs Pro
@@ -123,10 +124,13 @@ Every feature above without a tag is **free, forever**. Every new install also g
 | **Per-device latency tuning** | align a trailing Bluetooth speaker by ear |
 | **Per-app output routing** | send different apps to different speakers |
 | **Desktop widgets** | status and control on your desktop |
+| **iPhone remote** | control your Mac's audio from your iPhone (free app, needs Pro on the Mac) |
 
 - **$7.99 one-time — no subscription.** All future Pro features included at no extra cost.
 - **Up to 2 Macs** per license. Activate and deactivate from Settings › License.
 - **14-day refund**, no questions asked — just email support@barrybarrywu.com.
+
+> **Price change:** Tutti Pro moves to **$12.99 on July 22**. Buy before then to lock in **$7.99**. Already own it? You keep every feature, forever — no new charge.
 
 <p align="center">
   <a href="https://checkout.dodopayments.com/buy/pdt_0NfolyiommnaLUYQ5aPqn"><strong>Unlock Tutti Pro — $7.99</strong></a>
@@ -145,7 +149,7 @@ Other great Mac audio tools each solve a piece of this. Here's where Tutti stand
 | **Stereo pairing across devices** | ✓ | — | — | — | — |
 | **Per-device Bluetooth latency tuning** | ✓ | — | — | — | — |
 | **Now Playing controls** (play / pause / skip) | ✓ | — | — | — | — |
-| **iPhone remote** | ✓ *(soon)* | — | — | — | — |
+| **iPhone remote** | ✓ | — | — | — | — |
 | No virtual driver or system extension | ✓² | — | ✓ | — | — |
 | Free to use | ✓ | ✓ | ✓ | — | — |
 
@@ -157,7 +161,7 @@ Other great Mac audio tools each solve a piece of this. Here's where Tutti stand
 - **Shared listening** — living room speaker and Bluetooth headphones at the same time; play out loud while a friend wears headphones.
 - **Streaming & recording** — monitor through headphones while broadcasting to an audience or a capture card.
 - **Multi-room playback** — drive wired speakers in the living room and another pair in the bedroom from one Mac.
-- **Couch control** — switch presets and pick speakers from your iPhone without getting up *(soon)*.
+- **Couch control** — switch presets and pick speakers from your iPhone without getting up.
 - **Teaching** — the teacher hears prompts in headphones while the classroom speaker plays for students.
 
 ## AirPlay & known limitations
