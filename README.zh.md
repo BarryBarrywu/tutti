@@ -8,7 +8,7 @@
 
 <p align="center"><em>一处声音，处处响起。</em></p>
 
-<p align="center">macOS 本该内置、却始终没有的菜单栏音频控制中心 —<br>多设备同放、逐 App 音量与 EQ、Now Playing,以及即将到来的 iPhone 遥控。</p>
+<p align="center">macOS 本该内置、却始终没有的菜单栏音频控制中心 —<br>多设备同放、逐 App 音量与 EQ、Now Playing,以及 iPhone 遥控。</p>
 
 <p align="center">
   <a href="https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg"><strong>⬇︎ 下载 macOS 版</strong></a>
@@ -45,9 +45,13 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
 
 <p align="center"><sub>可拖拽的逐 App EQ · 两台音箱组成立体声 · 逐设备延迟与左右平衡。</sub></p>
 
-## ✨ v1.6.0 即将上线
+## 📱 Tutti Remote —— 已上架 App Store
 
-**Tutti Remote —— 用 iPhone 遥控 Mac 的声音。**窝在沙发上就能切换预设、挑选输出音箱、调节每台设备和每个 App 的音量,还能用 iPod 式转盘控制播放。通过局域网配对,控制权始终在 Mac 这一侧。
+**用 iPhone 遥控 Mac 的声音。**窝在沙发上就能切换预设、挑选输出音箱、调节每台设备和每个 App 的音量,还能用 iPod 式转盘控制播放。通过局域网配对,控制权始终在 Mac 这一侧。iPhone App 免费下载;遥控 Mac 需要 Mac 端的 Tutti Pro。
+
+<p align="center">
+  <a href="https://apps.apple.com/app/tutti-remote/id6788375184"><strong>在 App Store 下载 Tutti Remote →</strong></a>
+</p>
 
 <p align="center">
   <img src="docs/screenshots/ios-now-playing.png" alt="Tutti Remote —— Now Playing" width="240">
@@ -56,8 +60,6 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
   &nbsp;&nbsp;
   <img src="docs/screenshots/ios-app-volume.png" alt="Tutti Remote —— 逐 App 音量" width="240">
 </p>
-
-**Raycast 扩展** —— 不打开 Tutti,直接在 Raycast 里静音、设音量、切预设。
 
 ## 功能
 
@@ -106,8 +108,7 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
 - **睡眠定时 · 渐入渐出 · 浅色/深色/跟随系统 · 登录启动 · 自动更新** —— 该有的省心功能都有。
 
 ### 即将到来
-- **iPhone 遥控** &nbsp;`v1.6.0 即将上线` —— 见 [v1.6.0 即将上线](#-v160-即将上线)。
-- **Raycast 扩展** &nbsp;`v1.6.0 即将上线` —— 在 Raycast 里静音、设音量、切预设。
+- **Raycast 扩展** &nbsp;`即将上线` —— 在 Raycast 里静音、设音量、切预设。
 
 ## 免费 vs Pro
 
@@ -123,6 +124,7 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
 | **逐设备延迟微调** | 凭耳朵对齐慢半拍的蓝牙音箱 |
 | **逐 App 输出路由** | 把不同 App 送到不同音箱 |
 | **桌面小组件** | 在桌面查看状态与控制 |
+| **iPhone 遥控** | 用 iPhone 遥控 Mac 的声音(iPhone App 免费,Mac 端需 Pro) |
 
 - **一次性 $7.99,无订阅。**未来所有 Pro 新功能免费包含。
 - **每个授权可激活 2 台 Mac。**在 设置 › 许可 里激活与停用。
@@ -138,26 +140,34 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
 
 | | Tutti | Background Music | FineTune | SoundSource | Audio Hijack |
 |---|:---:|:---:|:---:|:---:|:---:|
-| 同一声音同放多个输出 | ✓ | — | ✓ | — | ✓ |
-| 逐 App 音量与 EQ | ✓¹ | ✓ | ✓ | ✓ | ✓ |
+| 同一声音同放多个输出 | ✓ | — | ✓ | ✓ | ✓⁴ |
+| 逐 App 音量 | ✓¹ | ✓ | ✓ | ✓ | ✓⁴ |
+| 逐 App EQ | ✓¹ | — | ✓ | ✓ | ✓⁴ |
+| 第三方 Audio Unit 音效 | — | — | — | ✓ | ✓ |
 | 逐 App 输出路由 | ✓¹ | — | ✓ | ✓ | ✓ |
-| 一键设备预设 | ✓ | — | — | — | — |
+| 一键恢复设备 + App 预设 | ✓ | — | — | ✓ | — |
+| 输出设备优先顺序 | ✓ | — | ✓ | ✓ | — |
+| AirPlay 加入多输出组 | — | — | — | ✓ | — |
 | **跨设备立体声配对** | ✓ | — | — | — | — |
 | **逐设备蓝牙延迟微调** | ✓ | — | — | — | — |
 | **Now Playing 控制**(播放/暂停/切歌) | ✓ | — | — | — | — |
-| **iPhone 遥控** | ✓ *(v1.6.0)* | — | — | — | — |
-| 无虚拟驱动 / 无系统扩展 | ✓² | — | ✓ | — | — |
-| 免费使用 | ✓ | ✓ | ✓ | — | — |
+| **iPhone 遥控** | ✓ | — | — | — | — |
+| 无需安装额外音频组件 | ✓² | — | ✓ | — | ✓³ |
+| 免费且不限时使用 | ✓ | ✓ | ✓ | — | — |
 
 ¹ 逐 App 功能走原生 macOS 音频 tap,需 macOS 14.4 及以上。
-² 多输出用 CoreAudio 聚合设备,逐 App 走原生 tap —— 不往系统装任何东西。Background Music 会装虚拟音频设备;SoundSource、Audio Hijack 会装系统扩展。
+² Tutti 多输出使用 CoreAudio 聚合设备,逐 App 控制使用原生 tap,无需额外安装组件。Background Music 会安装虚拟音频设备;SoundSource 需要安装 ARK 插件。
+³ 在 macOS 14.4 及以上版本中,Audio Hijack 使用原生系统音频访问,无需安装额外音频组件。
+⁴ Audio Hijack 通过可配置的 session 提供这些能力,并非菜单栏调音台式操作。
+
+竞品能力根据当前的 [Background Music](https://github.com/kyleneideck/BackgroundMusic)、[FineTune](https://github.com/ronitsingh10/FineTune)、[SoundSource 6](https://www.rogueamoeba.com/soundsource/whatsnew.php) 和 [Audio Hijack](https://rogueamoeba.com/support/manuals/audiohijack/) 官方文档核对。
 
 ## 使用场景
 
 - **一起听** —— 客厅音箱和蓝牙耳机同时出声:你外放,朋友戴耳机。
 - **直播与录制** —— 用耳机监听的同时,把声音播给观众或采集卡。
 - **多房间播放** —— 一台 Mac 同时驱动客厅的有线音箱和卧室的另一对。
-- **沙发遥控** —— 不用起身,在 iPhone 上切预设、挑音箱 *(v1.6.0)*。
+- **沙发遥控** —— 不用起身,在 iPhone 上切预设、挑音箱。
 - **教学** —— 老师在耳机里听提示,教室音箱同时放给学生。
 
 ## AirPlay 与已知限制
