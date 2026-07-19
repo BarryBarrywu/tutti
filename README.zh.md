@@ -156,8 +156,11 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
 | 免费且不限时使用 | ✓ | ✓ | ✓ | — | — |
 
 ¹ 逐 App 功能走原生 macOS 音频 tap,需 macOS 14.4 及以上。
+
 ² Tutti 多输出使用 CoreAudio 聚合设备,逐 App 控制使用原生 tap,无需额外安装组件。Background Music 会安装虚拟音频设备;SoundSource 需要安装 ARK 插件。
+
 ³ 在 macOS 14.4 及以上版本中,Audio Hijack 使用原生系统音频访问,无需安装额外音频组件。
+
 ⁴ Audio Hijack 通过可配置的 session 提供这些能力,并非菜单栏调音台式操作。
 
 竞品能力根据当前的 [Background Music](https://github.com/kyleneideck/BackgroundMusic)、[FineTune](https://github.com/ronitsingh10/FineTune)、[SoundSource 6](https://www.rogueamoeba.com/soundsource/whatsnew.php) 和 [Audio Hijack](https://rogueamoeba.com/support/manuals/audiohijack/) 官方文档核对。

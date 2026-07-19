@@ -158,8 +158,11 @@ Other great Mac audio tools each solve a piece of this. Here's where Tutti stand
 | Free, unlimited use | ✓ | ✓ | ✓ | — | — |
 
 ¹ Per-app features use a native macOS audio tap; requires macOS 14.4 or later.
+
 ² Tutti's multi-output uses a CoreAudio Aggregate Device and per-app control uses the native tap — nothing extra is installed. Background Music installs a virtual audio device; SoundSource requires its ARK plugin.
+
 ³ On macOS 14.4 or later, Audio Hijack uses native system audio access without installing an additional audio component.
+
 ⁴ Audio Hijack provides these capabilities through configurable sessions rather than a menu-bar mixer.
 
 Competitor capabilities checked against the current documentation for [Background Music](https://github.com/kyleneideck/BackgroundMusic), [FineTune](https://github.com/ronitsingh10/FineTune), [SoundSource 6](https://www.rogueamoeba.com/soundsource/whatsnew.php), and [Audio Hijack](https://rogueamoeba.com/support/manuals/audiohijack/).
