@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/github/v/release/BarryBarrywu/tutti?style=flat-square&color=blue&label=release" alt="版本">
   <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 13+">
   <img src="https://img.shields.io/github/downloads/BarryBarrywu/tutti/total?style=flat-square&color=orange&label=downloads" alt="下载量">
-  <img src="https://img.shields.io/badge/Pro-¥买断_$7.99-38bdf8?style=flat-square" alt="Pro $7.99 买断">
+  <img src="https://img.shields.io/badge/Pro-¥买断_$12.99-38bdf8?style=flat-square" alt="Pro $12.99 买断">
 </p>
 
 <p align="center">
@@ -126,12 +126,12 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
 | **桌面小组件** | 在桌面查看状态与控制 |
 | **iPhone 遥控** | 用 iPhone 遥控 Mac 的声音(iPhone App 免费,Mac 端需 Pro) |
 
-- **一次性 $7.99,无订阅。**未来所有 Pro 新功能免费包含。
+- **一次性 $12.99,无订阅。**未来所有 Pro 新功能免费包含。
 - **每个授权可激活 2 台 Mac。**在 设置 › 许可 里激活与停用。
 - **14 天无理由退款** —— 发邮件到 support@barrybarrywu.com 即可。
 
 <p align="center">
-  <a href="https://checkout.dodopayments.com/buy/pdt_0NfolyiommnaLUYQ5aPqn"><strong>解锁 Tutti Pro —— $7.99</strong></a>
+  <a href="https://checkout.dodopayments.com/buy/pdt_0NfolyiommnaLUYQ5aPqn"><strong>解锁 Tutti Pro —— $12.99</strong></a>
 </p>
 
 ## 与同类对比

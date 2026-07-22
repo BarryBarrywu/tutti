@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/github/v/release/BarryBarrywu/tutti?style=flat-square&color=blue&label=release" alt="Release">
   <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 13+">
   <img src="https://img.shields.io/github/downloads/BarryBarrywu/tutti/total?style=flat-square&color=orange&label=downloads" alt="Downloads">
-  <img src="https://img.shields.io/badge/Pro-$7.99_one--time-38bdf8?style=flat-square" alt="Pro $7.99 one-time">
+  <img src="https://img.shields.io/badge/Pro-$12.99_one--time-38bdf8?style=flat-square" alt="Pro $12.99 one-time">
 </p>
 
 <p align="center">
@@ -126,14 +126,12 @@ Every feature above without a tag is **free, forever**. Every new install also g
 | **Desktop widgets** | status and control on your desktop |
 | **iPhone remote** | control your Mac's audio from your iPhone (free app, needs Pro on the Mac) |
 
-- **$7.99 one-time — no subscription.** All future Pro features included at no extra cost.
+- **$12.99 one-time — no subscription.** All future Pro features included at no extra cost.
 - **Up to 2 Macs** per license. Activate and deactivate from Settings › License.
 - **14-day refund**, no questions asked — just email support@barrybarrywu.com.
 
-> **Price change:** Tutti Pro moves to **$12.99 on July 22**. Buy before then to lock in **$7.99**. Already own it? You keep every feature, forever — no new charge.
-
 <p align="center">
-  <a href="https://checkout.dodopayments.com/buy/pdt_0NfolyiommnaLUYQ5aPqn"><strong>Unlock Tutti Pro — $7.99</strong></a>
+  <a href="https://checkout.dodopayments.com/buy/pdt_0NfolyiommnaLUYQ5aPqn"><strong>Unlock Tutti Pro — $12.99</strong></a>
 </p>
 
 ## How Tutti compares
