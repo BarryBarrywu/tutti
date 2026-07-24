@@ -6,6 +6,156 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>1.7.2</title>
+            <pubDate>Fri, 24 Jul 2026 17:49:10 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.7.2</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Right-click the menu bar icon and you’ll find Quit Tutti at the
+bottom of the menu (⌘Q) — exactly the same quit as the one in Settings,
+so no more hunting through Settings to exit. (thanks bogdanw)&lt;/li&gt;
+&lt;li&gt;New Scroll to Adjust Volume switch (Settings › Sound › Control, on
+by default). Turn it off and scrolling on the menu bar icon or in the
+popover panel no longer changes the volume — handy if your Magic Mouse
+or trackpad keeps brushing the icon by accident. Sliders, the volume
+keys, and hotkeys are unaffected. (thanks 幸ing)&lt;/li&gt;
+&lt;li&gt;The Remote settings page now shows a QR code for the iPhone Remote:
+scan it with your phone camera to install Tutti Remote free from the App
+Store. An App Store link sits right next to it, so there’s no searching
+by name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The preset you had active now stays highlighted as current after you
+restart Tutti, instead of losing the highlight (your devices were
+already restored correctly — only the highlight was lost).&lt;/li&gt;
+&lt;li&gt;The 7-day trial now ends cleanly even if Tutti stays open: Pro
+features, global hotkeys, iPhone Remote, and widgets update promptly to
+the free tier instead of waiting for a restart or another unrelated
+change.&lt;/li&gt;
+&lt;li&gt;The License page now recovers automatically after a temporary macOS
+Keychain interruption instead of remaining stuck on “credentials
+unavailable.”&lt;/li&gt;
+&lt;li&gt;Activating, replacing, or deactivating a license can no longer be
+overwritten by a background license check finishing at the same time. If
+a device seat is released but local cleanup needs another try, Tutti now
+shows the correct state and clear recovery guidance.&lt;/li&gt;
+&lt;li&gt;Moving the system clock backward no longer makes a valid paid
+license appear expired. The existing offline grace period is
+unchanged.&lt;/li&gt;
+&lt;li&gt;Replacing a license key no longer briefly disconnects an iPhone that
+is already controlling Tutti, and the Remote switch no longer appears
+enabled when Pro access is unavailable.&lt;/li&gt;
+&lt;li&gt;Apps muted or turned down in Tutti no longer briefly play at full
+volume when playback resumes after buffering or a long pause. While that
+per-app setting remains active, macOS may continue showing its recording
+indicator so Tutti can protect the very first resumed sound. (thanks
+胖虎是条大锦鲤)&lt;/li&gt;
+&lt;li&gt;Exported diagnostic logs now show event times in your Mac’s local
+time, with the time zone included, making it easier to match a reported
+problem to what happened on screen. (thanks 胖虎是条大锦鲤)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="security"&gt;Security&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tutti now performs stronger startup checks on the official app and
+its bundled components. If a copy is damaged or has been modified, Tutti
+opens a recovery screen where you can download the official version or
+quit, instead of continuing normally.&lt;/li&gt;
+&lt;li&gt;License validation now enforces deactivated device authorizations
+more reliably while preserving the same offline grace period for
+legitimate paid users.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.7.2/Tutti-1.7.2.zip" length="5170801" type="application/octet-stream" sparkle:edSignature="9heNyXLAqlhFaBZ2MB0L1IbtqlIrWRxtMbQIBRHUVxvdsCaK3HE2WCt8oPjouB8VwZyyxJAf49Lu66bxJLIvBw==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;右键点击菜单栏图标，菜单最底部新增「退出 Tutti」（快捷键
+⌘Q），和设置里的退出完全等效，不用再进设置里找退出。（感谢用户
+bogdanw）&lt;/li&gt;
+&lt;li&gt;新增「滚动调整音量」开关（设置 › 声音 ›
+控制，默认开启）。关闭后，在菜单栏图标上或弹出面板上滚动都不会再改变音量——适合经常被
+Magic Mouse
+或触控板误触的用户；拖动滑杆、按音量键和热键都不受影响。（感谢用户
+幸ing）&lt;/li&gt;
+&lt;li&gt;「遥控」设置页新增 iPhone 遥控器下载二维码：用手机相机扫码即可从 App
+Store 免费安装，旁边也附有 App Store 链接，不用再按名字搜索。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;重启 Tutti
+后，之前激活的预设现在会继续显示为「当前」高亮，不用重新点一次（设备本身一直是正常恢复的，只是这个高亮之前会丢）。&lt;/li&gt;
+&lt;li&gt;即使 Tutti 一直开着，7 天试用现在也会在到期时正常结束：Pro
+功能、全局快捷键、iPhone
+遥控器和小组件都会及时切回免费版，不再需要重启或等待其他操作触发更新。&lt;/li&gt;
+&lt;li&gt;macOS
+钥匙串暂时不可用后，「许可」页现在会自动恢复，不会一直卡在「授权凭据不可用」。&lt;/li&gt;
+&lt;li&gt;激活、更换或停用 license
+时，不会再被同时完成的后台验证覆盖状态。如果设备名额已经释放、但本地清理还需要重试，Tutti
+会显示正确状态和明确的恢复提示。&lt;/li&gt;
+&lt;li&gt;系统时间被调慢时，正版付费授权不会再被误判为过期；现有的离线宽限期保持不变。&lt;/li&gt;
+&lt;li&gt;更换 license key 时，已经连接的 iPhone 遥控器不会再短暂断开；没有
+Pro 权限时，遥控开关也不会再错误显示为已开启。&lt;/li&gt;
+&lt;li&gt;播放器在 Tutti
+中被静音或调低音量后，从缓冲或长时间暂停恢复播放时，不会再短暂以原始音量响一下。只要该应用的单独设置仍在生效，macOS
+可能会继续显示录音指示器，以便 Tutti
+从恢复播放的第一声开始就保持设置。（感谢用户 胖虎是条大锦鲤）&lt;/li&gt;
+&lt;li&gt;导出的诊断日志现在会按 Mac
+本机时间显示事件，并保留时区信息，更容易把用户反馈的时间和当时屏幕上发生的情况对应起来。（感谢用户
+胖虎是条大锦鲤）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="安全"&gt;安全&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tutti 现在会在启动时更严格地检查官方 App
+及其内置组件。如果副本已损坏或被修改，只会打开恢复页面，可重新下载官方版本或退出，不会继续正常运行。&lt;/li&gt;
+&lt;li&gt;授权验证现在能更可靠地执行已停用设备的状态，同时继续保留正版付费用户原有的离线宽限期。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在選單列圖示上按右鍵，選單最底部新增「退出 Tutti」（快速鍵
+⌘Q），和設定裡的退出完全等效，不用再進設定裡找退出。（感謝使用者
+bogdanw）&lt;/li&gt;
+&lt;li&gt;新增「捲動調整音量」開關（設定 › 聲音 ›
+控制，預設開啟）。關閉後，在選單列圖示上或彈出面板上捲動都不會再改變音量——適合經常被
+Magic Mouse
+或觸控板誤觸的使用者；拖動滑桿、按音量鍵和熱鍵都不受影響。（感謝使用者
+幸ing）&lt;/li&gt;
+&lt;li&gt;「遙控」設定頁新增 iPhone 遙控器下載二維碼：用手機相機掃碼即可從 App
+Store 免費安裝，旁邊也附有 App Store 連結，不用再按名字搜尋。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;重啟 Tutti
+後，之前啟用的預設現在會繼續顯示為「目前」高亮，不用重新點一次（裝置本身一直正常恢復，只是這個高亮之前會遺失）。&lt;/li&gt;
+&lt;li&gt;即使 Tutti 一直開著，7 天試用現在也會在到期時正常結束：Pro
+功能、全域快速鍵、iPhone
+遙控器和小工具都會及時切回免費版，不再需要重新啟動或等待其他操作觸發更新。&lt;/li&gt;
+&lt;li&gt;macOS
+鑰匙圈暫時無法使用後，「授權」頁現在會自動恢復，不會一直卡在「授權憑證無法使用」。&lt;/li&gt;
+&lt;li&gt;啟用、更換或停用 license
+時，不會再被同時完成的背景驗證覆蓋狀態。如果裝置名額已經釋放、但本機清理還需要重試，Tutti
+會顯示正確狀態和明確的復原提示。&lt;/li&gt;
+&lt;li&gt;系統時間被調慢時，正版付費授權不會再被誤判為過期；現有的離線寬限期維持不變。&lt;/li&gt;
+&lt;li&gt;更換 license key 時，已經連線的 iPhone 遙控器不會再短暫中斷；沒有
+Pro 權限時，遙控開關也不會再錯誤顯示為已開啟。&lt;/li&gt;
+&lt;li&gt;播放器在 Tutti
+中被靜音或調低音量後，從緩衝或長時間暫停恢復播放時，不會再短暫以原始音量響一下。只要該
+App 的個別設定仍在生效，macOS 可能會繼續顯示錄音指示器，讓 Tutti
+從恢復播放的第一聲開始就維持設定。（感謝使用者 胖虎是条大锦鲤）&lt;/li&gt;
+&lt;li&gt;匯出的診斷記錄現在會依 Mac
+本機時間顯示事件，並保留時區資訊，更容易把使用者回報的時間和當時畫面上發生的情況對應起來。（感謝使用者
+胖虎是条大锦鲤）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="安全"&gt;安全&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tutti 現在會在啟動時更嚴格地檢查官方 App
+及其內建元件。如果副本已損壞或遭到修改，只會開啟復原頁面，可重新下載官方版本或退出，不會繼續正常執行。&lt;/li&gt;
+&lt;li&gt;授權驗證現在能更可靠地執行已停用裝置的狀態，同時繼續保留正版付費使用者原有的離線寬限期。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>1.7.1</title>
             <pubDate>Wed, 15 Jul 2026 18:30:16 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.7.1</link>
@@ -41,7 +191,7 @@ music keeps playing. (thanks Jorge Puente)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.7.1/Tutti-1.7.1.zip" length="5074475" type="application/octet-stream" sparkle:edSignature="/wdkbx60yfYEdVPL/8Z1XPKHG7+dMHC7JuqGJ3X/+bdKi81p+PO41lzmuo54Q+u07/9fh2jy0sw97CBSpAsSAA==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;「关于」页新增「使用帮助」和「邮件反馈」入口：一键打开使用文档，或直接给我们发邮件反馈（邮件会自动带上你的
 App 版本号，方便我们更快帮你排查）。&lt;/li&gt;
@@ -63,7 +213,8 @@ App
 会等这短暂的一下过去，AirPods
 就能留在播放组里，音乐也不会中断。（感谢用户 Jorge Puente）&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;「關於」頁新增「使用說明」和「郵件回饋」入口：一鍵打開使用文件，或直接寄信給我們回饋（郵件會自動帶上你的
 App 版本號，方便我們更快幫你排查）。&lt;/li&gt;
@@ -85,7 +236,8 @@ App
 會等這短暫的一下過去，AirPods
 就能留在播放組裡，音樂也不會中斷。（感謝使用者 Jorge Puente）&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.7.0</title>
             <pubDate>Mon, 13 Jul 2026 22:46:57 +0800</pubDate>
@@ -192,41 +344,6 @@ Puente）&lt;/li&gt;
 自動更新都不會再讓它們重新出聲了。以前更新後喇叭可能突然又響，或者整組只剩一台還能控制。&lt;/li&gt;
 &lt;li&gt;開啟「保持藍牙耳機高音質」後，麥克風不會再被切到旁邊的 iPhone
 上。Tutti 現在會改用真正的麥克風；找不到時就保持耳機麥克風不動。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.6.1</title>
-            <pubDate>Thu, 09 Jul 2026 18:26:57 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.6.1</link>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Desktop widgets no longer show a “Tutti Pro required” prompt to
-people who already have Pro.&lt;/li&gt;
-&lt;li&gt;Widget device names now follow the custom names you set in the panel
-— rename a device and the widgets match.&lt;/li&gt;
-&lt;li&gt;The “Toggle Output Device” action in Shortcuts now shows in your
-system language instead of always in Chinese.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.6.1/Tutti-1.6.1.zip" length="4826457" type="application/octet-stream" sparkle:edSignature="EPqu5eJhrpGMgCc7AwogXbT2nUTTSrSGHGtDyllv3eAucj8JDWeR35bmUpOFydIOKESUi2G/SsYTf7P63y9qAg==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;桌面小组件不再对已购买 Pro 的用户显示「需要 Tutti
-Pro」升级提示。&lt;/li&gt;
-&lt;li&gt;小组件里的设备名现在跟随你在面板里设置的自定义名称——重命名设备后，小组件会同步更新。&lt;/li&gt;
-&lt;li&gt;「快捷指令」里的「切换输出设备」动作现在会跟随系统语言显示，不再始终是中文。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;桌面小工具不再對已購買 Pro 的使用者顯示「需要 Tutti
-Pro」升級提示。&lt;/li&gt;
-&lt;li&gt;小工具裡的裝置名稱現在會跟隨你在面板裡設定的自訂名稱——重新命名裝置後，小工具會同步更新。&lt;/li&gt;
-&lt;li&gt;「捷徑」裡的「切換輸出裝置」動作現在會跟隨系統語言顯示，不再始終是中文。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
