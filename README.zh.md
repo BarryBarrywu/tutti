@@ -31,6 +31,16 @@
 
 <p align="center"><sub><strong>无虚拟驱动 · 无系统扩展 · 无遥测 · 无账号。</strong>经 Apple 公证。退出 Tutti,你的音频设置原样如初。</sub></p>
 
+## 安装
+
+下载[最新版 DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg)，或使用 Homebrew 安装：
+
+```bash
+brew install --cask barrybarrywu/tap/tutti
+```
+
+安装后，Tutti 会自动检查更新。
+
 ## 为什么用 Tutti
 
 macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,仅此而已。你没法同时向两个音箱放声,没法给每个 App 单独设音量,也没法只给某个 App 调 EQ 而不动其他。Tutti 就是补上这块空白的控制中心:一个面板管好每个输出、每个 App、每一档音量 —— 全部基于 Apple 自家音频框架,不往系统里装任何东西。
