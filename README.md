@@ -31,6 +31,16 @@
 
 <p align="center"><sub><strong>No virtual driver · no system extension · no telemetry · no account.</strong> Notarized by Apple. Quit Tutti and your audio setup is exactly as it was.</sub></p>
 
+## Install
+
+Download the [latest DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg), or install with Homebrew:
+
+```bash
+brew install --cask barrybarrywu/tap/tutti
+```
+
+Tutti checks for updates automatically after installation.
+
 ## Why Tutti
 
 macOS gives you a volume slider, a device list, and a tiny speaker glyph — and that's it. You can't play to two speakers at once, can't set a different volume per app, can't EQ one app without touching the rest. Tutti is the control center that fills the gap: one panel for every output, every app, and every level — riding Apple's own audio frameworks, with nothing installed into your system.
