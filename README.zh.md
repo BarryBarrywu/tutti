@@ -5,14 +5,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg"><strong>下载 macOS 版</strong></a>
-  ·
-  <a href="https://tutti.barrybarrywu.com">官网</a>
-  ·
-  <a href="https://github.com/BarryBarrywu/tutti/releases">历史版本</a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/github/v/release/BarryBarrywu/tutti?style=flat-square&color=blue&label=release" alt="版本">
   <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 13+">
   <img src="https://img.shields.io/github/downloads/BarryBarrywu/tutti/total?style=flat-square&color=orange&label=downloads" alt="下载量">
