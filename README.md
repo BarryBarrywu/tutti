@@ -33,16 +33,6 @@ macOS gives you a volume slider, a device list, and a tiny speaker glyph — and
 - **Each app, its own sound** — set volume, EQ, and output without changing everything else.
 - **Your Mac, from your iPhone** — switch presets, choose speakers, and control playback from the couch.
 
-<p align="center">
-  <img src="docs/screenshots/mac-per-app-eq.webp" alt="Per-app equalizer curve" width="230">
-  &nbsp;
-  <img src="docs/screenshots/mac-stereo-split.webp" alt="Stereo pairing across devices" width="230">
-  &nbsp;
-  <img src="docs/screenshots/mac-latency-balance.webp" alt="Per-device latency and balance" width="230">
-</p>
-
-<p align="center"><sub>Draggable per-app EQ · stereo pairing across two speakers · per-device latency &amp; balance.</sub></p>
-
 ## Install
 
 Download the [latest DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg), or install with Homebrew:
@@ -87,6 +77,10 @@ Tutti checks for updates automatically after installation.
 - **See where sound goes** — output devices show small badges of the apps routed to them.
 - **Ignore apps you don't manage** — right-click any app to tuck it out of the list.
 
+<p align="center">
+  <img src="docs/screenshots/mac-per-app-eq.webp" alt="Per-app equalizer curve" width="320">
+</p>
+
 ### Pro power tools
 - **Presets** &nbsp;`Pro` — save device + volume + per-app combos and switch with one click; each gets its own emoji.
 - **Global keyboard shortcuts** &nbsp;`Pro` — hotkeys to open the panel, mute, switch preset, or nudge an app's volume from inside any app.
@@ -94,6 +88,12 @@ Tutti checks for updates automatically after installation.
 - **Per-speaker left-right balance** &nbsp;`Pro` — lean any speaker's sound toward one side when it sits off-center.
 - **Per-device latency tuning** &nbsp;`Pro` — dial in a small delay, by ear, for a Bluetooth speaker that trails the others.
 - **Desktop widgets** &nbsp;`Pro` — status, devices, volume, and presets on your desktop, no app open.
+
+<p align="center">
+  <img src="docs/screenshots/mac-stereo-split.webp" alt="Stereo pairing across devices" width="320">
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/mac-latency-balance.webp" alt="Per-device latency and balance" width="320">
+</p>
 
 ### Now Playing & media
 - **Now Playing card** — song, artwork, and play/pause/skip for Spotify or Apple Music, right in the panel.
