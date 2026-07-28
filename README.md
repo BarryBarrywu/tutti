@@ -1,17 +1,11 @@
 <p align="right">English · <a href="README.zh.md">中文</a></p>
 
 <p align="center">
-  <img src="docs/screenshots/icon.png" alt="Tutti app icon" width="128" height="128">
+  <img src="assets/readme/hero-en.svg" width="100%" alt="Tutti, a macOS audio control center for multi-output, per-app control, and iPhone remote">
 </p>
 
-<h1 align="center">Tutti</h1>
-
-<p align="center"><em>One sound, every speaker.</em></p>
-
-<p align="center">The menu bar audio control center macOS never shipped —<br>multi-output, per-app volume &amp; EQ, Now Playing, and an iPhone remote.</p>
-
 <p align="center">
-  <a href="https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg"><strong>⬇︎ Download for macOS</strong></a>
+  <a href="https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg"><strong>Download for macOS</strong></a>
   ·
   <a href="https://tutti.barrybarrywu.com">Website</a>
   ·
@@ -31,19 +25,13 @@
 
 <p align="center"><sub><strong>No virtual driver · no system extension · no telemetry · no account.</strong> Notarized by Apple. Quit Tutti and your audio setup is exactly as it was.</sub></p>
 
-## Install
-
-Download the [latest DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg), or install with Homebrew:
-
-```bash
-brew install --cask barrybarrywu/tap/tutti
-```
-
-Tutti checks for updates automatically after installation.
-
-## Why Tutti
+## One panel for your whole sound system
 
 macOS gives you a volume slider, a device list, and a tiny speaker glyph — and that's it. You can't play to two speakers at once, can't set a different volume per app, can't EQ one app without touching the rest. Tutti is the control center that fills the gap: one panel for every output, every app, and every level — riding Apple's own audio frameworks, with nothing installed into your system.
+
+- **One sound, many outputs** — play through several speakers at once and keep them aligned.
+- **Each app, its own sound** — set volume, EQ, and output without changing everything else.
+- **Your Mac, from your iPhone** — switch presets, choose speakers, and control playback from the couch.
 
 <p align="center">
   <img src="docs/screenshots/mac-per-app-eq.webp" alt="Per-app equalizer curve" width="230">
@@ -55,7 +43,17 @@ macOS gives you a volume slider, a device list, and a tiny speaker glyph — and
 
 <p align="center"><sub>Draggable per-app EQ · stereo pairing across two speakers · per-device latency &amp; balance.</sub></p>
 
-## 📱 Tutti Remote — now on the App Store
+## Install
+
+Download the [latest DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg), or install with Homebrew:
+
+```bash
+brew install --cask barrybarrywu/tap/tutti
+```
+
+Tutti checks for updates automatically after installation.
+
+## Tutti Remote — now on the App Store
 
 **Control your Mac's audio from your iPhone.** Sit on the couch and switch presets, pick output speakers, set per-device and per-app volume, and drive playback from an iPod-style click wheel. Pairs over your local network; the Mac stays in charge. The iPhone app is free; controlling your Mac needs Tutti Pro there.
 
