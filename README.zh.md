@@ -33,16 +33,6 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
 - **每个 App，各有设置** —— 单独调整音量、EQ 和输出，不影响其他声音。
 - **人在沙发，也能控制 Mac** —— 用 iPhone 切预设、选音箱和控制播放。
 
-<p align="center">
-  <img src="docs/screenshots/mac-per-app-eq.webp" alt="单个 App 均衡器曲线" width="230">
-  &nbsp;
-  <img src="docs/screenshots/mac-stereo-split.webp" alt="跨设备立体声配对" width="230">
-  &nbsp;
-  <img src="docs/screenshots/mac-latency-balance.webp" alt="单设备延迟与左右平衡" width="230">
-</p>
-
-<p align="center"><sub>可拖拽的单个 App EQ · 两台音箱组成立体声 · 单设备延迟与左右平衡。</sub></p>
-
 ## 安装
 
 下载[最新版 DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg)，或使用 Homebrew 安装：
@@ -87,6 +77,10 @@ brew install --cask barrybarrywu/tap/tutti
 - **看清声音去哪** —— 输出设备上会显示路由到它的 App 小徽标。
 - **忽略不想管的 App** —— 右键任意 App 把它收进列表底部。
 
+<p align="center">
+  <img src="docs/screenshots/mac-per-app-eq.webp" alt="单个 App 均衡器曲线" width="320">
+</p>
+
 ### Pro 强力工具
 - **预设** &nbsp;`Pro` —— 保存设备 + 音量 + 单个 App 设置组合,一键切换;每个预设配一个 emoji。
 - **全局快捷键** &nbsp;`Pro` —— 在任意 App 里用热键打开面板、静音、切预设,或微调某个 App 的音量。
@@ -94,6 +88,12 @@ brew install --cask barrybarrywu/tap/tutti
 - **每台音箱左右平衡** &nbsp;`Pro` —— 音箱摆得偏一侧时,把它的声音往一边偏一点。
 - **单设备延迟微调** &nbsp;`Pro` —— 蓝牙音箱慢半拍时,凭耳朵加一点延迟对齐。
 - **桌面小组件** &nbsp;`Pro` —— 不开 App,在桌面看状态、设备,调音量、切预设。
+
+<p align="center">
+  <img src="docs/screenshots/mac-stereo-split.webp" alt="跨设备立体声配对" width="320">
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/mac-latency-balance.webp" alt="单设备延迟与左右平衡" width="320">
+</p>
 
 ### Now Playing 与媒体
 - **Now Playing 卡片** —— Spotify、Apple Music 的歌曲、封面、播放/暂停/切歌,都在面板里。
