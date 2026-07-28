@@ -1,17 +1,11 @@
 <p align="right"><a href="README.md">English</a> · 中文</p>
 
 <p align="center">
-  <img src="docs/screenshots/icon.png" alt="Tutti 应用图标" width="128" height="128">
+  <img src="assets/readme/hero-zh.svg" width="100%" alt="Tutti，一款支持多设备同放、单个 App 控制和 iPhone 遥控的 macOS 音频控制中心">
 </p>
 
-<h1 align="center">Tutti</h1>
-
-<p align="center"><em>一处声音，处处响起。</em></p>
-
-<p align="center">macOS 本该内置、却始终没有的菜单栏音频控制中心 —<br>多设备同放、单个 App 音量与 EQ、Now Playing,以及 iPhone 遥控。</p>
-
 <p align="center">
-  <a href="https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg"><strong>⬇︎ 下载 macOS 版</strong></a>
+  <a href="https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg"><strong>下载 macOS 版</strong></a>
   ·
   <a href="https://tutti.barrybarrywu.com">官网</a>
   ·
@@ -31,19 +25,13 @@
 
 <p align="center"><sub><strong>无虚拟驱动 · 无系统扩展 · 无遥测 · 无账号。</strong>经 Apple 公证。退出 Tutti,你的音频设置原样如初。</sub></p>
 
-## 安装
-
-下载[最新版 DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg)，或使用 Homebrew 安装：
-
-```bash
-brew install --cask barrybarrywu/tap/tutti
-```
-
-安装后，Tutti 会自动检查更新。
-
-## 为什么用 Tutti
+## 一个面板，管好整套声音
 
 macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,仅此而已。你没法同时向两个音箱放声,没法给每个 App 单独设音量,也没法只给某个 App 调 EQ 而不动其他。Tutti 就是补上这块空白的控制中心:一个面板管好每个输出、每个 App、每一档音量 —— 全部基于 Apple 自家音频框架,不往系统里装任何东西。
+
+- **一处声音，多个输出** —— 同时播放到多台音箱，并让它们保持对齐。
+- **每个 App，各有设置** —— 单独调整音量、EQ 和输出，不影响其他声音。
+- **人在沙发，也能控制 Mac** —— 用 iPhone 切预设、选音箱和控制播放。
 
 <p align="center">
   <img src="docs/screenshots/mac-per-app-eq.webp" alt="单个 App 均衡器曲线" width="230">
@@ -55,7 +43,17 @@ macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,�
 
 <p align="center"><sub>可拖拽的单个 App EQ · 两台音箱组成立体声 · 单设备延迟与左右平衡。</sub></p>
 
-## 📱 Tutti Remote —— 已上架 App Store
+## 安装
+
+下载[最新版 DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg)，或使用 Homebrew 安装：
+
+```bash
+brew install --cask barrybarrywu/tap/tutti
+```
+
+安装后，Tutti 会自动检查更新。
+
+## Tutti Remote —— 已上架 App Store
 
 **用 iPhone 遥控 Mac 的声音。**窝在沙发上就能切换预设、挑选输出音箱、调节每台设备和每个 App 的音量,还能用 iPod 式转盘控制播放。通过局域网配对,控制权始终在 Mac 这一侧。iPhone App 免费下载;遥控 Mac 需要 Mac 端的 Tutti Pro。
 

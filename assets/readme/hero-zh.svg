@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Tutti — 一处声音，处处响起</title>
+  <desc id="desc">一块 macOS 音频控制面板，将同一声音同步送往多个输出，同时提供单个 App 控制与 iPhone 遥控。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11151D"/>
+      <stop offset="1" stop-color="#080A0F"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#57B8FF"/>
+      <stop offset="1" stop-color="#087BFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" rx="28" fill="url(#background)"/>
+  <circle cx="1134" cy="60" r="120" fill="#087BFF" opacity=".08"/>
+  <circle cx="1040" cy="376" r="180" fill="#35D07F" opacity=".04"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g transform="translate(64 58)">
+      <text x="0" y="0" fill="#7F8A9A" font-size="18" font-weight="700" letter-spacing="3">MACOS 音频控制中心</text>
+      <text x="0" y="92" fill="#F7F9FC" font-size="82" font-weight="750" letter-spacing="-3">Tutti</text>
+      <text x="0" y="142" fill="#DCE3ED" font-size="31" font-weight="560">一处声音，处处响起。</text>
+      <text x="0" y="188" fill="#8F9BAA" font-size="20">多设备同放 · 单个 App 控制 · iPhone 遥控</text>
+
+      <g transform="translate(0 236)">
+        <rect width="146" height="42" rx="21" fill="#147EFF"/>
+        <text x="73" y="27" fill="#FFFFFF" font-size="17" font-weight="650" text-anchor="middle">多设备同放</text>
+        <rect x="158" width="126" height="42" rx="21" fill="#1A202A" stroke="#323A47"/>
+        <text x="221" y="27" fill="#C9D1DC" font-size="17" font-weight="600" text-anchor="middle">无需驱动</text>
+        <rect x="296" width="110" height="42" rx="21" fill="#1A202A" stroke="#323A47"/>
+        <text x="351" y="27" fill="#C9D1DC" font-size="17" font-weight="600" text-anchor="middle">MACOS 13+</text>
+      </g>
+    </g>
+
+    <g transform="translate(686 40)">
+      <rect width="450" height="320" rx="28" fill="#171C24" stroke="#303846" stroke-width="2"/>
+      <text x="28" y="38" fill="#6F7B8B" font-size="16" font-weight="700" letter-spacing="3">TUTTI</text>
+      <circle cx="390" cy="31" r="5" fill="#35D07F"/>
+      <text x="408" y="37" fill="#9AA5B4" font-size="15">LIVE</text>
+
+      <rect x="22" y="58" width="406" height="72" rx="20" fill="#202A37"/>
+      <circle cx="50" cy="83" r="7" fill="#35D07F"/>
+      <text x="70" y="90" fill="#F5F7FA" font-size="22" font-weight="700">正在播放</text>
+      <text x="392" y="88" fill="#8E9AAA" font-size="17" text-anchor="end">3 个输出</text>
+      <rect x="46" y="106" width="326" height="7" rx="3.5" fill="#37404D"/>
+      <rect x="46" y="106" width="218" height="7" rx="3.5" fill="url(#track)"/>
+      <circle cx="264" cy="109.5" r="10" fill="#F7FAFC"/>
+
+      <g transform="translate(22 146)">
+        <path d="M18 20H394" stroke="#2B3340"/>
+        <circle cx="24" cy="43" r="16" fill="#147EFF"/>
+        <rect x="17" y="37" width="14" height="10" rx="2" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+        <text x="54" y="50" fill="#E8ECF2" font-size="19" font-weight="600">Studio Display</text>
+        <rect x="244" y="40" width="138" height="6" rx="3" fill="#36404D"/>
+        <rect x="244" y="40" width="102" height="6" rx="3" fill="#168AFF"/>
+
+        <circle cx="24" cy="99" r="16" fill="#147EFF"/>
+        <path d="M18 95h12v8H18zM21 92h6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+        <text x="54" y="106" fill="#E8ECF2" font-size="19" font-weight="600">Mac Studio</text>
+        <rect x="244" y="96" width="138" height="6" rx="3" fill="#36404D"/>
+        <rect x="244" y="96" width="82" height="6" rx="3" fill="#168AFF"/>
+
+        <circle cx="24" cy="155" r="16" fill="#147EFF"/>
+        <path d="M16 157v-5a8 8 0 0 1 16 0v5M16 156h4v7h-4zM28 156h4v7h-4z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+        <text x="54" y="162" fill="#E8ECF2" font-size="19" font-weight="600">蓝牙耳机</text>
+        <rect x="244" y="152" width="138" height="6" rx="3" fill="#36404D"/>
+        <rect x="244" y="152" width="64" height="6" rx="3" fill="#168AFF"/>
+      </g>
+    </g>
+  </g>
+</svg>
