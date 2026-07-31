@@ -107,8 +107,8 @@ brew install --cask barrybarrywu/tap/tutti
 - **自选菜单栏图标** —— 经典声波,或十种乐器之一;图标随音量升高而填充。
 - **睡眠定时 · 渐入渐出 · 浅色/深色/跟随系统 · 登录启动 · 自动更新** —— 该有的省心功能都有。
 
-### 即将到来
-- **Raycast 扩展** &nbsp;`即将上线` —— 在 Raycast 里静音、设音量、切预设。
+### 更多控制方式
+- **Raycast 扩展** —— [在 Raycast 获取 Tutti](https://raycast.com/Barrybarrywu/tutti)，在 Raycast 里静音、设音量、切预设。
 
 ## 免费 vs Pro
 
