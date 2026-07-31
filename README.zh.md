@@ -126,6 +126,7 @@ brew install --cask barrybarrywu/tap/tutti
 | **单设备延迟微调** | 凭耳朵对齐慢半拍的蓝牙音箱 |
 | **单个 App 输出路由** | 把不同 App 送到不同音箱 |
 | **桌面小组件** | 在桌面查看状态与控制 |
+| **Raycast 控制** | 在 Raycast 里静音、设音量或套用预设 |
 | **iPhone 遥控** | 用 iPhone 遥控 Mac 的声音(iPhone App 免费,Mac 端需 Pro) |
 
 - **一次性 $12.99,无订阅。**未来所有 Pro 新功能免费包含。

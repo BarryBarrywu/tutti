@@ -126,6 +126,7 @@ Every feature above without a tag is **free, forever**. Every new install also g
 | **Per-device latency tuning** | align a trailing Bluetooth speaker by ear |
 | **Per-app output routing** | send different apps to different speakers |
 | **Desktop widgets** | status and control on your desktop |
+| **Raycast control** | control Tutti from Raycast — mute, set volume, or apply presets |
 | **iPhone remote** | control your Mac's audio from your iPhone (free app, needs Pro on the Mac) |
 
 - **$12.99 one-time — no subscription.** All future Pro features included at no extra cost.
