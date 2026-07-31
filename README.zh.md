@@ -108,7 +108,9 @@ brew install --cask barrybarrywu/tap/tutti
 - **睡眠定时 · 渐入渐出 · 浅色/深色/跟随系统 · 登录启动 · 自动更新** —— 该有的省心功能都有。
 
 ### 更多控制方式
-- **Raycast 扩展** —— [在 Raycast 获取 Tutti](https://raycast.com/Barrybarrywu/tutti)，在 Raycast 里静音、设音量、切预设。
+- **Raycast 扩展** —— 在 Raycast 里静音、设音量、切预设。
+
+  <a href="https://www.raycast.com/Barrybarrywu/tutti" title="安装 Tutti Raycast 扩展"><img src="https://www.raycast.com/Barrybarrywu/tutti/install_button@2x.png?v=1.1" height="64" style="height: 64px;" alt="在 Raycast 安装 Tutti" /></a>
 
 ## 免费 vs Pro
 

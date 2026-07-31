@@ -108,7 +108,9 @@ Tutti checks for updates automatically after installation.
 - **Sleep timer · gentle fades · Light / Dark / System · launch at login · automatic updates** — the conveniences you'd expect.
 
 ### More ways to control
-- **Raycast extension** — [Get Tutti on Raycast](https://raycast.com/Barrybarrywu/tutti) to mute, set volume, and switch presets from Raycast.
+- **Raycast extension** — mute, set volume, and switch presets from Raycast.
+
+  <a href="https://www.raycast.com/Barrybarrywu/tutti" title="Install Tutti Raycast Extension"><img src="https://www.raycast.com/Barrybarrywu/tutti/install_button@2x.png?v=1.1" height="64" style="height: 64px;" alt="Install Tutti on Raycast" /></a>
 
 ## Free vs Pro
 
