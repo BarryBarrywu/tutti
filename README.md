@@ -107,8 +107,8 @@ Tutti checks for updates automatically after installation.
 - **Pick your menu bar icon** — classic sound waves or one of ten instruments; the icon fills as volume rises.
 - **Sleep timer · gentle fades · Light / Dark / System · launch at login · automatic updates** — the conveniences you'd expect.
 
-### On the way
-- **Raycast extension** &nbsp;`Coming soon` — mute, set volume, and switch presets from Raycast.
+### More ways to control
+- **Raycast extension** — [Get Tutti on Raycast](https://raycast.com/Barrybarrywu/tutti) to mute, set volume, and switch presets from Raycast.
 
 ## Free vs Pro
 
