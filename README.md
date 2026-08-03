@@ -62,6 +62,15 @@ Tutti checks for updates automatically after installation.
 - **Device Guard** — set a priority order for your outputs and lock the default output, input, and volume; when macOS or another app switches them behind your back, Tutti puts them back.
 - **Remembers your setup** — your speaker group, per-device volumes, and mute survive quitting Tutti and app updates.
 
+### Display control &nbsp;`macOS 15+`
+- **Group + per-display brightness** — select the displays you want, then adjust the whole brightness group or one screen at a time.
+- **Hardware control where supported** — built-in and compatible Apple displays use system brightness, DDC/CI displays use hardware controls, and other displays can use clearly identified Software Dimming.
+- **Follow the built-in display** — external displays can keep their brightness offset while following manual changes and macOS automatic brightness.
+- **Brightness keys & scrolling** — the keyboard brightness keys control the selected displays with Tutti's progress HUD; hover and scroll to adjust a group or one display.
+- **Display presets + iPhone control** &nbsp;`Pro` — save display selection and brightness in presets, or control them from Tutti Remote 1.1.0.
+
+Tutti's display brightness engine builds on the open-source [Crisp](https://github.com/didriksg/Crisp) project. Thanks to didriksg and its contributors for sharing their work.
+
 ### Per-app audio control &nbsp;`macOS 14.4+`
 - **Per-app volume & Turbo** &nbsp;`Free` — give each app its own level; Turbo adds a 2× boost. Driver-free, via a native audio tap.
 - **Per-app equalizer** &nbsp;`Free` — a draggable 6-band EQ curve for any app, or a built-in preset.
@@ -128,6 +137,7 @@ Every feature above without a tag is **free, forever**. Every new install also g
 | **Desktop widgets** | status and control on your desktop |
 | **Raycast control** | control Tutti from Raycast — mute, set volume, or apply presets |
 | **iPhone remote** | control your Mac's audio from your iPhone (free app, needs Pro on the Mac) |
+| **Display presets & iPhone brightness control** | save display groups and brightness, then control them from your iPhone |
 
 - **$12.99 one-time — no subscription.** All future Pro features included at no extra cost.
 - **Up to 2 Macs** per license. Activate and deactivate from Settings › License.
@@ -189,7 +199,7 @@ Competitor capabilities checked against the current documentation for [Backgroun
 ## Requirements
 
 - macOS 13.0 or later
-- Accessibility permission only for the keyboard volume-key takeover (the scroll path doesn't need it)
+- Accessibility permission only for keyboard volume- and brightness-key takeover (the scroll path doesn't need it)
 
 ## Localization
 
