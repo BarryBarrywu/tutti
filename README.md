@@ -57,6 +57,8 @@ Tutti checks for updates automatically after installation.
 - **Play to every speaker at once** — tick multiple outputs and Tutti builds a CoreAudio Aggregate Device on the fly, keeping them clock-synced.
 - **Or just one** — pick a single device and Tutti switches the system default directly, no aggregate created.
 - **Master + per-device volume & mute** — one slider for everything, plus an individual slider and mute for each output.
+- **Detailed group HUDs** — volume and brightness feedback shows every selected output or display and its resulting level, not just the group average.
+- **Per-device adjustment steps** — give sensitive displays and wide-range speakers their own step sizes while anything else follows the default.
 - **Three-state status** — playing on all, partially muted, or all muted, with a matching color dot.
 - **Hot-swap without a gap** — add or remove a speaker mid-playback without cutting the sound.
 - **Device Guard** — set a priority order for your outputs and lock the default output, input, and volume; when macOS or another app switches them behind your back, Tutti puts them back.
@@ -113,6 +115,7 @@ Tutti's display brightness engine builds on the open-source [Crisp](https://gith
 - **Volume takeover** — keyboard volume keys and the scroll wheel drive the aggregate output globally.
 - **Shortcuts, Siri & Spotlight** — switch presets, mute, or set the volume from your automations.
 - **Scroll where you point** — hover a device, app, or the mic and the wheel adjusts just that one.
+- **Independent panel layouts** — Outputs, Apps, Input, and Displays can each follow the popup size or stay fixed to one or two rows.
 - **Pick your menu bar icon** — classic sound waves or one of ten instruments; the icon fills as volume rises.
 - **Sleep timer · gentle fades · Light / Dark / System · launch at login · automatic updates** — the conveniences you'd expect.
 
