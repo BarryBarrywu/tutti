@@ -1,0 +1,60 @@
+name: Notify Discord on Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to announce (e.g. v1.9.1)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ github.event.release.tag_name || inputs.tag }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_RELEASE_WEBHOOK_URL }}
+    steps:
+      - name: Send release announcement
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [[ -z "$DISCORD_WEBHOOK_URL" ]]; then
+            echo "DISCORD_RELEASE_WEBHOOK_URL is not configured; skipping Discord announcement."
+            exit 0
+          fi
+
+          release_json=$(gh release view "$TAG" \
+            --repo BarryBarrywu/tutti \
+            --json name,body,url)
+          release_name=$(jq -r '.name' <<< "$release_json")
+          release_url=$(jq -r '.url' <<< "$release_json")
+
+          changes=$(
+            jq -r '.body' <<< "$release_json" \
+              | sed -n 's/^- /- /p' \
+              | sed -E 's/\[([^]]+)\]\([^)]*\)/\1/g' \
+              | awk '{ if (length($0) > 280) print substr($0, 1, 277) "..."; else print }' \
+              | head -5
+          )
+          change_count=$(grep -c '^- ' <<< "$changes")
+
+          if (( change_count < 3 )); then
+            echo "Release notes must contain at least three bullet points; skipping Discord announcement."
+            exit 0
+          fi
+
+          message=$(printf '**%s is out**\n\n%s\n%s' \
+            "$release_name" "$changes" "$release_url")
+          payload=$(jq -n --arg content "$message" '{content: $content}')
+
+          curl --fail-with-body --silent --show-error \
+            --retry 2 \
+            -H 'Content-Type: application/json' \
+            -d "$payload" \
+            "$DISCORD_WEBHOOK_URL"
