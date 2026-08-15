@@ -6,6 +6,110 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>1.9.2</title>
+            <pubDate>Sat, 15 Aug 2026 17:18:37 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.9.2</link>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added a Discord link to Settings &amp;gt; About, making it easier to
+join discussions and follow release updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Redesigned Settings &amp;gt; About with a clearer visual hierarchy,
+shorter support labels, and the Diagnostic Mode export placed directly
+below the app summary while recording.&lt;/li&gt;
+&lt;li&gt;Diagnostic Mode now records menu-panel size changes asynchronously,
+helping troubleshoot layout issues while remaining lightweight enough to
+leave enabled.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;On macOS 27, App Audio now automatically recovers when a stream
+Process Tap continues running but returns silence after playback resumes
+or tracks change, falling back to a stable mixdown path without
+affecting earlier macOS versions. (Thanks to &lt;a
+href="https://github.com/zmengxuan"&gt;zmengxuan&lt;/a&gt; for the report and
+testing.)&lt;/li&gt;
+&lt;li&gt;After AirPods disconnect, Tutti now reliably restores the full
+speaker group or Preset even if macOS briefly falls back to the MacBook
+speakers or a single display during the handoff. (Thanks to Jorge Puente
+for the report and testing.)&lt;/li&gt;
+&lt;li&gt;Display controls now reappear automatically after the Mac wakes,
+even if macOS briefly reports no controllable displays during
+wake-up.&lt;/li&gt;
+&lt;li&gt;Clicking empty space in an Output, Display, or Input row now
+reliably selects or deselects it instead of requiring a click directly
+on its name.&lt;/li&gt;
+&lt;li&gt;Expanding a device’s latency and balance controls no longer makes
+the volume-slider thumb jump or briefly clips the device icon; the thumb
+also hides as expected after the pointer leaves the row.&lt;/li&gt;
+&lt;li&gt;Expanding App EQ now uses the same smooth reveal animation as the
+other device controls.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.9.2/Tutti-1.9.2.zip" length="5835684" type="application/octet-stream" sparkle:edSignature="PrcoH3cT3NBBWNxuF2qinh4egnVAxKfCownp7ym7+F5vwepmKsm+SsPkBcK5wfH/oNNa1OnqawpuR/QrOXxXAA==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在「设置 › 关于」中新增 Discord
+入口，方便参与讨论并获取版本更新。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;重新设计「设置 ›
+关于」页：信息层级更清晰，支持入口文案更简洁，开启诊断模式后可直接在应用信息下方导出日志。&lt;/li&gt;
+&lt;li&gt;诊断模式现在会异步记录菜单面板的尺寸变化，在帮助排查布局问题的同时，保持适合长期启用的轻量运行方式。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在 macOS 27 上，当播放恢复或切歌后 STREAM Process Tap
+仍在运行却只返回静音时，App Audio 现在会自动恢复并切换到稳定的 MIXDOWN
+路径，不影响旧版 macOS 的原有行为。（感谢用户 &lt;a
+href="https://github.com/zmengxuan"&gt;zmengxuan&lt;/a&gt;
+反馈并协助测试。）&lt;/li&gt;
+&lt;li&gt;AirPods 断开后，即使 macOS 在切换过程中短暂回退到 MacBook
+扬声器或单台显示器，Tutti
+现在也能可靠恢复完整的扬声器组或预设。（感谢用户 Jorge Puente
+反馈并协助测试。）&lt;/li&gt;
+&lt;li&gt;Mac 从睡眠中唤醒后，即使 macOS
+在恢复过程中短暂报告没有可控制的显示器，显示器控制也会自动重新出现。&lt;/li&gt;
+&lt;li&gt;点击输出、显示器或输入条目的空白区域时，现在也能可靠地选择或取消选择，不再必须点中名称。&lt;/li&gt;
+&lt;li&gt;展开设备的延迟和平衡控制时，音量滑杆不再出现圆点跳动或设备图标短暂被裁切；鼠标移出条目后，圆点也会按预期隐藏。&lt;/li&gt;
+&lt;li&gt;展开 App EQ 时，现在会使用与其他设备控制一致的平滑展开动画。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在「設定 › 關於」中新增 Discord
+入口，方便參與討論並取得版本更新。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;重新設計「設定 ›
+關於」頁：資訊層級更清楚，支援入口文案更簡潔，開啟診斷模式後可直接在應用程式資訊下方匯出記錄。&lt;/li&gt;
+&lt;li&gt;診斷模式現在會非同步記錄選單面板的尺寸變化，在協助排查版面問題的同時，維持適合長期啟用的輕量運作方式。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在 macOS 27 上，當播放恢復或切歌後 STREAM Process Tap
+仍在運作卻只回傳靜音時，App Audio 現在會自動恢復並切換到穩定的 MIXDOWN
+路徑，不影響舊版 macOS 的原有行為。（感謝使用者 &lt;a
+href="https://github.com/zmengxuan"&gt;zmengxuan&lt;/a&gt;
+回報並協助測試。）&lt;/li&gt;
+&lt;li&gt;AirPods 斷開後，即使 macOS 在切換過程中短暫回退到 MacBook
+揚聲器或單台顯示器，Tutti
+現在也能可靠恢復完整的揚聲器群組或預設。（感謝使用者 Jorge Puente
+回報並協助測試。）&lt;/li&gt;
+&lt;li&gt;Mac 從睡眠中喚醒後，即使 macOS
+在恢復過程中短暫回報沒有可控制的顯示器，顯示器控制也會自動重新出現。&lt;/li&gt;
+&lt;li&gt;點擊輸出、顯示器或輸入項目的空白區域時，現在也能可靠地選取或取消選取，不再必須點中名稱。&lt;/li&gt;
+&lt;li&gt;展開裝置的延遲與平衡控制時，音量滑桿不再出現圓點跳動或裝置圖示短暫被裁切；滑鼠移出項目後，圓點也會如預期隱藏。&lt;/li&gt;
+&lt;li&gt;展開 App EQ 時，現在會使用與其他裝置控制一致的平滑展開動畫。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>1.9.1</title>
             <pubDate>Tue, 11 Aug 2026 16:29:54 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.9.1</link>
@@ -31,7 +135,7 @@ outputs.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.9.1/Tutti-1.9.1.zip" length="5804223" type="application/octet-stream" sparkle:edSignature="O7xZz/EM5ThWgoY63EQj16WlOCtRZwsOv31OXvNpPMer6TizSUJEwpIDIBMm4Mf8Iiw0MuFI46y8haeVXWd6BA==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;音频守护的说明现在更清楚：当其他应用或 macOS
 更改默认输出、麦克风或音量时，Tutti 会按你的设定自动恢复。&lt;/li&gt;
@@ -44,7 +148,8 @@ href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;
 &lt;li&gt;最后的「预设」演示现在会在动画切换两个与三个已选输出时，始终保持步骤指示、标题、三个已连接输出以及「返回
 / 完成」操作区完整、间距舒适。&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;音訊守護的說明現在更清楚：當其他應用程式或 macOS
 更改預設輸出、麥克風或音量時，Tutti 會依你的設定自動恢復。&lt;/li&gt;
@@ -57,7 +162,8 @@ href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;
 &lt;li&gt;最後的「預設」演示現在會在動畫切換兩個與三個已選輸出時，始終保持步驟指示、標題、三個已連接輸出以及「返回
 / 完成」操作區完整、間距舒適。&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.9.0</title>
             <pubDate>Sun, 09 Aug 2026 08:10:20 +0800</pubDate>
@@ -168,150 +274,6 @@ HUD 則保持為清晰、不可互動的進度列。&lt;/li&gt;
 href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;
 回報。）&lt;/li&gt;
 &lt;li&gt;修正面板在單列和雙列之間切換時偶爾需要選擇多次才會生效的問題，現在第一次選擇就會立即更新。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.8.0</title>
-            <pubDate>Mon, 03 Aug 2026 19:05:37 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.8.0</link>
-            <sparkle:version>21</sparkle:version>
-            <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Display Control brings group and per-display brightness to Tutti on
-macOS 15 or later. Built-in displays and compatible Apple displays such
-as Studio Display use system hardware brightness, DDC/CI displays use
-hardware controls, and other displays can use clearly identified
-Software Dimming. (Thanks to 胖虎是条大锦鲤 for the suggestion.)&lt;/li&gt;
-&lt;li&gt;Selected external displays can follow built-in display brightness
-changes while keeping their existing brightness offset. When automatic
-brightness is enabled in macOS, they can follow ambient light changes
-too.&lt;/li&gt;
-&lt;li&gt;Presets can now save and restore the selected displays and each
-display’s brightness. Temporarily disconnected displays retain their
-saved intent and rejoin when they return.&lt;/li&gt;
-&lt;li&gt;With Tutti Remote 1.1.0, you can select displays and adjust one
-display or the entire display group from your iPhone.&lt;/li&gt;
-&lt;li&gt;Tutti’s display brightness engine builds on the open-source &lt;a
-href="https://github.com/didriksg/Crisp"&gt;Crisp&lt;/a&gt; project. Thanks to
-didriksg and its contributors for sharing their work.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Keyboard volume and brightness keys now adjust the Outputs and
-Displays selected in Tutti, with the same Tutti progress HUD for both
-single- and multi-device groups. Brightness can also be adjusted with
-custom shortcuts and scrolling.&lt;/li&gt;
-&lt;li&gt;The shared Adjustment Step and scroll preference now apply to both
-audio volume and display brightness. Group volume and group brightness
-use the same true group control, reaching the requested average even
-when one member reaches a limit first.&lt;/li&gt;
-&lt;li&gt;The Current Preset highlight now means the complete saved scene
-still matches. It clears when a saved volume, brightness, delay,
-balance, channel role, selection, or App volume meaningfully
-changes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;On macOS 14.4 or later, Stereo Mode keeps assigned left and right
-speakers on their respective channels while every additional selected
-output plays full stereo instead of going silent. Reassigning a role
-returns the previous output to full stereo, and stereo devices play
-correctly through both sides. (Thanks to Season.雪凇 for the
-report.)&lt;/li&gt;
-&lt;li&gt;Turning Display Control off and on again now rediscovers connected
-displays from their current state and restores brightness adjustment.
-Discovery also recovers after sleep, wake, and display
-reconnection.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="known-issues"&gt;Known Issues&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Keeping separate left/right speakers while additional outputs play
-full stereo requires macOS 14.4 or later and System Audio Recording
-access. Without either, Tutti safely falls back to full stereo on every
-selected output.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.8.0/Tutti-1.8.0.zip" length="5550150" type="application/octet-stream" sparkle:edSignature="90g2HCiV7RmIlpl62EQ31ZRLvLuAH0qTJxafFF0aCXtQ5FCTc+lCagU6Z19MEc0AbR06YPJRorETcf/ET0J2AA==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;macOS 15
-或更高版本新增「显示器控制」：可统一或逐台调整显示器亮度。Mac
-内置屏、Studio Display 等兼容的 Apple 显示器使用系统硬件亮度，支持
-DDC/CI
-的第三方显示器使用硬件调光，其余显示器可使用明确标识的软件调光。（感谢用户
-胖虎是条大锦鲤）&lt;/li&gt;
-&lt;li&gt;已选外接显示器可以跟随内置屏的亮度变化，并保留原有的亮度差；开启系统自动亮度后，外接显示器也能随环境光变化。&lt;/li&gt;
-&lt;li&gt;预设现在可以保存并恢复所选显示器及每台显示器的亮度。暂时断开的显示器会保留保存意图，并在重新连接后加入。&lt;/li&gt;
-&lt;li&gt;配合 Tutti Remote 1.1.0，可以在 iPhone
-上选择显示器，并调整单台或整个显示器组的亮度。&lt;/li&gt;
-&lt;li&gt;Tutti 的显示器亮度引擎参考了开源项目 &lt;a
-href="https://github.com/didriksg/Crisp"&gt;Crisp&lt;/a&gt;，感谢 didriksg
-与项目贡献者分享相关工作。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;键盘上的音量键和亮度键现在会直接调整 Tutti
-中选中的输出设备和显示器，不再区分单台或多台，并使用一致的 Tutti
-进度条反馈。也可以通过自定义快捷键和滚轮调整亮度。&lt;/li&gt;
-&lt;li&gt;统一的调整步长和滚轮偏好现在同时适用于音量与显示器亮度。总音量和总亮度采用相同的真正群组控制，即使某个成员先到边界，也会继续把整组推到目标平均值。&lt;/li&gt;
-&lt;li&gt;「当前预设」高亮现在表示完整保存场景仍然一致；已保存的音量、亮度、延迟、平衡、声道角色、成员选择或应用音量发生有效变化后，高亮会取消。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在 macOS 14.4
-或更高版本中，立体声模式下指定的左右音箱会继续各自播放对应声道，额外选择的输出则播放完整立体声，不会再没有声音。重新指定声道后，原来的输出会恢复完整立体声，立体声设备也会从左右两边正确播放。（感谢用户
-Season.雪凇）&lt;/li&gt;
-&lt;li&gt;关闭再打开显示器控制后，Tutti
-现在会按当前状态重新发现已连接的显示器并恢复亮度调整；休眠唤醒和显示器重新连接后也能恢复。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="已知问题"&gt;已知问题&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;同时保留左右音箱分工，并让额外输出播放完整立体声，需要 macOS 14.4
-或更高版本及「系统音频录制」权限；条件不满足时，Tutti
-会安全退回到所有已选输出都播放完整立体声。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;macOS 15
-或以上版本新增「顯示器控制」：可統一或逐台調整顯示器亮度。Mac
-內置螢幕、Studio Display 等相容的 Apple 顯示器使用系統硬件亮度，支援
-DDC/CI
-的第三方顯示器使用硬件調光，其餘顯示器可使用清楚標示的軟件調光。（感謝使用者
-胖虎是条大锦鲤）&lt;/li&gt;
-&lt;li&gt;已選外接顯示器可以跟隨內置螢幕的亮度變化，並保留原有的亮度差；開啟系統自動亮度後，外接顯示器也能隨環境光變化。&lt;/li&gt;
-&lt;li&gt;預設現在可以儲存並還原所選顯示器及每台顯示器的亮度。暫時中斷連線的顯示器會保留儲存意圖，並在重新連接後加入。&lt;/li&gt;
-&lt;li&gt;配合 Tutti Remote 1.1.0，可以在 iPhone
-上選擇顯示器，並調整單台或整個顯示器群組的亮度。&lt;/li&gt;
-&lt;li&gt;Tutti 的顯示器亮度引擎參考了開源專案 &lt;a
-href="https://github.com/didriksg/Crisp"&gt;Crisp&lt;/a&gt;，感謝 didriksg
-與專案貢獻者分享相關工作。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;鍵盤上的音量鍵和亮度鍵現在會直接調整 Tutti
-中選取的輸出裝置和顯示器，不再區分單台或多台，並使用一致的 Tutti
-進度條回饋。也可以透過自訂快捷鍵和滾輪調整亮度。&lt;/li&gt;
-&lt;li&gt;統一的調整步長和滾輪偏好現在同時適用於音量與顯示器亮度。總音量和總亮度採用相同的真正群組控制，即使某個成員先到邊界，也會繼續把整組推到目標平均值。&lt;/li&gt;
-&lt;li&gt;「目前預設」高亮現在表示完整儲存場景仍然一致；已儲存的音量、亮度、延遲、平衡、聲道角色、成員選擇或
-App 音量發生有效變化後，高亮會取消。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在 macOS 14.4
-或以上版本中，立體聲模式下指定的左右音箱會繼續各自播放對應聲道，額外選取的輸出則播放完整立體聲，不會再沒有聲音。重新指定聲道後，原來的輸出會恢復完整立體聲，立體聲裝置也會從左右兩邊正確播放。（感謝使用者
-Season.雪凇）&lt;/li&gt;
-&lt;li&gt;關閉再開啟顯示器控制後，Tutti
-現在會按目前狀態重新發現已連接的顯示器並恢復亮度調整；睡眠喚醒和顯示器重新連接後也能恢復。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="已知問題"&gt;已知問題&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;同時保留左右音箱分工，並讓額外輸出播放完整立體聲，需要 macOS 14.4
-或以上版本及「系統音訊錄製」權限；條件不符合時，Tutti
-會安全退回到所有已選輸出都播放完整立體聲。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
