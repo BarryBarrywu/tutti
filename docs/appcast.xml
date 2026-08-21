@@ -6,6 +6,90 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>1.9.3</title>
+            <pubDate>Fri, 21 Aug 2026 18:57:00 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.9.3</link>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.9.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Settings &amp;gt; About now shows Xiaohongshu and Bilibili when Tutti
+uses Simplified Chinese, while Traditional Chinese and every other
+language continue to show Telegram and X. The website and Discord links
+remain available in every language.&lt;/li&gt;
+&lt;li&gt;On macOS 27, changing an app’s volume with affected AirPods routes
+no longer leaves media silent. Tutti now remembers routes that need
+recovery and restores audio in about half a second on later adjustments.
+(Thanks to 哦吼哦吼 for the continued testing.)&lt;/li&gt;
+&lt;li&gt;Master and per-output volume controls now refresh their hardware
+routes when outputs are added or removed, so they continue controlling
+the intended device after Tutti creates or collapses a multi-output
+setup. (Thanks to 哦吼哦吼 for the continued testing.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="known-issues"&gt;Known Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;On affected AirPods routes, Apple Music may use a stereo
+compatibility path when App Audio control is active because the native
+macOS stream tap provides no audio. App Audio control and playback
+remain available, but the native Apple Music audio path cannot be
+preserved in this combination. Once activated, this compatibility path
+may remain in use until the current App Audio session ends, including
+after outputs change.&lt;/li&gt;
+&lt;li&gt;When AirPods are selected together with another output, macOS sees
+Tutti’s aggregate device instead of the AirPods directly. Native Spatial
+Audio, head tracking, and Dolby Atmos are therefore unavailable until
+the AirPods are used as the only output; ordinary stereo playback
+remains available.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.9.3/Tutti-1.9.3.zip" length="5879005" type="application/octet-stream" sparkle:edSignature="YR1O6e8OwEsU5XScV5m9SxhH8HsOSuhBvIxhxVn5hyi+U6afcRs6ybC6d5sW7LLYZOeuZ5xxil3/E1ZDU51HDw==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;当 Tutti 使用简体中文时，「设置 ›
+关于」现在会显示小红书和哔哩哔哩；繁体中文及其他语言继续显示 Telegram 和
+X。官网与 Discord 入口在所有语言下保持可用。&lt;/li&gt;
+&lt;li&gt;在 macOS 27 上，调整受影响 AirPods
+输出的应用音量后，不会再让媒体持续无声。Tutti
+现在会记住需要恢复的输出，后续调整可在约半秒内恢复声音。（感谢用户「哦吼哦吼」持续协助测试。）&lt;/li&gt;
+&lt;li&gt;添加或移除输出设备时，总音量和单独输出音量现在会重新确认硬件控制路径；Tutti
+建立或收起多输出组合后，滑杆仍会控制正确的设备。（感谢用户「哦吼哦吼」持续协助测试。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="已知问题"&gt;已知问题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在受影响的 AirPods 路径上，Apple Music
+启用应用音量控制时可能使用立体声兼容路径，因为 macOS
+的原生流捕获没有提供音频。应用音量与播放仍可使用，但该组合无法同时保留
+Apple Music 的原生音频路径。兼容路径一旦启用，可能会持续到当前 App Audio
+会话结束，包括用户在此期间更换输出后。&lt;/li&gt;
+&lt;li&gt;AirPods 与其他输出设备同时使用时，macOS 会把 Tutti 聚合设备而不是
+AirPods 本身作为默认输出，因此原生空间音频、头部追踪和 Dolby Atmos
+暂时不可用；只选择 AirPods 后即可恢复，普通立体声播放不受影响。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;當 Tutti 使用簡體中文時，「設定 ›
+關於」現在會顯示小紅書與嗶哩嗶哩；繁體中文及其他語言繼續顯示 Telegram 與
+X。官網與 Discord 入口在所有語言下維持可用。&lt;/li&gt;
+&lt;li&gt;在 macOS 27 上，調整受影響 AirPods
+輸出的應用音量後，不會再讓媒體持續無聲。Tutti
+現在會記住需要恢復的輸出，後續調整可在約半秒內恢復聲音。（感謝使用者「哦吼哦吼」持續協助測試。）&lt;/li&gt;
+&lt;li&gt;新增或移除輸出裝置時，總音量與個別輸出音量現在會重新確認硬體控制路徑；Tutti
+建立或收起多輸出組合後，滑桿仍會控制正確的裝置。（感謝使用者「哦吼哦吼」持續協助測試。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="已知問題"&gt;已知問題&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在受影響的 AirPods 路徑上，Apple Music
+啟用應用音量控制時可能使用立體聲相容路徑，因為 macOS
+的原生串流擷取沒有提供音訊。應用音量與播放仍可使用，但此組合無法同時保留
+Apple Music 的原生音訊路徑。相容路徑一旦啟用，可能會持續到目前 App Audio
+工作階段結束，包括使用者在此期間更換輸出後。&lt;/li&gt;
+&lt;li&gt;AirPods 與其他輸出裝置同時使用時，macOS 會把 Tutti 聚合裝置而非
+AirPods 本身當作預設輸出，因此原生空間音訊、頭部追蹤與 Dolby Atmos
+暫時無法使用；只選擇 AirPods 後即可恢復，一般立體聲播放不受影響。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>1.9.2</title>
             <pubDate>Sat, 15 Aug 2026 17:18:37 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.9.2</link>
@@ -52,7 +136,7 @@ other device controls.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.9.2/Tutti-1.9.2.zip" length="5835684" type="application/octet-stream" sparkle:edSignature="PrcoH3cT3NBBWNxuF2qinh4egnVAxKfCownp7ym7+F5vwepmKsm+SsPkBcK5wfH/oNNa1OnqawpuR/QrOXxXAA==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在「设置 › 关于」中新增 Discord
 入口，方便参与讨论并获取版本更新。&lt;/li&gt;
@@ -80,7 +164,8 @@ href="https://github.com/zmengxuan"&gt;zmengxuan&lt;/a&gt;
 &lt;li&gt;展开设备的延迟和平衡控制时，音量滑杆不再出现圆点跳动或设备图标短暂被裁切；鼠标移出条目后，圆点也会按预期隐藏。&lt;/li&gt;
 &lt;li&gt;展开 App EQ 时，现在会使用与其他设备控制一致的平滑展开动画。&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在「設定 › 關於」中新增 Discord
 入口，方便參與討論並取得版本更新。&lt;/li&gt;
@@ -108,7 +193,8 @@ href="https://github.com/zmengxuan"&gt;zmengxuan&lt;/a&gt;
 &lt;li&gt;展開裝置的延遲與平衡控制時，音量滑桿不再出現圓點跳動或裝置圖示短暫被裁切；滑鼠移出項目後，圓點也會如預期隱藏。&lt;/li&gt;
 &lt;li&gt;展開 App EQ 時，現在會使用與其他裝置控制一致的平滑展開動畫。&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.9.1</title>
             <pubDate>Tue, 11 Aug 2026 16:29:54 +0800</pubDate>
@@ -161,119 +247,6 @@ href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;
 href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;、藍回報。）&lt;/li&gt;
 &lt;li&gt;最後的「預設」演示現在會在動畫切換兩個與三個已選輸出時，始終保持步驟指示、標題、三個已連接輸出以及「返回
 / 完成」操作區完整、間距舒適。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.9.0</title>
-            <pubDate>Sun, 09 Aug 2026 08:10:20 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.9.0</link>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Group volume and brightness HUDs now show each selected output or
-display and its current level, so you can immediately see how an
-adjustment affected the whole group. The detail view is enabled by
-default and can be turned off under Settings → Appearance → Volume &amp;amp;
-Brightness HUD. Names, ordering, optional numbers, and percent or
-decibel units follow the main panel; selected outputs that cannot adjust
-volume remain visible as locked.&lt;/li&gt;
-&lt;li&gt;You can now give each output’s volume and each display’s brightness
-its own adjustment step, so sensitive hardware can move gently while
-hardware with a wider useful range moves more noticeably from the same
-keys. Anything you do not customize continues to use the Default Step.
-Configure it under Settings → Control → Adjustment Step. (Thanks to &lt;a
-href="https://github.com/Andrewzhang00GH"&gt;Andrewzhang00GH&lt;/a&gt; for the
-suggestion.)&lt;/li&gt;
-&lt;li&gt;Outputs, Apps, Input, and Displays can now each follow the popup
-size or use a fixed one-row or two-row layout. This keeps the overall
-popup density global while letting each card show exactly as much detail
-as you prefer.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Volume and brightness sliders in the panel now stay visually quiet
-until you point anywhere within the corresponding control row or reach
-the slider with keyboard navigation or VoiceOver. A larger
-capsule-shaped control appears without precise aiming, turns translucent
-while you drag, and fades away after you leave the row. Adjustment HUDs
-remain clean, noninteractive level bars.&lt;/li&gt;
-&lt;li&gt;Each card’s row-layout setting now uses a larger icon button and a
-clearly anchored chooser, making Follow Popup, One Row, and Two Rows
-easier to find and select without crowding the Panel settings list.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;After adjusting a panel slider with the mouse, its control and blue
-keyboard-focus outline no longer remain visible after the pointer leaves
-the row.&lt;/li&gt;
-&lt;li&gt;Pressing &lt;code&gt;⌘,&lt;/code&gt; now opens Tutti’s full Settings window
-instead of an empty window. (Thanks to &lt;a
-href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;
-for the report.)&lt;/li&gt;
-&lt;li&gt;Switching a panel card between one-row and two-row layouts now takes
-effect on the first selection.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.9.0/Tutti-1.9.0.zip" length="5743256" type="application/octet-stream" sparkle:edSignature="vNMZ9tEhWdLmJ1JXq3USVyyoumltQIphHIIJFQfGWFJxdsX6jUvpvqjtzGllMD9zMu4pZr488+GvMjWWfcFxBQ==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;群组音量与亮度 HUD
-现在会显示每个已选输出或显示器及其当前调节结果，整组变化一眼就能看清。明细默认开启，可在「设置
-› 外观 › 音量与亮度 HUD」中关闭；设备名称、顺序、数字开关及百分比 /
-分贝单位均跟随主面板设置，不支持音量调节的已选输出仍会显示为锁定。&lt;/li&gt;
-&lt;li&gt;现在可以分别设置每个输出设备的音量步长和每台显示器的亮度步长，让灵敏的设备变化更细腻、需要较大变化的设备也能从同一次按键中获得明显调整。未单独设置的项目继续使用默认步长，可在「设置
-› 控制 › 调整步长」中配置。（感谢用户 &lt;a
-href="https://github.com/Andrewzhang00GH"&gt;Andrewzhang00GH&lt;/a&gt;
-反馈。）&lt;/li&gt;
-&lt;li&gt;输出、应用、输入和显示器面板现在都能独立选择跟随弹窗尺寸、固定单行或固定双行。整体疏密仍由弹窗尺寸统一控制，同时每个面板都能按你的偏好显示合适的信息量。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;面板中的音量和亮度滑杆现在会在静止时保持简洁：鼠标进入对应控制行的任意位置，或通过键盘导航、VoiceOver
-聚焦时，才显示更大的短椭圆控制点，无需精准对准细轨道；拖动时控制点会变为半透明，移出控制行后自动淡出。调节
-HUD 则保持为清晰、不可交互的进度条。&lt;/li&gt;
-&lt;li&gt;每个面板的条目布局设置现在改用更易点击的图标按钮和清晰锚定的选择浮层，无需挤占设置列表空间，也能更方便地选择跟随弹窗、单行或双行。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;修复鼠标调节面板滑杆后，控制点和蓝色键盘焦点框在鼠标移出控制行后仍然停留的问题。&lt;/li&gt;
-&lt;li&gt;按下 &lt;code&gt;⌘,&lt;/code&gt; 现在会正确打开 Tutti
-的完整设置窗口，不再显示空白窗口。（感谢用户 &lt;a
-href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;
-反馈。）&lt;/li&gt;
-&lt;li&gt;修复面板在单行和双行之间切换时偶尔需要选择多次才会生效的问题，现在第一次选择就会立即更新。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;群組音量與亮度 HUD
-現在會顯示每個已選輸出或顯示器及其目前調整結果，整組變化一眼就能看清。明細預設開啟，可在「設定
-› 外觀 › 音量與亮度 HUD」中關閉；裝置名稱、順序、數字開關及百分比 /
-分貝單位均跟隨主面板設定，不支援音量調整的已選輸出仍會顯示為鎖定。&lt;/li&gt;
-&lt;li&gt;現在可以分別設定每個輸出裝置的音量步長和每台顯示器的亮度步長，讓靈敏的裝置變化更細膩、需要較大變化的裝置也能從同一次按鍵中獲得明顯調整。未單獨設定的項目會繼續使用預設步長，可在「設定
-› 控制 › 調整步長」中設定。（感謝使用者 &lt;a
-href="https://github.com/Andrewzhang00GH"&gt;Andrewzhang00GH&lt;/a&gt;
-回報。）&lt;/li&gt;
-&lt;li&gt;輸出、應用程式、輸入和顯示器面板現在都能各自選擇跟隨彈出視窗尺寸、固定單列或固定雙列。整體疏密仍由彈出視窗尺寸統一控制，同時每個面板都能依你的偏好顯示合適的資訊量。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;面板中的音量和亮度滑桿現在會在靜止時保持簡潔：滑鼠進入對應控制列的任意位置，或透過鍵盤導覽、VoiceOver
-聚焦時，才顯示更大的短橢圓控制點，無需精準對準細軌道；拖曳時控制點會變為半透明，移出控制列後自動淡出。調整
-HUD 則保持為清晰、不可互動的進度列。&lt;/li&gt;
-&lt;li&gt;每個面板的控制列配置設定現在改用更容易點按的圖示按鈕和清楚錨定的選擇浮層，不必擠佔設定列表空間，也能更方便地選擇跟隨彈出視窗、單列或雙列。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;修正以滑鼠調整面板滑桿後，控制點和藍色鍵盤焦點框在滑鼠移出控制列後仍然停留的問題。&lt;/li&gt;
-&lt;li&gt;按下 &lt;code&gt;⌘,&lt;/code&gt; 現在會正確開啟 Tutti
-的完整設定視窗，不再顯示空白視窗。（感謝使用者 &lt;a
-href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;
-回報。）&lt;/li&gt;
-&lt;li&gt;修正面板在單列和雙列之間切換時偶爾需要選擇多次才會生效的問題，現在第一次選擇就會立即更新。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
