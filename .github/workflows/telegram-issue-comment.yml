@@ -1,0 +1,27 @@
+name: Notify Telegram on Issue Comment
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions: {}
+
+jobs:
+  notify:
+    if: >-
+      github.event.issue.pull_request == null &&
+      github.event.comment.user.login != github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send notification
+        uses: cbrgm/telegram-github-action@v1
+        with:
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          to: ${{ vars.TELEGRAM_SUPPORT_CHAT_ID }}
+          parse-mode: ""
+          message: |
+            New public Issue comment from @${{ github.event.comment.user.login }}
+
+            #${{ github.event.issue.number }} · ${{ github.event.issue.title }}
+            ${{ github.event.comment.html_url }}
+          disable-web-page-preview: true
