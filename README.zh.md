@@ -1,7 +1,7 @@
 <p align="right"><a href="README.md">English</a> · 中文</p>
 
 <p align="center">
-  <img src="assets/readme/hero-zh.svg" width="100%" alt="Tutti，一款支持多设备同放、单个 App 控制和 iPhone 遥控的 macOS 音频控制中心">
+  <img src="assets/readme/hero-zh.svg" width="100%" alt="Tutti：一桌设备，一拍即合。Mac 声音与显示器控制中心。">
 </p>
 
 <p align="center">
@@ -17,13 +17,16 @@
 
 <p align="center"><sub><strong>无虚拟驱动 · 无系统扩展 · 无遥测 · 无账号。</strong>经 Apple 公证。退出 Tutti,你的音频设置原样如初。</sub></p>
 
-## 一个面板，管好整套声音
+## 一个面板，管好声音和屏幕
 
-macOS 只给你一个音量滑块、一份设备列表和一个小喇叭图标,仅此而已。你没法同时向两个音箱放声,没法给每个 App 单独设音量,也没法只给某个 App 调 EQ 而不动其他。Tutti 就是补上这块空白的控制中心:一个面板管好每个输出、每个 App、每一档音量 —— 全部基于 Apple 自家音频框架,不往系统里装任何东西。
+一块外接显示器往往既是一块屏幕，也是一组音频输出，但 macOS 把亮度和声音放在不同地方。Tutti 把音频输出、每个 App、显示器和预设收进同一个菜单栏面板。
 
-- **一处声音，多个输出** —— 同时播放到多台音箱，并让它们保持对齐。
-- **每个 App，各有设置** —— 单独调整音量、EQ 和输出，不影响其他声音。
-- **人在沙发，也能控制 Mac** —— 用 iPhone 切预设、选音箱和控制播放。
+你可以让多个设备同时播放，分别调整每个设备和 App 的音量，控制单台或整组显示器的亮度，再把整套桌面保存成一个预设。全部基于 Apple 自带框架，不安装虚拟音频驱动或系统扩展。
+
+- **一个声音，响遍全场**：同时使用多个音箱、耳机和显示器扬声器。
+- **每个 App，各有设置**：分别调整音量、均衡器和输出。
+- **每块屏幕，亮度合适**：控制单台或整组显示器，并让外接屏跟随内置屏。
+- **整套桌面，一键恢复**：把输出、音量、App 和显示器亮度保存进同一个预设。
 
 ## 安装
 
@@ -37,7 +40,7 @@ brew install --cask barrybarrywu/tap/tutti
 
 ## Tutti Remote —— 已上架 App Store
 
-**用 iPhone 遥控 Mac 的声音。**窝在沙发上就能切换预设、挑选输出音箱、调节每台设备和每个 App 的音量,还能用 iPod 式转盘控制播放。通过局域网配对,控制权始终在 Mac 这一侧。iPhone App 免费下载;遥控 Mac 需要 Mac 端的 Tutti Pro。
+用 iPhone 控制 Mac 上的输出、每台设备和 App 的音量、音乐播放与显示器亮度。Mac 仍然负责所有实际控制，Tutti Remote 只是把整套面板带到你手边。通过局域网配对；iPhone App 免费下载，遥控 Mac 需要 Mac 端的 Tutti Pro。
 
 <p align="center">
   <a href="https://apps.apple.com/app/tutti-remote/id6788375184"><strong>在 App Store 下载 Tutti Remote →</strong></a>
