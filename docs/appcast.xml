@@ -6,6 +6,184 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>1.10.0</title>
+            <pubDate>Sat, 05 Sep 2026 17:03:24 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.10.0</link>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Added Settings… (⌘,) above Quit Tutti in the menu bar icon’s
+right-click menu. It opens Settings or brings the existing window to the
+front.&lt;/li&gt;
+&lt;li&gt;Brightness Upscaling lets Tutti Pro users extend the existing
+per-display brightness slider beyond 100% on supported XDR displays,
+using the display’s available EDR headroom. Each display keeps its own
+enablement and level, while 100% remains the exact neutral point.
+(Thanks to Jorge for the original request and testing, and to 你小看 for
+testing and validating the feature.)&lt;/li&gt;
+&lt;li&gt;Choose between the default Gamma technique and a Metal
+multiply-overlay technique in Advanced settings. Metal also offers an
+optional “Wait for HDR before increasing brightness” setting.&lt;/li&gt;
+&lt;li&gt;Presets now save and restore each selected display’s Brightness
+Upscaling scene, including explicit enablement at 100% Neutral and
+above-neutral levels. Temporarily disconnected displays keep the scene
+and restore it by stable identity when they reconnect; newer display
+commands always take precedence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Brightness sliders now provide a more noticeable detent at the
+hardware minimum, with a label while held there. Continue dragging to
+cross the boundary. This applies to individual display sliders and the
+Hero slider when one display is selected.&lt;/li&gt;
+&lt;li&gt;Redesigned the feature introduction with a static overview, Display
+Control, multi-output playback, app audio, and Presets. On macOS 15 and
+later, demonstrations show individual and grouped display brightness
+adjustments and Presets that restore sound and display settings
+together; macOS 14.4–14.x shows an audio-only introduction. #172&lt;/li&gt;
+&lt;li&gt;Refreshed the app icon and default menu bar icon with a shared
+sun-and-sound-wave design. The default menu bar icon is now named Tutti
+and continues to reflect volume level and mute status.&lt;/li&gt;
+&lt;li&gt;Brightness Upscaling now preserves an explicit above-neutral level
+across display refreshes, wake, reconnect, and backend changes instead
+of letting passive brightness readings pull it back to 100%. Temporary
+EDR unavailability uses bounded recovery and one non-blocking status
+notice.&lt;/li&gt;
+&lt;li&gt;Purchase and trial prompts, EDR waiting and cooldown, third-party
+display-control conflicts, and terminal failures now share one
+prioritized notice at the top of the Menu Panel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The hardware-minimum brightness marker now follows the current
+accent color instead of remaining blue.&lt;/li&gt;
+&lt;li&gt;Fixed feature-introduction text shifting or being truncated as demo
+cards expand. Titles, descriptions, and navigation now stay in fixed
+regions, with room for longer translations. #172&lt;/li&gt;
+&lt;li&gt;Metal Upscaling no longer turns the desktop into an opaque white
+layer or accepts slider changes without visible brightening. Disabling
+it restores the display to Neutral without leaving an overlay
+behind.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="known-issues"&gt;Known Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Brightness Upscaling can affect HDR content and color accuracy.
+Tutti does not detect HDR content or exit Upscaling automatically.&lt;/li&gt;
+&lt;li&gt;Brightness Upscaling supports Apple Pro Display XDR and select
+MacBook Pro models with a built-in Liquid Retina XDR display. See
+Tutti’s documentation for the current compatibility list; the standard
+Studio Display and generic third-party HDR displays are not
+supported.&lt;/li&gt;
+&lt;li&gt;Group brightness controls, brightness keys, direct brightness
+shortcuts, Remote, automation, Brightness Following, and scrolling
+remain limited to the standard range through 100%. Only a supported
+display’s own slider or an explicitly saved Preset can restore the
+Upscaling range.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.10.0/Tutti-1.10.0.zip" length="6218888" type="application/octet-stream" sparkle:edSignature="vBK3h0zfWnm7hoG/xThaknuddDMlSTmZRPPuBFZ2+/rq49riupBxX1Q7ZsbxdZesuWJwVkPhC/GuuJjkoNgZAg==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;菜单栏图标的右键菜单在「退出
+Tutti」上方新增「设置…」（⌘,），可打开设置，或将已打开的设置窗口置前。&lt;/li&gt;
+&lt;li&gt;Brightness Upscaling（亮度增益）允许 Tutti Pro 用户在受支持的 XDR
+显示器上，将现有的逐显示器亮度滑杆扩展到 100% 以上并使用可用的 EDR
+余量。每台显示器分别保存启用状态和档位，100% 始终是准确的中性点。（感谢
+Jorge 提出最初需求和测试，感谢你小看测试和验证功能。）&lt;/li&gt;
+&lt;li&gt;可在高级设置中选择默认的 Gamma 方案或 Metal multiply overlay
+方案。Metal 另外提供“等待 HDR 后再增亮”选项。&lt;/li&gt;
+&lt;li&gt;预设现在会保存并恢复每台已选显示器的亮度增益场景，包括在 100%
+Neutral 时明确启用，以及 100%
+以上的增亮档位。暂时离线的显示器会保留场景，并在按稳定身份重新连接后恢复；之后较新的显示器操作始终优先。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="改进"&gt;改进&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;亮度滑杆到达硬件最低亮度时会产生更明显的吸附停顿，并在吸附期间显示文字提示；继续拖动即可越过边界。适用于每台显示器的滑杆，以及仅选中一台显示器时的
+Hero 滑杆。&lt;/li&gt;
+&lt;li&gt;重新编排功能介绍，依次呈现静态总览、显示器控制、多输出设备同播、应用音量与预设。macOS
+15
+及以上会演示各屏独立与成组亮度调节，以及同时恢复声音和显示器设置的预设；macOS
+14.4–14.x 展示纯音频引导。#172&lt;/li&gt;
+&lt;li&gt;更新应用图标与默认菜单栏图标，采用统一的太阳与声波设计；默认菜单栏图标更名为「齐奏」，继续显示音量档位与静音状态。&lt;/li&gt;
+&lt;li&gt;亮度增益现在会在显示器刷新、睡眠唤醒、重连和后端切换后保留明确的
+100% 以上档位，不再被被动亮度读数拉回 100%。EDR
+暂时不可用时会进行有界恢复，并通过一条非阻塞状态通知反馈。&lt;/li&gt;
+&lt;li&gt;购买与试用提示、EDR
+等待与冷却、第三方显示控制工具冲突和终止失败，现在统一显示在 Menu Panel
+顶部的一条优先级通知中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;硬件最低亮度标记现在跟随当前主题强调色，不再固定显示为蓝色。&lt;/li&gt;
+&lt;li&gt;修复演示卡片展开时功能介绍文字位移或截断的问题。标题、说明和导航现在保持固定位置，并为较长的本地化文案预留空间。#172&lt;/li&gt;
+&lt;li&gt;Metal
+亮度增益不再把桌面变成不透明白层，也不会再出现滑杆变化但画面没有增亮的情况；关闭后会恢复到
+Neutral，不残留 overlay。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="已知问题"&gt;已知问题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Brightness Upscaling 可能影响 HDR 内容与色彩准确性。Tutti 不会检测
+HDR 内容，也不会自动退出亮度增益。&lt;/li&gt;
+&lt;li&gt;Brightness Upscaling 支持 Apple Pro Display XDR，以及部分配备内建
+Liquid Retina XDR 显示屏的 MacBook Pro。当前完整兼容型号以 Tutti
+帮助文档为准；普通 Studio Display 和通用第三方 HDR 显示器不受支持。&lt;/li&gt;
+&lt;li&gt;群组亮度、亮度键、直接亮度快捷键、Remote、自动化、Brightness
+Following 和滚动调节仍限制在标准 100%
+范围内。只有受支持显示器自己的滑杆，或明确保存过亮度增益场景的预设，可以恢复到亮度增益区间。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;選單列圖示的右鍵選單在「結束
+Tutti」上方新增「設定…」（⌘,），可開啟設定，或將已開啟的設定視窗移至最前方。&lt;/li&gt;
+&lt;li&gt;Brightness Upscaling（亮度增益）允許 Tutti Pro 使用者在受支援的 XDR
+顯示器上，將現有的個別顯示器亮度滑桿延伸到 100% 以上並使用可用的 EDR
+餘量。每台顯示器分別保存啟用狀態與檔位，100% 始終是準確的中性點。（感謝
+Jorge 提出最初需求和測試，感謝你小看測試和驗證功能。）&lt;/li&gt;
+&lt;li&gt;可在進階設定中選擇預設的 Gamma 方案或 Metal multiply overlay
+方案。Metal 另外提供「等待 HDR 後再增加亮度」選項。&lt;/li&gt;
+&lt;li&gt;預設現在會儲存並還原每台已選顯示器的亮度增益場景，包括在 100%
+Neutral 時明確啟用，以及 100%
+以上的增亮檔位。暫時離線的顯示器會保留場景，並在依穩定身分重新連接後還原；之後較新的顯示器操作始終優先。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="改進"&gt;改進&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;亮度滑桿到達硬體最低亮度時會產生更明顯的吸附停頓，並在吸附期間顯示文字提示；繼續拖曳即可越過邊界。適用於每台顯示器的滑桿，以及僅選取一台顯示器時的
+Hero 滑桿。&lt;/li&gt;
+&lt;li&gt;重新編排功能介紹，依序呈現靜態總覽、顯示器控制、多輸出裝置同播、應用程式音量與預設。macOS
+15
+及以上會示範各螢幕獨立與群組亮度調整，以及同時還原聲音和顯示器設定的預設；macOS
+14.4–14.x 顯示純音訊引導。#172&lt;/li&gt;
+&lt;li&gt;更新應用程式圖示與預設選單列圖示，採用統一的太陽與聲波設計；預設選單列圖示更名為「齊奏」，繼續顯示音量檔位與靜音狀態。&lt;/li&gt;
+&lt;li&gt;亮度增益現在會在顯示器重新整理、睡眠喚醒、重新連接和後端切換後保留明確的
+100% 以上檔位，不再被被動亮度讀數拉回 100%。EDR
+暫時無法使用時會進行有界恢復，並透過一則非阻斷狀態通知回饋。&lt;/li&gt;
+&lt;li&gt;購買與試用提示、EDR
+等待與冷卻、第三方顯示器控制工具衝突和終止失敗，現在統一顯示在 Menu
+Panel 頂部的一則優先級通知中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;硬體最低亮度標記現在跟隨目前的主題強調色，不再固定顯示為藍色。&lt;/li&gt;
+&lt;li&gt;修正示範卡片展開時功能介紹文字位移或截斷的問題。標題、說明和導覽現在保持固定位置，並為較長的在地化文案預留空間。#172&lt;/li&gt;
+&lt;li&gt;Metal
+亮度增益不再把桌面變成不透明白層，也不會再出現滑桿變化但畫面沒有增亮的情況；關閉後會還原到
+Neutral，不殘留 overlay。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="已知問題"&gt;已知問題&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Brightness Upscaling 可能影響 HDR 內容與色彩準確性。Tutti 不會偵測
+HDR 內容，也不會自動退出亮度增益。&lt;/li&gt;
+&lt;li&gt;Brightness Upscaling 支援 Apple Pro Display XDR，以及部分配備內建
+Liquid Retina XDR 顯示器的 MacBook Pro。目前完整相容型號以 Tutti
+說明文件為準；一般 Studio Display 與通用第三方 HDR 顯示器不受支援。&lt;/li&gt;
+&lt;li&gt;群組亮度、亮度鍵、直接亮度快捷鍵、Remote、自動化、Brightness
+Following 和捲動調整仍限制在標準 100%
+範圍內。只有受支援顯示器自己的滑桿，或明確儲存過亮度增益場景的預設，可以還原到亮度增益區間。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>1.9.3</title>
             <pubDate>Fri, 21 Aug 2026 18:57:00 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.9.3</link>
@@ -44,7 +222,7 @@ remains available.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.9.3/Tutti-1.9.3.zip" length="5879005" type="application/octet-stream" sparkle:edSignature="YR1O6e8OwEsU5XScV5m9SxhH8HsOSuhBvIxhxVn5hyi+U6afcRs6ybC6d5sW7LLYZOeuZ5xxil3/E1ZDU51HDw==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;当 Tutti 使用简体中文时，「设置 ›
 关于」现在会显示小红书和哔哩哔哩；繁体中文及其他语言继续显示 Telegram 和
@@ -66,7 +244,8 @@ Apple Music 的原生音频路径。兼容路径一旦启用，可能会持续�
 AirPods 本身作为默认输出，因此原生空间音频、头部追踪和 Dolby Atmos
 暂时不可用；只选择 AirPods 后即可恢复，普通立体声播放不受影响。&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;當 Tutti 使用簡體中文時，「設定 ›
 關於」現在會顯示小紅書與嗶哩嗶哩；繁體中文及其他語言繼續顯示 Telegram 與
@@ -88,7 +267,8 @@ Apple Music 的原生音訊路徑。相容路徑一旦啟用，可能會持續�
 AirPods 本身當作預設輸出，因此原生空間音訊、頭部追蹤與 Dolby Atmos
 暫時無法使用；只選擇 AirPods 後即可恢復，一般立體聲播放不受影響。&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.9.2</title>
             <pubDate>Sat, 15 Aug 2026 17:18:37 +0800</pubDate>
@@ -192,61 +372,6 @@ href="https://github.com/zmengxuan"&gt;zmengxuan&lt;/a&gt;
 &lt;li&gt;點擊輸出、顯示器或輸入項目的空白區域時，現在也能可靠地選取或取消選取，不再必須點中名稱。&lt;/li&gt;
 &lt;li&gt;展開裝置的延遲與平衡控制時，音量滑桿不再出現圓點跳動或裝置圖示短暫被裁切；滑鼠移出項目後，圓點也會如預期隱藏。&lt;/li&gt;
 &lt;li&gt;展開 App EQ 時，現在會使用與其他裝置控制一致的平滑展開動畫。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.9.1</title>
-            <pubDate>Tue, 11 Aug 2026 16:29:54 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.9.1</link>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Audio Guard now explains more clearly that it restores your default
-output, microphone, or volume after another app or macOS changes
-it.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Replaying the feature introduction from Settings no longer risks
-crashing when its panel cards appear. (Thanks to &lt;a
-href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;
-and 藍 for the reports.)&lt;/li&gt;
-&lt;li&gt;The final Presets demo now keeps its progress indicator, title,
-three connected outputs, and Back/Done controls comfortably separated
-while the animation switches between two and three selected
-outputs.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.9.1/Tutti-1.9.1.zip" length="5804223" type="application/octet-stream" sparkle:edSignature="O7xZz/EM5ThWgoY63EQj16WlOCtRZwsOv31OXvNpPMer6TizSUJEwpIDIBMm4Mf8Iiw0MuFI46y8haeVXWd6BA==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;音频守护的说明现在更清楚：当其他应用或 macOS
-更改默认输出、麦克风或音量时，Tutti 会按你的设定自动恢复。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;从设置中重新播放功能介绍时，面板卡片出现不再可能导致崩溃。（感谢用户
-&lt;a
-href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;、藍反馈。）&lt;/li&gt;
-&lt;li&gt;最后的「预设」演示现在会在动画切换两个与三个已选输出时，始终保持步骤指示、标题、三个已连接输出以及「返回
-/ 完成」操作区完整、间距舒适。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;音訊守護的說明現在更清楚：當其他應用程式或 macOS
-更改預設輸出、麥克風或音量時，Tutti 會依你的設定自動恢復。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;從設定中重新播放功能介紹時，面板卡片出現不再可能導致閃退。（感謝使用者
-&lt;a
-href="https://forums.macrumors.com/members/bogdanw.290578/"&gt;bogdanw&lt;/a&gt;、藍回報。）&lt;/li&gt;
-&lt;li&gt;最後的「預設」演示現在會在動畫切換兩個與三個已選輸出時，始終保持步驟指示、標題、三個已連接輸出以及「返回
-/ 完成」操作區完整、間距舒適。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
