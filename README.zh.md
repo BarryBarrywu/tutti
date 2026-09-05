@@ -73,6 +73,9 @@ brew install --cask barrybarrywu/tap/tutti
 - **跟随内置屏** —— 外接显示器可以保留原有亮度差,同时跟随手动调整和 macOS 自动亮度。
 - **亮度键与滚轮** —— 键盘亮度键会调整所选显示器并显示 Tutti 进度条;把指针停在整组或单台显示器上滚动即可调整对应目标。
 - **显示器预设 + iPhone 控制** &nbsp;`Pro` —— 把显示器选择和亮度保存进预设,或通过 Tutti Remote 1.1.0 调整。
+- **亮度增益（v1.10.0）** &nbsp;`Pro` —— 利用 EDR 余量，将兼容 XDR 显示器自己的滑杆扩展到 100% 以上，可选 Gamma 或 Metal；预设可保存并恢复每块屏幕的开关与档位。[兼容列表与使用方法](https://tutti.barrybarrywu.com/zh/docs/#upscaling)。
+
+亮度增益可能影响 HDR 内容与色彩准确性，不会检测 HDR 或自动退出。群组控制、亮度键、直接亮度快捷键、Remote、自动化、亮度跟随和滚动调节仍限制在 100% 内。普通 Studio Display 与通用第三方 HDR 显示器不在范围内；帮助文档会区分软件兼容列表与实测证据。
 
 Tutti 的显示器亮度引擎参考了开源项目 [Crisp](https://github.com/didriksg/Crisp),感谢 didriksg 与项目贡献者分享相关工作。
 
@@ -144,6 +147,7 @@ Tutti 的显示器亮度引擎参考了开源项目 [Crisp](https://github.com/d
 | **Raycast 控制** | 在 Raycast 里静音、设音量或套用预设 |
 | **iPhone 遥控** | 用 iPhone 遥控 Mac 的声音(iPhone App 免费,Mac 端需 Pro) |
 | **显示器预设与 iPhone 亮度控制** | 保存显示器组合与亮度,并通过 iPhone 调整 |
+| **亮度增益（v1.10.0）** | 兼容 XDR 显示器的 100% 以上亮度，并可保存进预设 |
 
 - **一次性 $12.99,无订阅。**未来所有 Pro 新功能免费包含。
 - **每个授权可激活 2 台 Mac。**在 设置 › 许可 里激活与停用。
