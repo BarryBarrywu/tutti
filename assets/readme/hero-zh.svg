@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-  <title id="title">Tutti — 一处声音，处处响起</title>
-  <desc id="desc">一块 macOS 音频控制面板，将同一声音同步送往多个输出，同时提供单个 App 控制与 iPhone 遥控。</desc>
+  <title id="title">Tutti — 一桌设备，一拍即合。</title>
+  <desc id="desc">Mac 声音与显示器控制中心，整合音频输出、每个 App、显示器亮度和预设。</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#11151D"/>
@@ -18,10 +18,10 @@
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
     <g transform="translate(64 58)">
-      <text x="0" y="0" fill="#7F8A9A" font-size="18" font-weight="700" letter-spacing="3">MACOS 音频控制中心</text>
+      <text x="0" y="0" fill="#7F8A9A" font-size="18" font-weight="700" letter-spacing="3">MAC 声音与显示器控制中心</text>
       <text x="0" y="92" fill="#F7F9FC" font-size="82" font-weight="750" letter-spacing="-3">Tutti</text>
-      <text x="0" y="142" fill="#DCE3ED" font-size="31" font-weight="560">一处声音，处处响起。</text>
-      <text x="0" y="188" fill="#8F9BAA" font-size="20">多设备同放 · 单个 App 控制 · iPhone 遥控</text>
+      <text x="0" y="142" fill="#DCE3ED" font-size="31" font-weight="560">一桌设备，一拍即合。</text>
+      <text x="0" y="188" fill="#8F9BAA" font-size="20">多设备同播 · App 音量 · 显示器亮度</text>
 
       <g transform="translate(0 236)">
         <rect width="146" height="42" rx="21" fill="#147EFF"/>
