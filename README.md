@@ -73,6 +73,9 @@ Control Mac outputs, device and app volume, music playback, and display brightne
 - **Follow the built-in display** — external displays can keep their brightness offset while following manual changes and macOS automatic brightness.
 - **Brightness keys & scrolling** — the keyboard brightness keys control the selected displays with Tutti's progress HUD; hover and scroll to adjust a group or one display.
 - **Display presets + iPhone control** &nbsp;`Pro` — save display selection and brightness in presets, or control them from Tutti Remote 1.1.0.
+- **Brightness Upscaling (v1.10.0)** &nbsp;`Pro` — use available EDR headroom to move a compatible XDR display's own slider above 100%, with Gamma or Metal. Presets can save and restore each display's switch and level. [Compatibility and setup](https://tutti.barrybarrywu.com/docs/#upscaling).
+
+Upscaling can affect HDR content and color accuracy; it does not detect HDR or turn itself off automatically. Group controls, brightness keys, direct brightness shortcuts, Remote, automation, Brightness Following, and scrolling remain within 100%. Standard Studio Display and generic third-party HDR displays are excluded; the linked guide distinguishes software compatibility from hardware testing.
 
 Tutti's display brightness engine builds on the open-source [Crisp](https://github.com/didriksg/Crisp) project. Thanks to didriksg and its contributors for sharing their work.
 
@@ -144,6 +147,7 @@ Every feature above without a tag is **free, forever**. Every new install also g
 | **Raycast control** | control Tutti from Raycast — mute, set volume, or apply presets |
 | **iPhone remote** | control your Mac's audio from your iPhone (free app, needs Pro on the Mac) |
 | **Display presets & iPhone brightness control** | save display groups and brightness, then control them from your iPhone |
+| **Brightness Upscaling (v1.10.0)** | above-100% brightness on compatible XDR displays, including saved preset scenes |
 
 - **$12.99 one-time — no subscription.** All future Pro features included at no extra cost.
 - **Up to 2 Macs** per license. Activate and deactivate from Settings › License.
