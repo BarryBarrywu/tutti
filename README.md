@@ -95,7 +95,7 @@ Tutti's display brightness engine builds on the open-source [Crisp](https://gith
 - **Global keyboard shortcuts** &nbsp;`Pro` — hotkeys to open the panel, mute, switch preset, or nudge an app's volume from inside any app.
 - **Stereo pairing across devices** &nbsp;`Pro` — send the left channel to one speaker and the right to another — two speakers, one stereo pair.
 - **Per-speaker left-right balance** &nbsp;`Pro` — lean any speaker's sound toward one side when it sits off-center.
-- **Per-device latency tuning** &nbsp;`Pro` — dial in a small delay, by ear, for a Bluetooth speaker that trails the others.
+- **Per-device latency tuning** &nbsp;`Pro` — add delay to faster outputs to align them with a slower speaker; it cannot make Bluetooth audio arrive sooner.
 - **Desktop widgets** &nbsp;`Pro` — status, devices, volume, and presets on your desktop, no app open.
 
 <p align="center">
@@ -141,7 +141,7 @@ Every feature above without a tag is **free, forever**. Every new install also g
 | **Presets** | one-tap device + volume + per-app combos |
 | **Global keyboard shortcuts** | control Tutti from inside any app |
 | **Stereo pairing & L/R balance** | split channels across separate speakers |
-| **Per-device latency tuning** | align a trailing Bluetooth speaker by ear |
+| **Per-device latency tuning** | delay faster outputs to match a slower speaker |
 | **Per-app output routing** | send different apps to different speakers |
 | **Desktop widgets** | status and control on your desktop |
 | **Raycast control** | control Tutti from Raycast — mute, set volume, or apply presets |
