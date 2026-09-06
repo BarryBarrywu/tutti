@@ -150,7 +150,7 @@ Every feature above without a tag is **free, forever**. Every new install also g
 | **Brightness Upscaling (v1.10.0)** | above-100% brightness on compatible XDR displays, including saved preset scenes |
 
 - **$12.99 one-time — no subscription.** All future Pro features included at no extra cost.
-- **Up to 2 Macs** per license. Activate and deactivate from Settings › License.
+- **One Mac at a time** per license. Activate and deactivate from Settings › License.
 - **14-day refund**, no questions asked — just email support@barrybarrywu.com.
 
 <p align="center">
