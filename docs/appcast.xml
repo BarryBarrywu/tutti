@@ -6,6 +6,140 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>1.11.0</title>
+            <pubDate>Fri, 18 Sep 2026 22:53:52 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.11.0</link>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Change resolution, refresh rate, existing HiDPI modes, and the main
+display from the Displays card on macOS 15 or later. These local
+controls are free. Display-mode changes include a 15-second Keep /
+Restore confirmation; changing the main display takes effect
+immediately. #175&lt;/li&gt;
+&lt;li&gt;Brightness Upscaling now supports eligible built-in displays and
+external HDR displays beyond the existing XDR compatibility list. Each
+display uses its own route; available gain depends on the display, EDR
+headroom, and connection. Requires Tutti Pro. #183&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Settings now shows the real menu panel as a companion preview.
+Switching to another app keeps Settings open and hides the preview;
+returning restores your editing context. #193&lt;/li&gt;
+&lt;li&gt;Preview resolution while dragging the slider and apply it on
+release. Resolution menus group related modes and show HiDPI status,
+with reference markers to help navigate available choices. #184 #186
+#187&lt;/li&gt;
+&lt;li&gt;Refined display controls and latency adjustment. Follow Built-in
+uses a native switch; Set as Main Display uses a separate button with a
+read-only current-display status.&lt;/li&gt;
+&lt;li&gt;Simplified brightness-upscaling notices and aligned failure actions
+with other panel notices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Keep Settings beside its preview when space permits, preserve manual
+placement, and make menu-bar clicks, shortcuts, and window dismissal
+behave consistently. #193&lt;/li&gt;
+&lt;li&gt;Clear an external display’s old recovery-failure notice after
+recovery succeeds, and keep the menu panel anchored when displays
+disconnect or reconnect. #183&lt;/li&gt;
+&lt;li&gt;Discard stale resolution interactions after display state changes.
+#188&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="known-issues"&gt;Known Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Brightness Upscaling can affect HDR content and color accuracy.
+Tutti does not detect HDR content or automatically disable gain.
+Capability detection is not a guarantee of compatibility or a measured
+brightness multiplier; adapters and hubs can change availability.&lt;/li&gt;
+&lt;li&gt;Some restoration, sleep/wake, third-party Gamma conflict, and
+mixed-display failure/disconnection scenarios remain unverified for this
+release.&lt;/li&gt;
+&lt;li&gt;Resolution, refresh rate, HiDPI, and main-display changes are local
+manual controls only; they are not saved in presets or exposed through
+Remote, shortcuts, widgets, or automation. Brightness group controls,
+keys, scrolling, Remote, and automation remain within 100%.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.11.0/Tutti-1.11.0.zip" length="6515413" type="application/octet-stream" sparkle:edSignature="rT2qtYfuz8jr2Ouxc9ceDItS05WvXnbj0Y/c7hPQ8iGpShVaPlVF4n2MX5mL5JJfCnH11tnwTAhX+3BDdmEYCw==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在 macOS 15 及以上，可从「显示器」卡片调整分辨率、刷新率、现有 HiDPI
+模式和主显示器。这些本机控制免费使用。显示模式切换提供 15
+秒「保留／恢复」确认；主显示器切换直接生效。#175&lt;/li&gt;
+&lt;li&gt;亮度增益扩展到既有 XDR 兼容清单之外、符合条件的内置屏和外接 HDR
+显示器。每台显示器使用独立路线，可用增益取决于屏幕、EDR
+余量及连接链路。需要 Tutti Pro。#183&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;设置窗口提供真实菜单面板作为伴随预览。切换到其他 App
+时保留设置并隐藏预览，返回后恢复原有操作状态。#193&lt;/li&gt;
+&lt;li&gt;分辨率滑杆拖动时预览、松手后应用；菜单按相关模式分组并标注
+HiDPI，参考标记帮助定位可用选项。#184 #186 #187&lt;/li&gt;
+&lt;li&gt;优化显示器控制区和延迟调整。「跟随内置屏」使用原生开关；「设为主显示器」使用独立按钮，当前主显示器显示为只读状态。&lt;/li&gt;
+&lt;li&gt;简化亮度增益状态通知，统一失败通知与其他面板通知的操作布局。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;空间允许时将设置窗口与预览并排摆放，保留手动位置，并统一菜单栏点击、快捷键与窗口关闭行为。#193&lt;/li&gt;
+&lt;li&gt;外接显示器恢复成功后清除旧的恢复失败通知；显示器断开或重连时，菜单面板继续对齐菜单栏图标。#183&lt;/li&gt;
+&lt;li&gt;显示状态变化后丢弃过期的分辨率操作。#188&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="已知问题"&gt;已知问题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;亮度增益可能影响 HDR 内容与色彩准确性。Tutti 不会检测 HDR
+内容或自动关闭增益。能力检测不代表完整兼容性保证或实测亮度倍率；转接器和
+Hub 可能影响可用性。&lt;/li&gt;
+&lt;li&gt;本次发布仍有部分恢复、睡眠唤醒、第三方 Gamma
+冲突，以及混合显示器失败／断线隔离场景未经验证。&lt;/li&gt;
+&lt;li&gt;分辨率、刷新率、HiDPI
+和主显示器仅支持本机手动操作，不保存到预设，也不提供
+Remote、快捷键、小组件或自动化入口。群组亮度、亮度键、滚动、Remote
+和自动化仍限制在 100% 以内。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在 macOS 15 及以上，可從「顯示器」卡片調整解析度、更新頻率、現有
+HiDPI 模式和主顯示器。這些本機控制免費使用。顯示模式切換提供 15
+秒「保留／還原」確認；主顯示器切換直接生效。#175&lt;/li&gt;
+&lt;li&gt;亮度增益擴展到既有 XDR 相容清單之外、符合條件的內建螢幕和外接 HDR
+顯示器。每台顯示器使用獨立路線，可用增益取決於螢幕、EDR
+餘裕及連接方式。需要 Tutti Pro。#183&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;設定視窗提供真實選單面板作為伴隨預覽。切換到其他 App
+時保留設定並隱藏預覽，返回後恢復原有操作狀態。#193&lt;/li&gt;
+&lt;li&gt;解析度滑桿拖動時預覽、放開後套用；選單按相關模式分組並標示
+HiDPI，參考標記協助定位可用選項。#184 #186 #187&lt;/li&gt;
+&lt;li&gt;改善顯示器控制區和延遲調整。「跟隨內建螢幕」使用原生開關；「設為主顯示器」使用獨立按鈕，目前的主顯示器顯示為唯讀狀態。&lt;/li&gt;
+&lt;li&gt;簡化亮度增益狀態通知，統一失敗通知與其他面板通知的操作配置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;空間允許時將設定視窗與預覽並排擺放，保留手動位置，並統一選單列點擊、快捷鍵與視窗關閉行為。#193&lt;/li&gt;
+&lt;li&gt;外接顯示器還原成功後清除舊的還原失敗通知；顯示器斷開或重新連接時，選單面板繼續對齊選單列圖示。#183&lt;/li&gt;
+&lt;li&gt;顯示狀態變化後捨棄過期的解析度操作。#188&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="已知問題"&gt;已知問題&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;亮度增益可能影響 HDR 內容與色彩準確性。Tutti 不會偵測 HDR
+內容或自動關閉增益。能力偵測不代表完整相容性保證或實測亮度倍率；轉接器和
+Hub 可能影響可用性。&lt;/li&gt;
+&lt;li&gt;本次發布仍有部分還原、睡眠喚醒、第三方 Gamma
+衝突，以及混合顯示器失敗／斷線隔離情境未經驗證。&lt;/li&gt;
+&lt;li&gt;解析度、更新頻率、HiDPI
+和主顯示器僅支援本機手動操作，不儲存至預設，也不提供
+Remote、快捷鍵、小工具或自動化入口。群組亮度、亮度鍵、捲動、Remote
+和自動化仍限制在 100% 以內。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>1.10.0</title>
             <pubDate>Sat, 05 Sep 2026 17:03:24 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.10.0</link>
@@ -84,7 +218,7 @@ Upscaling range.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.10.0/Tutti-1.10.0.zip" length="6218888" type="application/octet-stream" sparkle:edSignature="vBK3h0zfWnm7hoG/xThaknuddDMlSTmZRPPuBFZ2+/rq49riupBxX1Q7ZsbxdZesuWJwVkPhC/GuuJjkoNgZAg==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;菜单栏图标的右键菜单在「退出
 Tutti」上方新增「设置…」（⌘,），可打开设置，或将已打开的设置窗口置前。&lt;/li&gt;
@@ -133,7 +267,8 @@ Liquid Retina XDR 显示屏的 MacBook Pro。当前完整兼容型号以 Tutti
 Following 和滚动调节仍限制在标准 100%
 范围内。只有受支持显示器自己的滑杆，或明确保存过亮度增益场景的预设，可以恢复到亮度增益区间。&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;選單列圖示的右鍵選單在「結束
 Tutti」上方新增「設定…」（⌘,），可開啟設定，或將已開啟的設定視窗移至最前方。&lt;/li&gt;
@@ -182,7 +317,8 @@ Liquid Retina XDR 顯示器的 MacBook Pro。目前完整相容型號以 Tutti
 Following 和捲動調整仍限制在標準 100%
 範圍內。只有受支援顯示器自己的滑桿，或明確儲存過亮度增益場景的預設，可以還原到亮度增益區間。&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.9.3</title>
             <pubDate>Fri, 21 Aug 2026 18:57:00 +0800</pubDate>
@@ -266,112 +402,6 @@ Apple Music 的原生音訊路徑。相容路徑一旦啟用，可能會持續�
 &lt;li&gt;AirPods 與其他輸出裝置同時使用時，macOS 會把 Tutti 聚合裝置而非
 AirPods 本身當作預設輸出，因此原生空間音訊、頭部追蹤與 Dolby Atmos
 暫時無法使用；只選擇 AirPods 後即可恢復，一般立體聲播放不受影響。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.9.2</title>
-            <pubDate>Sat, 15 Aug 2026 17:18:37 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.9.2</link>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Added a Discord link to Settings &amp;gt; About, making it easier to
-join discussions and follow release updates.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Redesigned Settings &amp;gt; About with a clearer visual hierarchy,
-shorter support labels, and the Diagnostic Mode export placed directly
-below the app summary while recording.&lt;/li&gt;
-&lt;li&gt;Diagnostic Mode now records menu-panel size changes asynchronously,
-helping troubleshoot layout issues while remaining lightweight enough to
-leave enabled.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;On macOS 27, App Audio now automatically recovers when a stream
-Process Tap continues running but returns silence after playback resumes
-or tracks change, falling back to a stable mixdown path without
-affecting earlier macOS versions. (Thanks to &lt;a
-href="https://github.com/zmengxuan"&gt;zmengxuan&lt;/a&gt; for the report and
-testing.)&lt;/li&gt;
-&lt;li&gt;After AirPods disconnect, Tutti now reliably restores the full
-speaker group or Preset even if macOS briefly falls back to the MacBook
-speakers or a single display during the handoff. (Thanks to Jorge Puente
-for the report and testing.)&lt;/li&gt;
-&lt;li&gt;Display controls now reappear automatically after the Mac wakes,
-even if macOS briefly reports no controllable displays during
-wake-up.&lt;/li&gt;
-&lt;li&gt;Clicking empty space in an Output, Display, or Input row now
-reliably selects or deselects it instead of requiring a click directly
-on its name.&lt;/li&gt;
-&lt;li&gt;Expanding a device’s latency and balance controls no longer makes
-the volume-slider thumb jump or briefly clips the device icon; the thumb
-also hides as expected after the pointer leaves the row.&lt;/li&gt;
-&lt;li&gt;Expanding App EQ now uses the same smooth reveal animation as the
-other device controls.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.9.2/Tutti-1.9.2.zip" length="5835684" type="application/octet-stream" sparkle:edSignature="PrcoH3cT3NBBWNxuF2qinh4egnVAxKfCownp7ym7+F5vwepmKsm+SsPkBcK5wfH/oNNa1OnqawpuR/QrOXxXAA==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在「设置 › 关于」中新增 Discord
-入口，方便参与讨论并获取版本更新。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;重新设计「设置 ›
-关于」页：信息层级更清晰，支持入口文案更简洁，开启诊断模式后可直接在应用信息下方导出日志。&lt;/li&gt;
-&lt;li&gt;诊断模式现在会异步记录菜单面板的尺寸变化，在帮助排查布局问题的同时，保持适合长期启用的轻量运行方式。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在 macOS 27 上，当播放恢复或切歌后 STREAM Process Tap
-仍在运行却只返回静音时，App Audio 现在会自动恢复并切换到稳定的 MIXDOWN
-路径，不影响旧版 macOS 的原有行为。（感谢用户 &lt;a
-href="https://github.com/zmengxuan"&gt;zmengxuan&lt;/a&gt;
-反馈并协助测试。）&lt;/li&gt;
-&lt;li&gt;AirPods 断开后，即使 macOS 在切换过程中短暂回退到 MacBook
-扬声器或单台显示器，Tutti
-现在也能可靠恢复完整的扬声器组或预设。（感谢用户 Jorge Puente
-反馈并协助测试。）&lt;/li&gt;
-&lt;li&gt;Mac 从睡眠中唤醒后，即使 macOS
-在恢复过程中短暂报告没有可控制的显示器，显示器控制也会自动重新出现。&lt;/li&gt;
-&lt;li&gt;点击输出、显示器或输入条目的空白区域时，现在也能可靠地选择或取消选择，不再必须点中名称。&lt;/li&gt;
-&lt;li&gt;展开设备的延迟和平衡控制时，音量滑杆不再出现圆点跳动或设备图标短暂被裁切；鼠标移出条目后，圆点也会按预期隐藏。&lt;/li&gt;
-&lt;li&gt;展开 App EQ 时，现在会使用与其他设备控制一致的平滑展开动画。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在「設定 › 關於」中新增 Discord
-入口，方便參與討論並取得版本更新。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;重新設計「設定 ›
-關於」頁：資訊層級更清楚，支援入口文案更簡潔，開啟診斷模式後可直接在應用程式資訊下方匯出記錄。&lt;/li&gt;
-&lt;li&gt;診斷模式現在會非同步記錄選單面板的尺寸變化，在協助排查版面問題的同時，維持適合長期啟用的輕量運作方式。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在 macOS 27 上，當播放恢復或切歌後 STREAM Process Tap
-仍在運作卻只回傳靜音時，App Audio 現在會自動恢復並切換到穩定的 MIXDOWN
-路徑，不影響舊版 macOS 的原有行為。（感謝使用者 &lt;a
-href="https://github.com/zmengxuan"&gt;zmengxuan&lt;/a&gt;
-回報並協助測試。）&lt;/li&gt;
-&lt;li&gt;AirPods 斷開後，即使 macOS 在切換過程中短暫回退到 MacBook
-揚聲器或單台顯示器，Tutti
-現在也能可靠恢復完整的揚聲器群組或預設。（感謝使用者 Jorge Puente
-回報並協助測試。）&lt;/li&gt;
-&lt;li&gt;Mac 從睡眠中喚醒後，即使 macOS
-在恢復過程中短暫回報沒有可控制的顯示器，顯示器控制也會自動重新出現。&lt;/li&gt;
-&lt;li&gt;點擊輸出、顯示器或輸入項目的空白區域時，現在也能可靠地選取或取消選取，不再必須點中名稱。&lt;/li&gt;
-&lt;li&gt;展開裝置的延遲與平衡控制時，音量滑桿不再出現圓點跳動或裝置圖示短暫被裁切；滑鼠移出項目後，圓點也會如預期隱藏。&lt;/li&gt;
-&lt;li&gt;展開 App EQ 時，現在會使用與其他裝置控制一致的平滑展開動畫。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
