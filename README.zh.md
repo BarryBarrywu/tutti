@@ -1,228 +1,133 @@
 <p align="right"><a href="README.md">English</a> · 中文</p>
 
-<p align="center">
-  <img src="assets/readme/hero-zh.svg" width="100%" alt="Tutti：一桌设备，一拍即合。Mac 声音与显示器控制中心。">
-</p>
+<p align="center"><img src="docs/screenshots/icon.png" width="80" alt="Tutti App 图标"></p>
+<h1 align="center">Tutti</h1>
+<p align="center"><strong>Mac 声音与显示器控制中心。</strong><br>一桌设备，一拍即合。</p>
 
+<p align="center">
+  <a href="https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg"><strong>下载 Mac 版</strong></a> ·
+  <a href="https://tutti.barrybarrywu.com/zh/">官网</a> ·
+  <a href="https://tutti.barrybarrywu.com/zh/docs/">使用文档</a>
+</p>
 <p align="center">
   <img src="https://img.shields.io/github/v/release/BarryBarrywu/tutti?style=flat-square&color=blue&label=release" alt="版本">
   <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 13+">
   <img src="https://img.shields.io/github/downloads/BarryBarrywu/tutti/total?style=flat-square&color=orange&label=downloads" alt="下载量">
-  <img src="https://img.shields.io/badge/Pro-¥买断_$12.99-38bdf8?style=flat-square" alt="Pro $12.99 买断">
+  <img src="https://img.shields.io/badge/Pro-$12.99_one--time-38bdf8?style=flat-square" alt="Pro $12.99 买断">
 </p>
+<p align="center"><sub>无需虚拟音频驱动或系统扩展</sub></p>
 
 <p align="center">
-  <img src="docs/screenshots/panel.webp" alt="Tutti 菜单栏面板(浅色与深色)" width="720">
+  <img src="docs/screenshots/mac-sound-displays.png" width="720" alt="Tutti 浅色与深色面板：音频输出、单个 App 音量、麦克风、显示器亮度与分辨率，以及预设">
 </p>
 
-<p align="center"><sub><strong>无虚拟驱动 · 无系统扩展 · 无遥测 · 无账号。</strong>经 Apple 公证。退出 Tutti,你的音频设置原样如初。</sub></p>
+## 为什么选择 Tutti？
 
-## 一个面板，管好声音和屏幕
+### 让每台音箱各司其职
 
-一块外接显示器往往既是一块屏幕，也是一组音频输出，但 macOS 把亮度和声音放在不同地方。Tutti 把音频输出、每个 App、显示器和预设收进同一个菜单栏面板。
+多个输出一起播放，还能分别调整。可以把左声道交给一台音箱、右声道交给另一台，调整每台设备的左右平衡，或给较快的输出增加延迟，以匹配较慢的设备。延迟微调不能让蓝牙音频提前到达。
 
-你可以让多个设备同时播放，分别调整每个设备和 App 的音量，控制单台或整组显示器的亮度，再把整套桌面保存成一个预设。全部基于 Apple 自带框架，不安装虚拟音频驱动或系统扩展。
+### 声音和屏幕，一起切换场景
 
-- **一个声音，响遍全场**：同时使用多个音箱、耳机和显示器扬声器。
-- **每个 App，各有设置**：分别调整音量、均衡器和输出。
-- **每块屏幕，亮度合适**：控制单台或整组显示器，并让外接屏跟随内置屏。
-- **整套桌面，一键恢复**：把输出、音量、App 和显示器亮度保存进同一个预设。
+用一个预设保存音频输出、音量、App 设置、显示器选择和亮度。看电影时使用音箱并调暗屏幕，工作时再恢复另一套输出与亮度，不必逐项重新设置。分辨率、刷新率和主显示器变更仍仅供本机手动控制，不保存进预设。
+
+### 坐在沙发上，也能控制整套设备
+
+通过局域网，用 iPhone 上的 [Tutti Remote](https://apps.apple.com/app/tutti-remote/id6788375184) 选择输出、调整设备和 App 音量、控制音乐播放或改变显示器亮度。
+
+## 日常控制，也在同一个面板
+
+- **应用：** 独立音量、六段均衡器、Turbo 增益与单个 App 输出路由。
+- **显示器：** 单台或整组亮度、跟随内置屏、分辨率、刷新率、现有 HiDPI 模式和主显示器选择；符合条件的屏幕还可使用亮度增益。
+- **桌面上的其他控制：** 麦克风、Apple Music 和 Spotify 播放控制，以及维持偏好音频设备和音量的设备守护。
+
+更多功能见[官网功能介绍与交互演示](https://tutti.barrybarrywu.com/zh/)。
+
+## Tutti 的日常用法
+
+### 下班后，把桌面切换成小影院
+
+工作时用耳机、保持适合阅读的屏幕亮度。晚上切换到提前保存的「电影」预设，换成音箱、恢复常用音量，同时调暗屏幕。坐到沙发上，再用 iPhone 调整声音和亮度。
+
+### 自己用耳机听，学生跟着音箱练
+
+教学或排练时，让同一首伴奏同时从耳机和音箱播放：自己戴着耳机跟随音乐，学生听音箱练习。分别调整耳机与外放音量；如果两边存在时间差，可以给较快的输出增加延迟，再把常用组合保存成预设。
+
+### 哪个 App 太响，就单独调低它
+
+工作时让音乐轻轻放着，浏览器里的视频却突然很响。直接在 Tutti 里调低浏览器音量，音乐和 Mac 的总音量都不用动，让每个 App 保持适合自己的音量。
+
+### 两台音箱，分别负责左右声道
+
+把桌面左侧的音箱设为左声道，右侧设为右声道，再分别调整音量，让两边听起来更均衡。如果其中一台播放较慢，可以给较快的一台增加延迟，手动校准后把组合保存成预设。
+
+### 白天看得清，夜晚不刺眼
+
+户外或窗边光线很强，屏幕开到最高亮度仍然看不清时，可以在符合条件的显示器上开启亮度增益。睡前关灯后，屏幕即使调到最低还是太亮，Extra Dim 能让受支持的屏幕继续变暗。
+
+两种调整都可能影响色彩准确性，进行准确校色时应关闭。
 
 ## 安装
 
-下载[最新版 DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg)，或使用 Homebrew 安装：
+[下载最新版 DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg)，将 Tutti 拖入「应用程序」后打开。也可以使用 Homebrew：
 
 ```bash
 brew install --cask barrybarrywu/tap/tutti
 ```
 
-安装后，Tutti 会自动检查更新。
+点击菜单栏图标，选择要使用的输出；勾选多个设备即可一起播放，再统一或分别调整音量。Tutti 会自动检查更新，[版本说明](https://github.com/BarryBarrywu/tutti/releases)记录每次更新的变化。
 
-## Tutti Remote —— 已上架 App Store
+## 免费与 Pro
 
-用 iPhone 控制 Mac 上的输出、每台设备和 App 的音量、音乐播放与显示器亮度。Mac 仍然负责所有实际控制，Tutti Remote 只是把整套面板带到你手边。通过局域网配对；iPhone App 免费下载，遥控 Mac 需要 Mac 端的 Tutti Pro。
+**免费，不限使用时间：** 多设备同播、设备音量、单个 App 音量、Turbo 与均衡器，以及受支持 macOS 版本上的本机显示器亮度与显示模式控制。
 
-<p align="center">
-  <a href="https://apps.apple.com/app/tutti-remote/id6788375184"><strong>在 App Store 下载 Tutti Remote →</strong></a>
-</p>
+**Pro 增加：** 预设、单个 App 输出路由、立体声配对、逐设备左右平衡与延迟微调、全局快捷键、桌面小组件、Raycast 控制、iPhone 遥控，以及符合条件的显示器亮度增益。
 
-<p align="center">
-  <img src="docs/screenshots/ios-now-playing.png" alt="Tutti Remote —— Now Playing" width="240">
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/ios-devices.png" alt="Tutti Remote —— 设备与预设" width="240">
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/ios-app-volume.png" alt="Tutti Remote —— 单个 App 音量" width="240">
-</p>
+Tutti Remote 的 iPhone App 免费下载，遥控需要 Mac 端 Tutti Pro。
 
-## 功能
+**一次性 $12.99，无订阅。** 提供 7 天 Pro 试用，每个授权同时激活 1 台 Mac，并提供 14 天退款。试用结束后，免费功能继续可用。[比较权益与购买 Pro](https://tutti.barrybarrywu.com/zh/#pricing)。
 
-### 多设备输出
-- **一次放给所有音箱** —— 勾选多个输出,Tutti 即时组建 CoreAudio 聚合设备,并保持时钟同步。
-- **也可以只放一个** —— 只选一台时,Tutti 直接切换系统默认输出,不建聚合。
-- **主音量 + 每设备音量与静音** —— 一个总滑块管全部,每个输出还有独立滑块和静音。
-- **群组 HUD 明细** —— 调整音量或亮度时显示每个已选输出或显示器的实际结果,不再只看整组平均值。
-- **逐设备调整步长** —— 灵敏的显示器和跨度较大的音箱可以使用各自的步长,其余设备继续跟随默认值。
-- **三态状态** —— 全部在放、部分静音、全部静音,配同色状态点。
-- **热插拔不断音** —— 播放中增减音箱,声音不中断。
-- **设备守护** —— 给输出设备排好优先顺序,并锁定默认输出、输入和音量;macOS 或别的 App 在背后乱切时,Tutti 替你切回来。
-- **记住你的组合** —— 音箱编组、各自音量和静音状态在退出 Tutti 或自动更新后原样恢复。
+## 更多控制方式
 
-### 显示器控制 &nbsp;`macOS 15+`
-- **整组 + 单台亮度** —— 选择要控制的显示器,统一调整整个亮度组,或只调整其中一台。
-- **支持时使用硬件调光** —— 内置屏和兼容的 Apple 显示器使用系统亮度,DDC/CI 显示器使用硬件控制,其余显示器可使用明确标识的软件调光。
-- **跟随内置屏** —— 外接显示器可以保留原有亮度差,同时跟随手动调整和 macOS 自动亮度。
-- **亮度键与滚轮** —— 键盘亮度键会调整所选显示器并显示 Tutti 进度条;把指针停在整组或单台显示器上滚动即可调整对应目标。
-- **显示器预设 + iPhone 控制** &nbsp;`Pro` —— 把显示器选择和亮度保存进预设,或通过 Tutti Remote 1.1.0 调整。
-- **分辨率、刷新率、HiDPI 与主显示器** —— macOS 15+ 免费本机控制，模式切换提供 15 秒「保留／恢复」试用；不接入预设、Remote 或自动化。
-- **亮度增益（v1.11.0）** &nbsp;`Pro` —— 利用 EDR 余量将符合条件的显示器自己的滑杆扩展至 100% 以上。兼容 XDR 保留 Gamma／Metal 选择；其他内置屏自动使用 Metal，外接 HDR 屏使用 Gamma。预设可保存开关与档位。[兼容性与设置](https://tutti.barrybarrywu.com/zh/docs/#upscaling)。
+- **[Tutti Remote for iPhone](https://apps.apple.com/app/tutti-remote/id6788375184)**：通过局域网调整输出、设备和 App 音量、音乐播放与显示器亮度。
+- **[Raycast](https://www.raycast.com/Barrybarrywu/tutti)**：设置音量、静音或应用预设。
+- **Shortcuts、Siri 与 Spotlight**：把切换预设、静音或设置音量接入工作流，详见[使用文档](https://tutti.barrybarrywu.com/zh/docs/)。
 
-亮度增益可能影响 HDR 内容与色彩准确性，不检测 HDR 内容或自动退出。群组亮度、亮度键、直接亮度快捷键、Remote、自动化、亮度跟随与滚动仍限制在 100% 内。资格取决于 EDR 余量与连接链路，不等于完整兼容性保证或实测亮度倍率；帮助文档区分软件资格与真机验证。
+<details>
+<summary><strong>展开比较 Tutti、SoundSource、FineTune 与 BetterDisplay</strong></summary>
 
-Tutti 的显示器亮度引擎参考了开源项目 [Crisp](https://github.com/didriksg/Crisp),感谢 didriksg 与项目贡献者分享相关工作。
+按实际工作流选择。Tutti 将音频与显示器控制放在一起，下面的工具也有 Tutti 未覆盖的能力。
 
-### 单个 App 音频控制 &nbsp;`macOS 14.4+`
-- **单个 App 音量 + Turbo** &nbsp;`免费` —— 给每个 App 单独的音量;Turbo 可加 2× 增益。无驱动,走原生音频 tap。
-- **单个 App 均衡器** &nbsp;`免费` —— 为任意 App 拖动 6 段 EQ 曲线,或套用内置预设。
-- **单个 App 输出** &nbsp;`Pro` —— 把不同 App 送到不同音箱:通话留在笔记本,音乐充满房间。
-- **看清声音去哪** —— 输出设备上会显示路由到它的 App 小徽标。
-- **忽略不想管的 App** —— 右键任意 App 把它收进列表底部。
+| 使用需求 | Tutti | SoundSource 6 | FineTune | BetterDisplay 5 |
+|---|---|---|---|---|
+| 多设备同播 | 支持声道拆分、平衡与延迟微调 | 输出分组，含 AirPlay | 多设备路由 | 未列出 |
+| 单个 App 音量／EQ／路由 | 音量、六段 EQ 与路由 | 音量、十段 EQ 与路由 | 音量、十段 EQ 与路由 | 未列出 |
+| 显示器控制 | 亮度、现有显示模式与亮度增益 | 未列出 | 未列出 | 亮度、灵活 HiDPI、虚拟屏幕等 |
+| 声音与显示器亮度联合预设 | 支持 | 未列出 | 未列出 | 未列出 |
+| 配套 iPhone 遥控 App | Tutti Remote | 未列出 | 未列出 | 未列出 |
+| 其他特点 | 同一面板管理声音与亮度 | AirPlay 分组、Audio Unit 音效 | AutoEQ 耳机校正、开源 | 自定义分辨率、虚拟屏幕、画中画与 3D LUT |
+| 安装要求 | 无需虚拟音频驱动或系统扩展 | ARK 插件与音频权限 | App 与音频捕获权限 | 安装 App |
 
-<p align="center">
-  <img src="docs/screenshots/mac-per-app-eq.webp" alt="单个 App 均衡器曲线" width="320">
-</p>
+「未列出」表示所引官方文档没有宣传该工作流，不代表经过测试确认无法实现。本表对照产品文档，不比较性能或真机兼容性。Tutti 的系统版本与显示器要求仍适用。
 
-### Pro 强力工具
-- **预设** &nbsp;`Pro` —— 保存设备 + 音量 + 单个 App 设置组合,一键切换;每个预设配一个 emoji。
-- **全局快捷键** &nbsp;`Pro` —— 在任意 App 里用热键打开面板、静音、切预设,或微调某个 App 的音量。
-- **跨设备立体声配对** &nbsp;`Pro` —— 左声道给一台音箱、右声道给另一台 —— 两台音箱,一对立体声。
-- **每台音箱左右平衡** &nbsp;`Pro` —— 音箱摆得偏一侧时,把它的声音往一边偏一点。
-- **单设备延迟微调** &nbsp;`Pro` —— 给较快的输出增加延迟,与较慢的音箱对齐;不能让蓝牙音频提前播放。
-- **桌面小组件** &nbsp;`Pro` —— 不开 App,在桌面看状态、设备,调音量、切预设。
+核对日期：2026 年 9 月 19 日。来源：[SoundSource 功能](https://rogueamoeba.com/soundsource/)、[安装要求](https://rogueamoeba.com/support/manuals/soundsource/?page=Permissions)、[FineTune 功能与安装](https://github.com/ronitsingh10/FineTune#readme)、[BetterDisplay 功能](https://github.com/waydabber/BetterDisplay#readme)。
 
-<p align="center">
-  <img src="docs/screenshots/mac-stereo-split.webp" alt="跨设备立体声配对" width="320">
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/mac-latency-balance.webp" alt="单设备延迟与左右平衡" width="320">
-</p>
+</details>
 
-### Now Playing 与媒体
-- **Now Playing 卡片** —— Spotify、Apple Music 的歌曲、封面、播放/暂停/切歌,都在面板里。
-- **通话与视频自动让路** &nbsp;`免费` —— 有通话或视频出声时淡出并暂停音乐,结束后按原音量淡入。
-- **麦克风输入卡片** —— 在面板里挑选输入设备、调节音量或静音。
+## 兼容性与支持
 
-### 蓝牙与同步
-- **自行重连** —— 编组里的蓝牙音箱短暂掉线后,重连即自动归队,不中断播放。
-- **耳机收起自动归位** —— AirPods 收起后,Tutti 自动切回你之前的音箱编组和预设。
-- **耳机电量** —— 设备上报时,在设备名旁显示;AirPods 有专属图标。
-- **通话后保持高音质** —— 通话时改用内置麦克风,耳机不会卡在闷闷的通话音质里。
-- **始终同步** —— 时钟漂移补偿让有线和蓝牙音箱对齐,不会越放越偏。
-
-### 菜单栏 · 快捷键 · 那些小细节
-- **菜单栏快捷菜单** —— 不打开面板就能切设备、换预设、全部静音。
-- **音量接管** —— 键盘音量键和滚轮全局驱动聚合输出。
-- **Shortcuts、Siri 与 Spotlight** —— 在自动化里切预设、静音或设音量。
-- **指哪滚哪** —— 悬停某台设备、某个 App 或麦克风,滚轮只调它。
-- **独立面板布局** —— 输出、应用、输入和显示器可以分别跟随弹窗尺寸,或固定为单行、双行。
-- **自选菜单栏图标** —— 经典声波,或十种乐器之一;图标随音量升高而填充。
-- **睡眠定时 · 渐入渐出 · 浅色/深色/跟随系统 · 登录启动 · 自动更新** —— 该有的省心功能都有。
-
-### 更多控制方式
-- **Raycast 扩展** —— 在 Raycast 里静音、设音量、切预设。
-
-  <a href="https://www.raycast.com/Barrybarrywu/tutti" title="安装 Tutti Raycast 扩展"><img src="https://www.raycast.com/Barrybarrywu/tutti/install_button@2x.png?v=1.1" height="64" style="height: 64px;" alt="在 Raycast 安装 Tutti" /></a>
-
-## 免费 vs Pro
-
-上面所有不带标签的功能都是**永久免费**。每次全新安装首启还送 **7 天 Pro 试用** —— 无需 key。试用结束后,所有免费功能继续无限使用。
-
-**Pro 解锁:**
-
-| | |
+| 功能 | 要求 |
 |---|---|
-| **预设** | 一键切换设备 + 音量 + 单个 App 设置组合 |
-| **全局快捷键** | 在任意 App 内控制 Tutti |
-| **立体声配对与左右平衡** | 把声道拆到不同音箱 |
-| **单设备延迟微调** | 延后较快的输出,与较慢的音箱对齐 |
-| **单个 App 输出路由** | 把不同 App 送到不同音箱 |
-| **桌面小组件** | 在桌面查看状态与控制 |
-| **Raycast 控制** | 在 Raycast 里静音、设音量或套用预设 |
-| **iPhone 遥控** | 用 iPhone 遥控 Mac 的声音(iPhone App 免费,Mac 端需 Pro) |
-| **显示器预设与 iPhone 亮度控制** | 保存显示器组合与亮度,并通过 iPhone 调整 |
-| **亮度增益（v1.11.0）** | 符合条件的显示器的 100% 以上亮度，并可保存进预设 |
+| 多设备音频输出与设备控制 | macOS 13+ |
+| 单个 App 音量、Turbo、均衡器与路由 | macOS 14.4+ |
+| 显示器控制 | macOS 15+；可用控制取决于显示器与连接方式 |
 
-- **一次性 $12.99,无订阅。**未来所有 Pro 新功能免费包含。
-- **每个授权可激活 1 台 Mac。**在 设置 › 许可 里激活与停用。
-- **14 天无理由退款** —— 发邮件到 support@barrybarrywu.com 即可。
+AirPlay 接收设备不能加入 Tutti 的多输出组。蓝牙输出可能需要延迟微调；增加延迟不能让较慢的设备提前发声。接管键盘音量键与亮度键需要辅助功能权限。
 
-<p align="center">
-  <a href="https://checkout.dodopayments.com/buy/pdt_0NfolyiommnaLUYQ5aPqn"><strong>解锁 Tutti Pro —— $12.99</strong></a>
-</p>
+亮度增益取决于显示器的 EDR 余量和连接方式，可能影响 HDR 内容与色彩准确性；Tutti 不检测 HDR 内容，也不会自动关闭增益。群组控制、按键、滚轮、Remote 与自动化仍限制在 100% 内。启用前请阅读[兼容性与设置说明](https://tutti.barrybarrywu.com/zh/docs/#upscaling)。
 
-## 与同类对比
+需要帮助？查看[使用文档](https://tutti.barrybarrywu.com/zh/docs/)、[提交问题](https://github.com/BarryBarrywu/tutti/issues)，或联系 [support@barrybarrywu.com](mailto:support@barrybarrywu.com)。更新动态见 [Telegram](https://t.me/tuttiapp) 与 [X](https://x.com/BarryBarrywu)。
 
-优秀的 Mac 音频工具各自解决了其中一块。Tutti 站在这里。
+Tutti 为闭源软件。本仓库用于下载、版本发布、自动更新元数据和问题反馈。软件按 [EULA](https://tutti.barrybarrywu.com/terms) 分发。
 
-| | Tutti | Background Music | FineTune | SoundSource | Audio Hijack |
-|---|:---:|:---:|:---:|:---:|:---:|
-| 同一声音同放多个输出 | ✓ | — | ✓ | ✓ | ✓⁴ |
-| 单个 App 音量 | ✓¹ | ✓ | ✓ | ✓ | ✓⁴ |
-| 单个 App EQ | ✓¹ | — | ✓ | ✓ | ✓⁴ |
-| 第三方 Audio Unit 音效 | — | — | — | ✓ | ✓ |
-| 单个 App 输出路由 | ✓¹ | — | ✓ | ✓ | ✓ |
-| 一键恢复设备 + App 预设 | ✓ | — | — | ✓ | — |
-| 输出设备优先顺序 | ✓ | — | ✓ | ✓ | — |
-| AirPlay 加入多输出组 | — | — | — | ✓ | — |
-| **跨设备立体声配对** | ✓ | — | — | — | — |
-| **单设备蓝牙延迟微调** | ✓ | — | — | — | — |
-| **Now Playing 控制**(播放/暂停/切歌) | ✓ | — | — | — | — |
-| **iPhone 遥控** | ✓ | — | — | — | — |
-| 无需安装额外音频组件 | ✓² | — | ✓ | — | ✓³ |
-| 免费且不限时使用 | ✓ | ✓ | ✓ | — | — |
-
-¹ 单个 App 功能走原生 macOS 音频 tap,需 macOS 14.4 及以上。
-
-² Tutti 多输出使用 CoreAudio 聚合设备,单个 App 控制使用原生 tap,无需额外安装组件。Background Music 会安装虚拟音频设备;SoundSource 需要安装 ARK 插件。
-
-³ 在 macOS 14.4 及以上版本中,Audio Hijack 使用原生系统音频访问,无需安装额外音频组件。
-
-⁴ Audio Hijack 通过可配置的 session 提供这些能力,并非菜单栏调音台式操作。
-
-竞品能力根据当前的 [Background Music](https://github.com/kyleneideck/BackgroundMusic)、[FineTune](https://github.com/ronitsingh10/FineTune)、[SoundSource 6](https://www.rogueamoeba.com/soundsource/whatsnew.php) 和 [Audio Hijack](https://rogueamoeba.com/support/manuals/audiohijack/) 官方文档核对。
-
-## 使用场景
-
-- **一起听** —— 客厅音箱和蓝牙耳机同时出声:你外放,朋友戴耳机。
-- **直播与录制** —— 用耳机监听的同时,把声音播给观众或采集卡。
-- **多房间播放** —— 一台 Mac 同时驱动客厅的有线音箱和卧室的另一对。
-- **沙发遥控** —— 不用起身,在 iPhone 上切预设、挑音箱。
-- **教学** —— 老师在耳机里听提示,教室音箱同时放给学生。
-
-## AirPlay 与已知限制
-
-- **AirPlay 无法进多输出组** —— macOS 不允许 AirPlay 接收端(HomePod、Apple TV、AirPlay 音箱)加入多输出组,且只有第一方 App 能发起 AirPlay 路由。macOS 已路由到 AirPlay 设备后,Tutti 可单独使用它。见 [Roadmap](#roadmap)。
-- **单个 App 功能需 macOS 14.4+** —— 单个 App 音量、Turbo、EQ 和路由依赖 14.4 新增的 Core Audio process tap。在 macOS 13–14.3 上,其余功能照常。
-- **蓝牙电量取决于设备** —— 仅当耳机向 macOS 上报时才显示。
-
-## Roadmap
-
-- **Tutti 内直接路由 AirPlay** —— 不必先去控制中心,直接在面板里挑选与切换 AirPlay 接收端。目前 macOS 把 AirPlay 发现限制在第一方;一旦开放,Tutti 立刻跟上。
-
-## 系统要求
-
-- macOS 13.0 或更高
-- 仅键盘音量键与亮度键接管需要辅助功能权限(滚轮方式无需)
-
-## 多语言
-
-简体中文 · 繁体中文 · 英语 · 日语 · 韩语 · 法语 · 德语 · 意大利语 · 西班牙语。
-
-## 关注我们
-
-更新、技巧和幕后:
-
-- **小红书** — [tutti 的主页](https://www.xiaohongshu.com/user/profile/64c9b594000000000e0263f1)
-- **哔哩哔哩** — [tutti 的空间](https://space.bilibili.com/217963572)
-
-## 源代码
-
-自 2026 年 7 月起,Tutti 不再公开源代码。本仓库用于下载、发布、驱动自动更新的 appcast,以及问题反馈。二进制文件按 [EULA](https://tutti.barrybarrywu.com/terms) 分发。
+显示器亮度引擎基于开源项目 [Crisp](https://github.com/didriksg/Crisp)，感谢 didriksg 与项目贡献者。
