@@ -18,21 +18,20 @@
 display from the Displays card on macOS 15 or later. These local
 controls are free. Display-mode changes include a 15-second Keep /
 Restore confirmation; changing the main display takes effect
-immediately. #175&lt;/li&gt;
+immediately.&lt;/li&gt;
 &lt;li&gt;Brightness Upscaling now supports eligible built-in displays and
 external HDR displays beyond the existing XDR compatibility list. Each
 display uses its own route; available gain depends on the display, EDR
-headroom, and connection. Requires Tutti Pro. #183&lt;/li&gt;
+headroom, and connection. Requires Tutti Pro.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Settings now shows the real menu panel as a companion preview.
 Switching to another app keeps Settings open and hides the preview;
-returning restores your editing context. #193&lt;/li&gt;
+returning restores your editing context.&lt;/li&gt;
 &lt;li&gt;Preview resolution while dragging the slider and apply it on
 release. Resolution menus group related modes and show HiDPI status,
-with reference markers to help navigate available choices. #184 #186
-#187&lt;/li&gt;
+with reference markers to help navigate available choices.&lt;/li&gt;
 &lt;li&gt;Refined display controls and latency adjustment. Follow Built-in
 uses a native switch; Set as Main Display uses a separate button with a
 read-only current-display status.&lt;/li&gt;
@@ -43,12 +42,12 @@ with other panel notices.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;Keep Settings beside its preview when space permits, preserve manual
 placement, and make menu-bar clicks, shortcuts, and window dismissal
-behave consistently. #193&lt;/li&gt;
+behave consistently.&lt;/li&gt;
 &lt;li&gt;Clear an external display’s old recovery-failure notice after
 recovery succeeds, and keep the menu panel anchored when displays
-disconnect or reconnect. #183&lt;/li&gt;
-&lt;li&gt;Discard stale resolution interactions after display state changes.
-#188&lt;/li&gt;
+disconnect or reconnect.&lt;/li&gt;
+&lt;li&gt;Discard stale resolution interactions after display state
+changes.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="known-issues"&gt;Known Issues&lt;/h2&gt;
 &lt;ul&gt;
@@ -70,25 +69,25 @@ keys, scrolling, Remote, and automation remain within 100%.&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;在 macOS 15 及以上，可从「显示器」卡片调整分辨率、刷新率、现有 HiDPI
 模式和主显示器。这些本机控制免费使用。显示模式切换提供 15
-秒「保留／恢复」确认；主显示器切换直接生效。#175&lt;/li&gt;
+秒「保留／恢复」确认；主显示器切换直接生效。&lt;/li&gt;
 &lt;li&gt;亮度增益扩展到既有 XDR 兼容清单之外、符合条件的内置屏和外接 HDR
 显示器。每台显示器使用独立路线，可用增益取决于屏幕、EDR
-余量及连接链路。需要 Tutti Pro。#183&lt;/li&gt;
+余量及连接链路。需要 Tutti Pro。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="变更"&gt;变更&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;设置窗口提供真实菜单面板作为伴随预览。切换到其他 App
-时保留设置并隐藏预览，返回后恢复原有操作状态。#193&lt;/li&gt;
+时保留设置并隐藏预览，返回后恢复原有操作状态。&lt;/li&gt;
 &lt;li&gt;分辨率滑杆拖动时预览、松手后应用；菜单按相关模式分组并标注
-HiDPI，参考标记帮助定位可用选项。#184 #186 #187&lt;/li&gt;
+HiDPI，参考标记帮助定位可用选项。&lt;/li&gt;
 &lt;li&gt;优化显示器控制区和延迟调整。「跟随内置屏」使用原生开关；「设为主显示器」使用独立按钮，当前主显示器显示为只读状态。&lt;/li&gt;
 &lt;li&gt;简化亮度增益状态通知，统一失败通知与其他面板通知的操作布局。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="修复"&gt;修复&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;空间允许时将设置窗口与预览并排摆放，保留手动位置，并统一菜单栏点击、快捷键与窗口关闭行为。#193&lt;/li&gt;
-&lt;li&gt;外接显示器恢复成功后清除旧的恢复失败通知；显示器断开或重连时，菜单面板继续对齐菜单栏图标。#183&lt;/li&gt;
-&lt;li&gt;显示状态变化后丢弃过期的分辨率操作。#188&lt;/li&gt;
+&lt;li&gt;空间允许时将设置窗口与预览并排摆放，保留手动位置，并统一菜单栏点击、快捷键与窗口关闭行为。&lt;/li&gt;
+&lt;li&gt;外接显示器恢复成功后清除旧的恢复失败通知；显示器断开或重连时，菜单面板继续对齐菜单栏图标。&lt;/li&gt;
+&lt;li&gt;显示状态变化后丢弃过期的分辨率操作。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="已知问题"&gt;已知问题&lt;/h2&gt;
 &lt;ul&gt;
@@ -106,25 +105,25 @@ Remote、快捷键、小组件或自动化入口。群组亮度、亮度键、�
 &lt;ul&gt;
 &lt;li&gt;在 macOS 15 及以上，可從「顯示器」卡片調整解析度、更新頻率、現有
 HiDPI 模式和主顯示器。這些本機控制免費使用。顯示模式切換提供 15
-秒「保留／還原」確認；主顯示器切換直接生效。#175&lt;/li&gt;
+秒「保留／還原」確認；主顯示器切換直接生效。&lt;/li&gt;
 &lt;li&gt;亮度增益擴展到既有 XDR 相容清單之外、符合條件的內建螢幕和外接 HDR
 顯示器。每台顯示器使用獨立路線，可用增益取決於螢幕、EDR
-餘裕及連接方式。需要 Tutti Pro。#183&lt;/li&gt;
+餘裕及連接方式。需要 Tutti Pro。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="變更"&gt;變更&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;設定視窗提供真實選單面板作為伴隨預覽。切換到其他 App
-時保留設定並隱藏預覽，返回後恢復原有操作狀態。#193&lt;/li&gt;
+時保留設定並隱藏預覽，返回後恢復原有操作狀態。&lt;/li&gt;
 &lt;li&gt;解析度滑桿拖動時預覽、放開後套用；選單按相關模式分組並標示
-HiDPI，參考標記協助定位可用選項。#184 #186 #187&lt;/li&gt;
+HiDPI，參考標記協助定位可用選項。&lt;/li&gt;
 &lt;li&gt;改善顯示器控制區和延遲調整。「跟隨內建螢幕」使用原生開關；「設為主顯示器」使用獨立按鈕，目前的主顯示器顯示為唯讀狀態。&lt;/li&gt;
 &lt;li&gt;簡化亮度增益狀態通知，統一失敗通知與其他面板通知的操作配置。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="修復"&gt;修復&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;空間允許時將設定視窗與預覽並排擺放，保留手動位置，並統一選單列點擊、快捷鍵與視窗關閉行為。#193&lt;/li&gt;
-&lt;li&gt;外接顯示器還原成功後清除舊的還原失敗通知；顯示器斷開或重新連接時，選單面板繼續對齊選單列圖示。#183&lt;/li&gt;
-&lt;li&gt;顯示狀態變化後捨棄過期的解析度操作。#188&lt;/li&gt;
+&lt;li&gt;空間允許時將設定視窗與預覽並排擺放，保留手動位置，並統一選單列點擊、快捷鍵與視窗關閉行為。&lt;/li&gt;
+&lt;li&gt;外接顯示器還原成功後清除舊的還原失敗通知；顯示器斷開或重新連接時，選單面板繼續對齊選單列圖示。&lt;/li&gt;
+&lt;li&gt;顯示狀態變化後捨棄過期的解析度操作。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="已知問題"&gt;已知問題&lt;/h2&gt;
 &lt;ul&gt;
