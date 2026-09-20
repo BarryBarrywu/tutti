@@ -67,6 +67,12 @@ Outdoors or beside a bright window, your screen can be hard to see even at maxim
 
 Both adjustments can affect color accuracy; turn them off for color-critical editing.
 
+## Bluetooth synchronization limits
+
+Tutti can compensate for a relatively stable time difference by delaying the faster output. It cannot make a slower Bluetooth speaker play sooner. Some Bluetooth devices may fall out of sync after a track change, pause/resume, reconnection or during continuous playback, even when the saved setting stays the same. If adjustment does not hold, try a wired connection or use one output. Neither restoring a saved setting nor a one-time calibration guarantees ongoing synchronization.
+
+[Bluetooth synchronization limits](https://tutti.barrybarrywu.com/blog/fix-bluetooth-audio-delay-mac/)
+
 ## Install
 
 [Download the latest DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg), move Tutti to Applications, and open it. Or install with Homebrew:

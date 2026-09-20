@@ -67,6 +67,12 @@
 
 两种调整都可能影响色彩准确性，进行准确校色时应关闭。
 
+## 了解蓝牙同步的限制
+
+Tutti 可以通过延后出声较快的一路，补偿设备之间相对固定的时间差，但不能让较慢的蓝牙音箱提前出声。部分蓝牙设备可能在切歌、暂停恢复、重连或连续播放时再次不同步，即使保存的延迟数值没有变化。如果反复调整仍无法保持同步，建议尝试有线连接或单设备播放。恢复已保存的设置和一次校准，都不代表之后会持续自动对齐。
+
+[了解蓝牙同步的限制](https://tutti.barrybarrywu.com/zh/blog/fix-bluetooth-audio-delay-mac/)
+
 ## 安装
 
 [下载最新版 DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg)，将 Tutti 拖入「应用程序」后打开。也可以使用 Homebrew：
