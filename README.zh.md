@@ -78,7 +78,7 @@ Tutti 可以通过延后出声较快的一路，补偿设备之间相对固定�
 [下载最新版 DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg)，将 Tutti 拖入「应用程序」后打开。也可以使用 Homebrew：
 
 ```bash
-brew install --cask barrybarrywu/tap/tutti
+brew install --cask brewforge/extras/tutti
 ```
 
 点击菜单栏图标，选择要使用的输出；勾选多个设备即可一起播放，再统一或分别调整音量。Tutti 会自动检查更新，[版本说明](https://github.com/BarryBarrywu/tutti/releases)记录每次更新的变化。

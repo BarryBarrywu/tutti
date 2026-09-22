@@ -78,7 +78,7 @@ Tutti can compensate for a relatively stable time difference by delaying the fas
 [Download the latest DMG](https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg), move Tutti to Applications, and open it. Or install with Homebrew:
 
 ```bash
-brew install --cask barrybarrywu/tap/tutti
+brew install --cask brewforge/extras/tutti
 ```
 
 Click the menu bar icon and select the outputs you want to use. Select more than one for multi-output playback, then adjust the group volume or each output separately. Tutti checks for updates automatically; [release notes](https://github.com/BarryBarrywu/tutti/releases) describe what's changed.
