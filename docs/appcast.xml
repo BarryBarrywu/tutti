@@ -6,6 +6,258 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>2.0.0</title>
+            <pubDate>Fri, 20 Nov 2026 17:39:50 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v2.0.0</link>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Select microphones, eligible virtual inputs, and Apps in Input Mix
+with independent source gain and mute. Tutti Mix Input supplies a stereo
+mix; Tutti Split Input routes the combined App group to channels 1–2 and
+the combined microphone/input group to channels 3–4 for compatible
+recorders to assign to separate tracks (group separation, rather than an
+individual track per source). (thanks 可乐不快乐)&lt;/li&gt;
+&lt;li&gt;Tutti Pro can apply an independent six-band EQ to each supported
+local Output.&lt;/li&gt;
+&lt;li&gt;Select an offline headphone correction profile or import a parameter
+file and bind it to an Output.&lt;/li&gt;
+&lt;li&gt;Add Audio Unit effects to a local Output, save favorite plug-ins,
+and adjust each instance in its Plug-in Editor or Generic Controls.
+Output delay and balance can also be added directly from the Output
+row.&lt;/li&gt;
+&lt;li&gt;Reorder EQ, headphone correction, and Audio Unit effects within a
+single Output chain, bypass Audio Units independently, and save the full
+chain order, curves, and processing state in a Preset. Unavailable
+devices or missing plug-ins retain their saved settings, with clear
+feedback when a Preset can only be partially restored.&lt;/li&gt;
+&lt;li&gt;Temporary display disconnection: click a secondary Display’s icon to
+disconnect or reconnect it, automatically attempting to restore its
+previous display settings and associated audio Outputs on reconnection.
+Available on supported Apple Silicon Macs running macOS 15 or later.
+(thanks 安竹)&lt;/li&gt;
+&lt;li&gt;Customize icons for Outputs, Inputs, and Displays across 23 device
+categories. Each role saves its selection independently and can be reset
+to Automatic. (thanks DaKey.宋)&lt;/li&gt;
+&lt;li&gt;Choose one-line, two-line, or popup-adaptive Preset rows. One-line
+rows show category counts; two-line rows group Output, Display, and App
+icons with overflow counts. Click the trailing button to inspect the
+complete Output member list.&lt;/li&gt;
+&lt;li&gt;Add online Outputs to saved Presets or remove existing members, with
+multi-step Undo (Command-Z) during the current app session. Edits save
+immediately without interrupting playback and take effect when the
+Preset is applied. (thanks DaKey.宋)&lt;/li&gt;
+&lt;li&gt;The Permissions page in Settings shows which permissions Tutti has
+and opens the system prompt or the relevant page in System
+Settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Switch the system microphone with one click in the Input card.&lt;/li&gt;
+&lt;li&gt;A redesigned navigation bar organizes the Menu Panel into Favorites,
+Audio, Displays, and Presets. Choose which cards appear in Favorites
+while keeping a single shared card order across views. Long panels
+scroll while category navigation stays pinned, and Preset and Display
+mode menus indicate the active selection. (thanks Francis Arcas)&lt;/li&gt;
+&lt;li&gt;Tutti Remote for iOS: redesigned native navigation and Mac
+management, refreshed Now Playing, Devices, App Volume, and Settings
+screens, and a new app icon. Interactive Home Screen and Lock Screen
+widgets let you target a paired Mac to adjust its master volume or a
+specific Output. (thanks Яков Тясто)&lt;/li&gt;
+&lt;li&gt;Device icons now use a unified symbol style across the Hero, device
+lists, icon pickers, and Preset member previews, adapting automatically
+to light and dark appearances.&lt;/li&gt;
+&lt;li&gt;First-run setup explains the required permissions before showing the
+feature demos. A Menu Panel notice opens the release notes after an
+update. You can also open the notes from Settings → About and replay the
+demos on macOS 14.4 or later.&lt;/li&gt;
+&lt;li&gt;Pro prompts in the Menu Panel and editors link directly to checkout
+and offer a way to enter an existing license key. Prompts for locked Pro
+features in Settings open the License page, where activation feedback
+appears next to the action you used.&lt;/li&gt;
+&lt;li&gt;Output EQ, headphone correction, Output Audio Units, and Input Mix
+are included in the existing Tutti Pro tier on macOS 14.4 or later.
+Existing Pro owners receive the 2.0 upgrade at no additional cost; App
+EQ remains free.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved audio output switching, reconnection, and App audio
+recovery, resolving cases where an App could remain silent after
+recovery.&lt;/li&gt;
+&lt;li&gt;Improved state consistency across brightness adjustments, volume
+fades, and Preset transitions so stale state cannot override your latest
+action.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where disconnecting an Output such as AirPods could
+leave no Output selected if macOS fell back to a retired Tutti audio
+device; Tutti now automatically restores an available Output.&lt;/li&gt;
+&lt;li&gt;Improved keyboard navigation and VoiceOver support for EQ curves,
+effect pickers, and Preset feedback. All Input Mix controls remain
+reachable in shorter editors, and live meter updates no longer interrupt
+VoiceOver speech.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="known-issues"&gt;Known Issues&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Downgrading to Tutti 1.11 and saving any Preset removes the Output
+EQ and effect-chain settings stored by 2.0, even after upgrading again.
+Back up your Tutti preferences before downgrading, and avoid saving
+Presets in 1.11 if you need to keep those settings.&lt;/li&gt;
+&lt;li&gt;An unexpected exit in the shared Audio Unit hosting service can
+interrupt multiple effect instances, requiring each to be retried
+individually. Some effect menus may pause briefly when opened for the
+first time.&lt;/li&gt;
+&lt;li&gt;Exact physical synchronization across outputs, reconnection recovery
+times, broader hardware combinations, and compatibility with all
+third-party plug-ins may vary by setup. When multiple headphones share a
+single DAC, select the matching headphone correction profile
+manually.&lt;/li&gt;
+&lt;li&gt;Output EQ, headphone correction, and Audio Unit processing are
+unavailable while stereo-pairing mode is active.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v2.0.0/Tutti-2.0.0.zip" length="12038061" type="application/octet-stream" sparkle:edSignature="HlXXa23LHjCYL7ES9T5cHKiPoV8Mw6ftGSXd+U/mZ+DZs1c7FE+zne9kg5K6y7QsI+voDwpKLHmfeeKRreu6CQ==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;输入混音支持勾选麦克风、受支持的虚拟输入与
+App，并独立调节各来源的增益和静音。Tutti Mix Input 输出立体声混合；Tutti
+Split Input 将 App 合计输出至 1–2 通道、麦克风／输入合计输出至 3–4
+通道，供兼容的录音软件分配到不同音轨（按两组来源分离，而非每个来源单独一轨）。（感谢用户可乐不快乐）&lt;/li&gt;
+&lt;li&gt;Tutti Pro
+支持为每个受支持的本地输出设备配置独立的六段均衡器（EQ）。&lt;/li&gt;
+&lt;li&gt;支持离线选择耳机校正曲线或导入参数文件并绑定到输出设备。&lt;/li&gt;
+&lt;li&gt;支持在本地输出设备上添加 Audio Unit
+效果、收藏常用插件，并在插件编辑器或通用参数视图中独立调整每个实例；输出延迟和左右平衡也可直接从输出设备行添加。&lt;/li&gt;
+&lt;li&gt;支持在同一输出效果链中自由调整 EQ、耳机校正与 Audio Unit
+的顺序，独立旁通 Audio
+Unit，并将完整效果链顺序、曲线及处理状态保存到预设。设备离线或插件缺失时保留已存设置，预设仅能部分恢复时会给出明确提示。&lt;/li&gt;
+&lt;li&gt;新增副屏临时停用功能：点击副屏图标即可停用或恢复，重连时会尝试恢复原有的显示设置与关联音频输出。适用于支持该特性的
+Apple Silicon Mac，需 macOS 15 或更新版本。（感谢用户安竹）&lt;/li&gt;
+&lt;li&gt;支持从 23
+类设备图形中为输出设备、输入设备和显示器自定义图标；各角色独立保存，可随时恢复自动匹配。（感谢用户
+DaKey.宋）&lt;/li&gt;
+&lt;li&gt;预设列表支持单行、两行或跟随弹窗大小的布局：单行显示各类别数量；两行分组展示输出设备、显示器和
+App 图标及超出数量，点击右侧按钮可查看完整输出成员列表。&lt;/li&gt;
+&lt;li&gt;支持在已保存的预设中直接添加在线输出设备或移除现有成员，并提供本次运行期间的多步撤销（Command-Z）。修改立即保存且不影响当前播放，应用预设后生效。（感谢用户
+DaKey.宋）&lt;/li&gt;
+&lt;li&gt;设置新增「权限」页，可查看 Tutti
+当前的授权状态，并打开系统授权提示或跳到系统设置中的对应页面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在输入卡片中单击即可切换系统默认麦克风。&lt;/li&gt;
+&lt;li&gt;全新设计的分类导航栏，将菜单面板分为「常用」「音频」「显示器」和「预设」；可自选常用卡片，各页面共享统一的卡片排序。面板内容较长时可滚动浏览，顶部导航保持固定；预设与显示模式菜单会标出当前生效项。（感谢用户
+Francis Arcas）&lt;/li&gt;
+&lt;li&gt;Tutti Remote（iOS）：重新设计原生导航与 Mac
+管理，焕新「正在播放」「设备」「App 音量」和「设置」页面，并采用全新 App
+图标。新增主屏幕与锁屏交互小组件，可指定已配对的
+Mac，直接调节主音量或指定输出设备的音量。（感谢用户 Яков Тясто）&lt;/li&gt;
+&lt;li&gt;Hero
+控制区、设备列表、图标选择器和预设成员摘要统一采用清晰简洁的符号图标，自动适配浅色与深色外观。&lt;/li&gt;
+&lt;li&gt;首次引导会先说明所需的系统权限，再展示功能。升级后可从菜单面板提示打开更新说明，也可在「设置
+→ 关于」查看。macOS 14.4 或更新版本可从更新说明重看功能介绍。&lt;/li&gt;
+&lt;li&gt;菜单面板和编辑器中的 Pro
+提示可以直接打开付款页，也可以前往输入已有许可证密钥。设置中尚未解锁的
+Pro 功能会引导你打开「许可」页，激活结果显示在对应操作旁边。&lt;/li&gt;
+&lt;li&gt;输出 EQ、耳机校正、输出 Audio Unit 与输入混音全部纳入现有 Tutti
+Pro（需 macOS 14.4 或更新版本）。现有 Pro 用户免费升级 2.0；App
+均衡器继续免费提供。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;优化音频设备切换、断线重连及 App
+音频恢复流程，修复部分场景下恢复后仍无声的问题。&lt;/li&gt;
+&lt;li&gt;改善亮度调节、音量渐变与预设切换的状态一致性，避免旧状态覆盖最新操作。&lt;/li&gt;
+&lt;li&gt;修复 AirPods 等输出设备断开后，若 macOS 回退到已停用的遗留 Tutti
+音频设备，可能导致未选中任何输出的问题；现在会自动恢复到可用输出设备。&lt;/li&gt;
+&lt;li&gt;改善 EQ 曲线、效果选择器及预设反馈的键盘导航与 VoiceOver
+体验；较矮的输入混音编辑器仍可访问全部控件，实时电平更新不会打断
+VoiceOver 播报。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="已知问题"&gt;已知问题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;降级到 Tutti 1.11 后保存任意预设，会移除 2.0 保存的输出 EQ
+和效果链设置，再次升级也无法恢复。降级前请备份 Tutti
+偏好设置；需要保留这些设置时，请勿在 1.11 中保存预设。&lt;/li&gt;
+&lt;li&gt;共享的 Audio Unit
+宿主服务若发生异常，可能同时中断多个效果实例，需分别点击重试；部分效果菜单首次打开时可能有短暂停顿。&lt;/li&gt;
+&lt;li&gt;不同输出间的精确物理同步、重连恢复耗时、更多硬件组合及所有第三方插件的兼容性可能因环境而异。多个耳机共用同一外置
+DAC 时，需手动切换对应的耳机校正曲线。&lt;/li&gt;
+&lt;li&gt;启用立体声配对模式时，暂不支持输出 EQ、耳机校正和 Audio Unit
+处理。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;輸入混音支援勾選麥克風、支援的虛擬輸入與
+App，並獨立調整各來源的增益和靜音。Tutti Mix Input 輸出立體聲混合；Tutti
+Split Input 將 App 合計輸出至 1–2 聲道、麥克風／輸入合計輸出至 3–4
+聲道，供相容的錄音軟體分配至不同音軌（依兩組來源分離，而非每個來源單獨一軌）。（感謝使用者可樂不快樂）&lt;/li&gt;
+&lt;li&gt;Tutti Pro
+支援為每個支援的本機輸出裝置設定獨立的六段等化器（EQ）。&lt;/li&gt;
+&lt;li&gt;支援離線選擇耳機校正曲線或匯入參數檔並綁定至輸出裝置。&lt;/li&gt;
+&lt;li&gt;支援在本機輸出裝置上加入 Audio Unit
+效果、收藏常用外掛，並在外掛編輯器或通用參數檢視中獨立調整每個實例；輸出延遲和左右平衡也可直接從輸出裝置列加入。&lt;/li&gt;
+&lt;li&gt;支援在同一輸出效果鏈中自由調整 EQ、耳機校正與 Audio Unit
+的順序，獨立旁通 Audio
+Unit，並將完整效果鏈順序、曲線及處理狀態儲存至預設。裝置離線或外掛缺失時保留已存設定，預設僅能部分恢復時會給出明確提示。&lt;/li&gt;
+&lt;li&gt;新增副螢幕暫時停用功能：點擊副螢幕圖示即可停用或恢復，重新連線時會嘗試恢復原有的顯示設定與關聯音訊輸出。適用於支援此特性的
+Apple Silicon Mac，需 macOS 15 或更新版本。（感謝使用者安竹）&lt;/li&gt;
+&lt;li&gt;支援從 23
+類裝置圖形中為輸出裝置、輸入裝置和顯示器自訂圖示；各角色獨立儲存，可隨時恢復自動配對。（感謝使用者
+DaKey.宋）&lt;/li&gt;
+&lt;li&gt;預設列表支援單行、兩行或跟隨彈出面板大小的配置：單行顯示各類別數量；兩行分組顯示輸出裝置、顯示器和
+App 圖示及超出數量，點擊右側按鈕可檢視完整輸出成員清單。&lt;/li&gt;
+&lt;li&gt;支援在已儲存的預設中直接新增已連線的輸出裝置或移除現有成員，並提供本次執行期間的多步復原（Command-Z）。修改立即儲存且不影響目前播放，套用預設後生效。（感謝使用者
+DaKey.宋）&lt;/li&gt;
+&lt;li&gt;設定新增「權限」頁，可查看 Tutti
+目前的授權狀態，並開啟系統授權提示或前往「系統設定」中的對應頁面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在輸入卡片中按一下即可切換系統預設麥克風。&lt;/li&gt;
+&lt;li&gt;全新設計的分類導覽列，將選單面板分為「常用」「音訊」「顯示器」和「預設」；可自選常用卡片，各頁面共用統一的卡片排序。面板內容較長時可捲動瀏覽，頂部導覽保持固定；預設與顯示模式選單會標出目前套用的選項。（感謝使用者
+Francis Arcas）&lt;/li&gt;
+&lt;li&gt;Tutti Remote（iOS）：重新設計原生導覽與 Mac
+管理，翻新「正在播放」「裝置」「App 音量」和「設定」頁面，並採用全新 App
+圖示。新增主畫面與鎖定畫面互動小工具，可指定已配對的
+Mac，直接調整主音量或指定輸出裝置的音量。（感謝使用者 Яков Тясто）&lt;/li&gt;
+&lt;li&gt;Hero
+控制區、裝置列表、圖示選擇器和預設成員摘要統一採用清晰簡潔的符號圖示，自動適配淺色與深色外觀。&lt;/li&gt;
+&lt;li&gt;首次引導會先說明所需的系統權限，再展示功能。更新後可從選單面板提示開啟更新說明，也可在「設定
+→ 關於」查看。macOS 14.4 或更新版本可從更新說明重看功能介紹。&lt;/li&gt;
+&lt;li&gt;選單面板和編輯器中的 Pro
+提示可以直接開啟付款頁，也可以前往輸入已有許可證的密鑰。設定中尚未解鎖的
+Pro 功能會引導你開啟「授權」頁，啟用結果顯示在對應操作旁邊。&lt;/li&gt;
+&lt;li&gt;輸出 EQ、耳機校正、輸出 Audio Unit 與輸入混音全部納入現有 Tutti
+Pro（需 macOS 14.4 或更新版本）。現有 Pro 使用者免費升級 2.0；App
+等化器繼續免費提供。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;改善音訊裝置切換、斷線重連及 App
+音訊恢復流程，修復部分情境下恢復後仍無聲的問題。&lt;/li&gt;
+&lt;li&gt;改善亮度調整、音量漸變與預設切換的狀態一致性，避免舊狀態覆蓋最新操作。&lt;/li&gt;
+&lt;li&gt;修復 AirPods 等輸出裝置斷線後，若 macOS 回退至已停用的殘留 Tutti
+音訊裝置，可能導致未選取任何輸出的問題；現在會自動恢復至可用輸出裝置。&lt;/li&gt;
+&lt;li&gt;改善 EQ 曲線、效果選擇器及預設回饋的鍵盤導覽與 VoiceOver
+體驗；較矮的輸入混音編輯器仍可操作全部控制項，即時電平更新不會打斷
+VoiceOver 語音。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="已知問題"&gt;已知問題&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;降級至 Tutti 1.11 後儲存任何預設，會移除 2.0 儲存的輸出 EQ
+和效果鏈設定，再次升級也無法恢復。降級前請備份 Tutti
+偏好設定；需要保留這些設定時，請勿在 1.11 中儲存預設。&lt;/li&gt;
+&lt;li&gt;共用的 Audio Unit
+宿主服務若發生異常，可能同時中斷多個效果實例，需分別點擊重試；部分效果選單首次開啟時可能有短暫停頓。&lt;/li&gt;
+&lt;li&gt;不同輸出間的精確物理同步、重連恢復耗時、更多硬體組合及所有第三方外掛的相容性可能因環境而異。多個耳機共用同一外接
+DAC 時，需手動切換對應的耳機校正曲線。&lt;/li&gt;
+&lt;li&gt;啟用立體聲配對模式時，暫不支援輸出 EQ、耳機校正和 Audio Unit
+處理。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>1.11.0</title>
             <pubDate>Fri, 18 Sep 2026 22:53:52 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.11.0</link>
@@ -65,7 +317,7 @@ keys, scrolling, Remote, and automation remain within 100%.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.11.0/Tutti-1.11.0.zip" length="6515413" type="application/octet-stream" sparkle:edSignature="rT2qtYfuz8jr2Ouxc9ceDItS05WvXnbj0Y/c7hPQ8iGpShVaPlVF4n2MX5mL5JJfCnH11tnwTAhX+3BDdmEYCw==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在 macOS 15 及以上，可从「显示器」卡片调整分辨率、刷新率、现有 HiDPI
 模式和主显示器。这些本机控制免费使用。显示模式切换提供 15
@@ -101,7 +353,8 @@ Hub 可能影响可用性。&lt;/li&gt;
 Remote、快捷键、小组件或自动化入口。群组亮度、亮度键、滚动、Remote
 和自动化仍限制在 100% 以内。&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在 macOS 15 及以上，可從「顯示器」卡片調整解析度、更新頻率、現有
 HiDPI 模式和主顯示器。這些本機控制免費使用。顯示模式切換提供 15
@@ -137,7 +390,8 @@ Hub 可能影響可用性。&lt;/li&gt;
 Remote、快捷鍵、小工具或自動化入口。群組亮度、亮度鍵、捲動、Remote
 和自動化仍限制在 100% 以內。&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>1.10.0</title>
             <pubDate>Sat, 05 Sep 2026 17:03:24 +0800</pubDate>
@@ -315,92 +569,6 @@ Liquid Retina XDR 顯示器的 MacBook Pro。目前完整相容型號以 Tutti
 &lt;li&gt;群組亮度、亮度鍵、直接亮度快捷鍵、Remote、自動化、Brightness
 Following 和捲動調整仍限制在標準 100%
 範圍內。只有受支援顯示器自己的滑桿，或明確儲存過亮度增益場景的預設，可以還原到亮度增益區間。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.9.3</title>
-            <pubDate>Fri, 21 Aug 2026 18:57:00 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.9.3</link>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>1.9.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Settings &amp;gt; About now shows Xiaohongshu and Bilibili when Tutti
-uses Simplified Chinese, while Traditional Chinese and every other
-language continue to show Telegram and X. The website and Discord links
-remain available in every language.&lt;/li&gt;
-&lt;li&gt;On macOS 27, changing an app’s volume with affected AirPods routes
-no longer leaves media silent. Tutti now remembers routes that need
-recovery and restores audio in about half a second on later adjustments.
-(Thanks to 哦吼哦吼 for the continued testing.)&lt;/li&gt;
-&lt;li&gt;Master and per-output volume controls now refresh their hardware
-routes when outputs are added or removed, so they continue controlling
-the intended device after Tutti creates or collapses a multi-output
-setup. (Thanks to 哦吼哦吼 for the continued testing.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="known-issues"&gt;Known Issues&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;On affected AirPods routes, Apple Music may use a stereo
-compatibility path when App Audio control is active because the native
-macOS stream tap provides no audio. App Audio control and playback
-remain available, but the native Apple Music audio path cannot be
-preserved in this combination. Once activated, this compatibility path
-may remain in use until the current App Audio session ends, including
-after outputs change.&lt;/li&gt;
-&lt;li&gt;When AirPods are selected together with another output, macOS sees
-Tutti’s aggregate device instead of the AirPods directly. Native Spatial
-Audio, head tracking, and Dolby Atmos are therefore unavailable until
-the AirPods are used as the only output; ordinary stereo playback
-remains available.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.9.3/Tutti-1.9.3.zip" length="5879005" type="application/octet-stream" sparkle:edSignature="YR1O6e8OwEsU5XScV5m9SxhH8HsOSuhBvIxhxVn5hyi+U6afcRs6ybC6d5sW7LLYZOeuZ5xxil3/E1ZDU51HDw==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;当 Tutti 使用简体中文时，「设置 ›
-关于」现在会显示小红书和哔哩哔哩；繁体中文及其他语言继续显示 Telegram 和
-X。官网与 Discord 入口在所有语言下保持可用。&lt;/li&gt;
-&lt;li&gt;在 macOS 27 上，调整受影响 AirPods
-输出的应用音量后，不会再让媒体持续无声。Tutti
-现在会记住需要恢复的输出，后续调整可在约半秒内恢复声音。（感谢用户「哦吼哦吼」持续协助测试。）&lt;/li&gt;
-&lt;li&gt;添加或移除输出设备时，总音量和单独输出音量现在会重新确认硬件控制路径；Tutti
-建立或收起多输出组合后，滑杆仍会控制正确的设备。（感谢用户「哦吼哦吼」持续协助测试。）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="已知问题"&gt;已知问题&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在受影响的 AirPods 路径上，Apple Music
-启用应用音量控制时可能使用立体声兼容路径，因为 macOS
-的原生流捕获没有提供音频。应用音量与播放仍可使用，但该组合无法同时保留
-Apple Music 的原生音频路径。兼容路径一旦启用，可能会持续到当前 App Audio
-会话结束，包括用户在此期间更换输出后。&lt;/li&gt;
-&lt;li&gt;AirPods 与其他输出设备同时使用时，macOS 会把 Tutti 聚合设备而不是
-AirPods 本身作为默认输出，因此原生空间音频、头部追踪和 Dolby Atmos
-暂时不可用；只选择 AirPods 后即可恢复，普通立体声播放不受影响。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;當 Tutti 使用簡體中文時，「設定 ›
-關於」現在會顯示小紅書與嗶哩嗶哩；繁體中文及其他語言繼續顯示 Telegram 與
-X。官網與 Discord 入口在所有語言下維持可用。&lt;/li&gt;
-&lt;li&gt;在 macOS 27 上，調整受影響 AirPods
-輸出的應用音量後，不會再讓媒體持續無聲。Tutti
-現在會記住需要恢復的輸出，後續調整可在約半秒內恢復聲音。（感謝使用者「哦吼哦吼」持續協助測試。）&lt;/li&gt;
-&lt;li&gt;新增或移除輸出裝置時，總音量與個別輸出音量現在會重新確認硬體控制路徑；Tutti
-建立或收起多輸出組合後，滑桿仍會控制正確的裝置。（感謝使用者「哦吼哦吼」持續協助測試。）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="已知問題"&gt;已知問題&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在受影響的 AirPods 路徑上，Apple Music
-啟用應用音量控制時可能使用立體聲相容路徑，因為 macOS
-的原生串流擷取沒有提供音訊。應用音量與播放仍可使用，但此組合無法同時保留
-Apple Music 的原生音訊路徑。相容路徑一旦啟用，可能會持續到目前 App Audio
-工作階段結束，包括使用者在此期間更換輸出後。&lt;/li&gt;
-&lt;li&gt;AirPods 與其他輸出裝置同時使用時，macOS 會把 Tutti 聚合裝置而非
-AirPods 本身當作預設輸出，因此原生空間音訊、頭部追蹤與 Dolby Atmos
-暫時無法使用；只選擇 AirPods 後即可恢復，一般立體聲播放不受影響。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
