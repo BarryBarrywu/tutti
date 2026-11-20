@@ -13,13 +13,26 @@
   <img src="https://img.shields.io/github/v/release/BarryBarrywu/tutti?style=flat-square&color=blue&label=release" alt="版本">
   <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 13+">
   <img src="https://img.shields.io/github/downloads/BarryBarrywu/tutti/total?style=flat-square&color=orange&label=downloads" alt="下载量">
-  <img src="https://img.shields.io/badge/Pro-$12.99_one--time-38bdf8?style=flat-square" alt="Pro $12.99 买断">
+  <img src="https://img.shields.io/badge/Pro-one--time_purchase-38bdf8?style=flat-square" alt="Pro 一次买断">
 </p>
 <p align="center"><sub>无需虚拟音频驱动或系统扩展</sub></p>
 
 <p align="center">
   <img src="docs/screenshots/mac-sound-displays.png" width="720" alt="Tutti 浅色与深色面板：音频输出、单个 App 音量、麦克风、显示器亮度与分辨率，以及预设">
 </p>
+
+## Tutti 2.0 新功能
+
+已有 Pro 用户免费升级 2.0。[查看完整更新说明](https://github.com/BarryBarrywu/tutti/releases/tag/v2.0.0)。
+
+- **输出声音处理：**独立六段 EQ、离线耳机校正曲线与参数文件导入、可排序的 Audio Unit 效果链，支持插件编辑器和通用参数。处理设置与效果顺序可保存到预设。纳入现有 Pro，需 macOS 14.4+；App 均衡器继续免费，第三方插件可能需要单独授权。
+- **录音输入：**混合麦克风、支持的虚拟输入与 App，分别调节增益和静音，查看实时电平及削波记录。Tutti Mix Input 提供混合立体声。Tutti Split Input 的 1–2 通道为 App 合计，3–4 为麦克风与其他输入合计。兼容的录音软件负责选轨和保存。输入混音需要 Pro 与 macOS 14.4+。
+- **更灵活的面板：**常用、音频、显示器和预设共享控件及卡片顺序；可更换输出、输入和显示器图标，编辑预设输出成员并在本次运行中撤销，键盘与 VoiceOver 操作也有改善。
+- **显示器临时停用：**点击副屏图标即可停用或恢复。支持此功能的 Apple Silicon Mac、macOS 15+ 可免费使用；主显示器和最后一块可用屏幕受到保护。
+
+录音已验证范围限本次 M2 Max Mac Studio／macOS 27.0.1 上的 OBS 33.0.1、IINA 1.5.0 与 Sony ECM-S1。Audition 和腾讯会议尚未验证；QuickTime 重开同一活跃输入可能录到静音。通道布局变化可能需要重新选择输入，不保证跨睡眠连续录音。共享 Audio Unit 宿主异常可能影响多个插件，需分别重试。立体声配对模式不支持输出声音处理。
+
+[Tutti Remote](https://apps.apple.com/app/tutti-remote/id6788375184) 通过 App Store 独立发布。2.0 重新设计了导航与 Mac 管理，更新正在播放、设备、App 音量和设置页面，采用全新图标，并新增主屏幕和锁屏交互小组件，可调节指定 Mac 的主音量或指定输出设备的音量。
 
 ## 为什么选择 Tutti？
 
@@ -91,7 +104,7 @@ brew install --cask brewforge/extras/tutti
 
 Tutti Remote 的 iPhone App 免费下载，遥控需要 Mac 端 Tutti Pro。
 
-**一次性 $12.99，无订阅。** 提供 7 天 Pro 试用，每个授权同时激活 1 台 Mac，并提供 14 天退款。试用结束后，免费功能继续可用。[比较权益与购买 Pro](https://tutti.barrybarrywu.com/zh/#pricing)。
+**黑五首发价 US$8.99 含税买断，活动至太平洋时间 11 月 30 日结束。** 12 月 1 日起常规价为 US$19.99。提供 7 天 Pro 试用，每个授权同时激活 1 台 Mac，并提供 14 天退款。试用结束后，免费功能继续可用。[比较权益与购买 Pro](https://tutti.barrybarrywu.com/zh/#pricing)。
 
 ## 更多控制方式
 

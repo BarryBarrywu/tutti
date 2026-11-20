@@ -13,13 +13,26 @@
   <img src="https://img.shields.io/github/v/release/BarryBarrywu/tutti?style=flat-square&color=blue&label=release" alt="Release">
   <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 13+">
   <img src="https://img.shields.io/github/downloads/BarryBarrywu/tutti/total?style=flat-square&color=orange&label=downloads" alt="Downloads">
-  <img src="https://img.shields.io/badge/Pro-$12.99_one--time-38bdf8?style=flat-square" alt="Pro $12.99 one-time">
+  <img src="https://img.shields.io/badge/Pro-one--time_purchase-38bdf8?style=flat-square" alt="Pro one-time purchase">
 </p>
 <p align="center"><sub>No virtual audio driver or system extension</sub></p>
 
 <p align="center">
   <img src="docs/screenshots/mac-sound-displays.png" width="720" alt="Tutti in light and dark appearance: audio outputs, per-app volume, microphone controls, display brightness and resolution, and presets">
 </p>
+
+## What's new in Tutti 2.0
+
+Existing Pro owners receive 2.0 at no additional charge. [See the full release notes](https://github.com/BarryBarrywu/tutti/releases/tag/v2.0.0).
+
+- **Output processing:** six-band EQ, offline headphone correction profiles and parameter-file import, plus ordered Audio Unit effect chains with plug-in editors and generic controls. Save processing settings and chain order in Presets. Included in existing Pro on macOS 14.4+; per-app EQ stays free. Third-party plug-ins may require their own licenses.
+- **Inputs for recording:** mix microphones, eligible virtual inputs and Apps with independent gain and mute, live meters and clipping history. Tutti Mix Input supplies stereo. Tutti Split Input puts the combined App group on channels 1–2 and the combined microphone/input group on channels 3–4. Your compatible recorder assigns tracks and saves the recording. Input Mix requires Pro and macOS 14.4+.
+- **A more flexible panel:** Favorites, Audio, Displays and Presets share controls and card order. Customize Output, Input and Display icons; edit saved Preset Output members with session Undo; use improved keyboard and VoiceOver controls.
+- **Temporary display disconnection:** disconnect and restore a secondary physical display from its icon. Free on supported Apple Silicon Macs running macOS 15+; the main and last usable display are protected.
+
+Recording qualification is limited to OBS 33.0.1 with IINA 1.5.0 and Sony ECM-S1 on the tested M2 Max Mac Studio/macOS 27.0.1. Audition and Tencent Meeting remain unqualified; QuickTime may record silence when reopening the same active input. Layout changes may require reselecting the input, and continuous recording through sleep is not guaranteed. Shared Audio Unit service failures can affect several plug-ins and require separate retries. Output processing is unavailable in stereo-pairing mode.
+
+[Tutti Remote](https://apps.apple.com/app/tutti-remote/id6788375184) is distributed through the App Store. Version 2.0 brings redesigned navigation and Mac management, refreshed Now Playing, Devices, App Volume and Settings screens, a new app icon, and interactive Home Screen and Lock Screen widgets for a chosen Mac's master or specific Output volume.
 
 ## Why Tutti?
 
@@ -91,7 +104,7 @@ Click the menu bar icon and select the outputs you want to use. Select more than
 
 Tutti Remote is free to download on iPhone; controlling your Mac requires Tutti Pro on the Mac.
 
-**$12.99 one-time, no subscription.** Includes a 7-day Pro trial, one active Mac per license, and a 14-day refund policy. When the trial ends, free features keep working. [Compare plans and get Pro](https://tutti.barrybarrywu.com/#pricing).
+**Black Friday launch price: US$8.99 one-time, including tax, through November 30 (Pacific time).** The regular price is US$19.99 from December 1. Includes a 7-day Pro trial, one active Mac per license, and a 14-day refund policy. When the trial ends, free features keep working. [Compare plans and get Pro](https://tutti.barrybarrywu.com/#pricing).
 
 ## Control from anywhere
 
