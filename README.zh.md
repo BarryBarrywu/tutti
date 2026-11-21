@@ -18,7 +18,7 @@
 <p align="center"><sub>无需虚拟音频驱动或系统扩展</sub></p>
 
 <p align="center">
-  <img src="docs/screenshots/mac-sound-displays.png" width="720" alt="Tutti 浅色与深色面板：音频输出、单个 App 音量、麦克风、显示器亮度与分辨率，以及预设">
+  <img src="docs/screenshots/mac-sound-displays.png" width="780" alt="Tutti 2.0 浅色与深色面板：分类导航、多设备输出与六段输出 EQ、耳机校正和 Audio Unit 效果链、单个 App 音量、预设与显示器亮度控制">
 </p>
 
 ## Tutti 2.0 新功能
@@ -29,8 +29,6 @@
 - **录音输入：**混合麦克风、支持的虚拟输入与 App，分别调节增益和静音，查看实时电平及削波记录。Tutti Mix Input 提供混合立体声。Tutti Split Input 的 1–2 通道为 App 合计，3–4 为麦克风与其他输入合计。兼容的录音软件负责选轨和保存。输入混音需要 Pro 与 macOS 14.4+。
 - **更灵活的面板：**常用、音频、显示器和预设共享控件及卡片顺序；可更换输出、输入和显示器图标，编辑预设输出成员并在本次运行中撤销，键盘与 VoiceOver 操作也有改善。
 - **显示器临时停用：**点击副屏图标即可停用或恢复。支持此功能的 Apple Silicon Mac、macOS 15+ 可免费使用；主显示器和最后一块可用屏幕受到保护。
-
-录音已验证范围限本次 M2 Max Mac Studio／macOS 27.0.1 上的 OBS 33.0.1、IINA 1.5.0 与 Sony ECM-S1。Audition 和腾讯会议尚未验证；QuickTime 重开同一活跃输入可能录到静音。通道布局变化可能需要重新选择输入，不保证跨睡眠连续录音。共享 Audio Unit 宿主异常可能影响多个插件，需分别重试。立体声配对模式不支持输出声音处理。
 
 [Tutti Remote](https://apps.apple.com/app/tutti-remote/id6788375184) 通过 App Store 独立发布。2.0 重新设计了导航与 Mac 管理，更新正在播放、设备、App 音量和设置页面，采用全新图标，并新增主屏幕和锁屏交互小组件，可调节指定 Mac 的主音量或指定输出设备的音量。
 
@@ -50,9 +48,11 @@
 
 ## 日常控制，也在同一个面板
 
+- **输出与声音处理：** 多设备同播、逐设备六段 EQ、离线耳机校正曲线，以及可排序的 Audio Unit 效果链。
 - **应用：** 独立音量、六段均衡器、Turbo 增益与单个 App 输出路由。
-- **显示器：** 单台或整组亮度、跟随内置屏、分辨率、刷新率、现有 HiDPI 模式和主显示器选择；符合条件的屏幕还可使用亮度增益。
-- **桌面上的其他控制：** 麦克风、Apple Music 和 Spotify 播放控制，以及维持偏好音频设备和音量的设备守护。
+- **输入与录音：** 一键切换系统麦克风，并可通过 Input Mix／Split Input 混合麦克风、虚拟输入与 App 提供给录音软件。
+- **显示器：** 单台或整组亮度、跟随内置屏、分辨率、刷新率、现有 HiDPI 模式、主显示器选择、副屏临时停用，以及符合条件的屏幕亮度增益。
+- **桌面上的其他控制：** Apple Music 和 Spotify 播放控制、自定义设备图标，以及维持偏好音频设备和音量的设备守护。
 
 更多功能见[官网功能介绍与交互演示](https://tutti.barrybarrywu.com/zh/)。
 
@@ -98,9 +98,9 @@ brew install --cask brewforge/extras/tutti
 
 ## 免费与 Pro
 
-**免费，不限使用时间：** 多设备同播、设备音量、单个 App 音量、Turbo 与均衡器，以及受支持 macOS 版本上的本机显示器亮度与显示模式控制。
+**免费，不限使用时间：** 多设备同播、设备音量、单个 App 音量、Turbo 与均衡器、受支持 macOS 版本上的本机显示器亮度与显示模式控制，以及受支持 Apple Silicon Mac 上的副屏临时停用。
 
-**Pro 增加：** 预设、单个 App 输出路由、立体声配对、逐设备左右平衡与延迟微调、全局快捷键、桌面小组件、Raycast 控制、iPhone 遥控，以及符合条件的显示器亮度增益。
+**Pro 增加：** 预设、逐设备六段输出 EQ、离线耳机校正、Audio Unit 效果链、Input Mix／Split Input 录音输入混音、单个 App 输出路由、立体声配对、逐设备左右平衡与延迟微调、全局快捷键、桌面小组件、Raycast 控制、iPhone 遥控，以及符合条件的显示器亮度增益。
 
 Tutti Remote 的 iPhone App 免费下载，遥控需要 Mac 端 Tutti Pro。
 
@@ -121,15 +121,17 @@ Tutti Remote 的 iPhone App 免费下载，遥控需要 Mac 端 Tutti Pro。
 |---|---|---|---|---|
 | 多设备同播 | 支持声道拆分、平衡与延迟微调 | 输出分组，含 AirPlay | 多设备路由 | 未列出 |
 | 单个 App 音量／EQ／路由 | 音量、六段 EQ 与路由 | 音量、十段 EQ 与路由 | 音量、十段 EQ 与路由 | 未列出 |
-| 显示器控制 | 亮度、现有显示模式与亮度增益 | 未列出 | 未列出 | 亮度、灵活 HiDPI、虚拟屏幕等 |
+| 输出声音处理与音效 | 六段 EQ、离线耳机校正、Audio Unit 效果链 | 耳机均衡器、Audio Unit 音效 | AutoEQ 耳机校正 | 未列出 |
+| 录音输入混音 | Input Mix（立体声）与 Split Input（4 通道） | 未列出 | 未列出 | 未列出 |
+| 显示器控制 | 亮度、现有显示模式、亮度增益、副屏临时停用 | 未列出 | 未列出 | 亮度、灵活 HiDPI、虚拟屏幕等 |
 | 声音与显示器亮度联合预设 | 支持 | 未列出 | 未列出 | 未列出 |
 | 配套 iPhone 遥控 App | Tutti Remote | 未列出 | 未列出 | 未列出 |
-| 其他特点 | 同一面板管理声音与亮度 | AirPlay 分组、Audio Unit 音效 | AutoEQ 耳机校正、开源 | 自定义分辨率、虚拟屏幕、画中画与 3D LUT |
+| 其他特点 | 同一面板管理声音、音效、录音输入与显示器 | AirPlay 分组、系统级 Audio Unit 路由 | 开源 | 自定义分辨率、虚拟屏幕、画中画与 3D LUT |
 | 安装要求 | 无需虚拟音频驱动或系统扩展 | ARK 插件与音频权限 | App 与音频捕获权限 | 安装 App |
 
 「未列出」表示所引官方文档没有宣传该工作流，不代表经过测试确认无法实现。本表对照产品文档，不比较性能或真机兼容性。Tutti 的系统版本与显示器要求仍适用。
 
-核对日期：2026 年 9 月 19 日。来源：[SoundSource 功能](https://rogueamoeba.com/soundsource/)、[安装要求](https://rogueamoeba.com/support/manuals/soundsource/?page=Permissions)、[FineTune 功能与安装](https://github.com/ronitsingh10/FineTune#readme)、[BetterDisplay 功能](https://github.com/waydabber/BetterDisplay#readme)。
+Tutti 能力已按 2.0 更新（2026 年 11 月 21 日）；第三方列上次核对日期：2026 年 9 月 19 日。来源：[SoundSource 功能](https://rogueamoeba.com/soundsource/)、[安装要求](https://rogueamoeba.com/support/manuals/soundsource/?page=Permissions)、[FineTune 功能与安装](https://github.com/ronitsingh10/FineTune#readme)、[BetterDisplay 功能](https://github.com/waydabber/BetterDisplay#readme)。
 
 </details>
 
@@ -139,9 +141,13 @@ Tutti Remote 的 iPhone App 免费下载，遥控需要 Mac 端 Tutti Pro。
 |---|---|
 | 多设备音频输出与设备控制 | macOS 13+ |
 | 单个 App 音量、Turbo、均衡器与路由 | macOS 14.4+ |
+| 输出声音处理（EQ、耳机校正、Audio Units）与 Input Mix | macOS 14.4+（Pro） |
 | 显示器控制 | macOS 15+；可用控制取决于显示器与连接方式 |
+| 副屏临时停用 | Apple Silicon Mac、macOS 15+（免费） |
 
 AirPlay 接收设备不能加入 Tutti 的多输出组。蓝牙输出可能需要延迟微调；增加延迟不能让较慢的设备提前发声。接管键盘音量键与亮度键需要辅助功能权限。
+
+立体声配对模式不支持输出声音处理；共享 Audio Unit 宿主异常可能影响多个插件，需分别重试。录音输入混音已验证范围限 M2 Max Mac Studio／macOS 27.0.1 上的 OBS 33.0.1、IINA 1.5.0 与 Sony ECM-S1；Audition 和腾讯会议尚未验证，QuickTime 重开同一活跃输入可能录到静音，通道布局变化可能需要重新选择输入，且不保证跨睡眠连续录音。
 
 亮度增益取决于显示器的 EDR 余量和连接方式，可能影响 HDR 内容与色彩准确性；Tutti 不检测 HDR 内容，也不会自动关闭增益。群组控制、按键、滚轮、Remote 与自动化仍限制在 100% 内。启用前请阅读[兼容性与设置说明](https://tutti.barrybarrywu.com/zh/docs/#upscaling)。
 
