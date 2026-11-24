@@ -111,6 +111,9 @@ Tutti Remote is free to download on iPhone; controlling your Mac requires Tutti 
 - **[Tutti Remote for iPhone](https://apps.apple.com/app/tutti-remote/id6788375184)** — control outputs, device and app volume, music playback, and display brightness over your local network.
 - **[Raycast](https://www.raycast.com/Barrybarrywu/tutti)** — set volume, mute, or apply a preset.
 - **Shortcuts, Siri & Spotlight** — use Tutti actions to switch presets, mute, or set volume in your workflows. See the [setup guide](https://tutti.barrybarrywu.com/docs/).
+- **[CLI & MCP](https://tutti.barrybarrywu.com/docs/#cli-mcp)** connects terminal scripts and AI assistants to Tutti on your Mac. Status, event watching, and diagnostics are free. Control actions require Tutti Pro.
+
+To get started, [send this `llms.txt` to your AI assistant](https://raw.githubusercontent.com/BarryBarrywu/tutti/main/llms.txt) to install and connect Tutti.
 
 <details>
 <summary><strong>Compare Tutti, SoundSource, FineTune, and BetterDisplay</strong></summary>

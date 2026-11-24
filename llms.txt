@@ -1,0 +1,33 @@
+# Tutti
+
+> Sound and display control for Mac with multi-output playback, per-app volume and EQ, Presets, microphone switching, display brightness, and a bundled CLI and local stdio MCP server (`tutti`).
+
+Website: https://tutti.barrybarrywu.com/
+Docs: https://tutti.barrybarrywu.com/docs/#cli-mcp
+Releases: https://github.com/BarryBarrywu/tutti/releases
+Download (DMG): https://github.com/BarryBarrywu/tutti/releases/latest/download/Tutti.dmg
+
+## Install and connect for the user
+
+If you are an agent asked to install or connect Tutti on macOS (13.0+), follow these steps and tell the user what each command does before running it.
+
+1. Check whether `/Applications/Tutti.app` is already installed.
+   - With Homebrew (`command -v brew`), install a missing copy with `brew install --cask brewforge/extras/tutti`.
+   - Without Homebrew, give the user the official DMG link above and ask them to drag Tutti into `/Applications`. Do not pipe a download into a shell or run unverified scripts.
+   - If an installed copy does not bundle `tutti`, ask the user to update Tutti to a version with CLI & MCP.
+
+2. Locate the bundled `tutti` binary.
+   - Use `command -v tutti` to check for a Tutti-installed link, or use `/Applications/Tutti.app/Contents/Helpers/tutti` directly.
+   - Do not run `sudo ln -s` to modify `/usr/local/bin`. If the user wants `tutti` on `PATH`, point them to **Install** under **Settings → Controllers → CLI & MCP**.
+   - Use the absolute path you found for the commands below.
+
+3. Connect the client.
+   - Register a **local stdio MCP server** using the absolute path to `tutti` as `command` and `["mcp"]` as `args`.
+   - Install the **Agent Skill** with `npx skills add BarryBarrywu/tutti` for a compatible client, or read it offline with `tutti skill`.
+
+4. Verify the connection with read-only diagnostics.
+   - Start with `tutti doctor --json`. Use `tutti status --json` if you need to confirm live state.
+   - On exit `3` (`appNotRunning`), ask the user to open Tutti.
+   - On exit `4` (`localControlDisabled`), ask the user to turn on **Allow Local Control** in **Settings → Controllers → CLI & MCP**.
+   - On exit `0`, confirm the connection. Status, `watch`, and `doctor` are free. Control actions and CLI `--dry-run` require Tutti Pro.
+   - During setup, do not run any write commands or MCP write tools, including changes to volume, mute, brightness, presets, or audio routing.

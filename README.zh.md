@@ -111,6 +111,9 @@ Tutti Remote 的 iPhone App 免费下载，遥控需要 Mac 端 Tutti Pro。
 - **[Tutti Remote for iPhone](https://apps.apple.com/app/tutti-remote/id6788375184)**：通过局域网调整输出、设备和 App 音量、音乐播放与显示器亮度。
 - **[Raycast](https://www.raycast.com/Barrybarrywu/tutti)**：设置音量、静音或应用预设。
 - **Shortcuts、Siri 与 Spotlight**：把切换预设、静音或设置音量接入工作流，详见[使用文档](https://tutti.barrybarrywu.com/zh/docs/)。
+- **[CLI & MCP](https://tutti.barrybarrywu.com/zh/docs/#cli-mcp)** 让你通过终端脚本或 AI 助手在本机使用 Tutti。查询状态、监听变化和运行诊断均免费，控制操作需要 Tutti Pro。
+
+[把这份 `llms.txt` 发给 AI 助手](https://raw.githubusercontent.com/BarryBarrywu/tutti/main/llms.txt)，即可让它协助安装和接入 Tutti。
 
 <details>
 <summary><strong>展开比较 Tutti、SoundSource、FineTune 与 BetterDisplay</strong></summary>
