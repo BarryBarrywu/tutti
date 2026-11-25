@@ -6,6 +6,140 @@
         <description>Tutti release feed</description>
         <language>en</language>
         <item>
+            <title>2.1.0</title>
+            <pubDate>Wed, 25 Nov 2026 20:08:01 +0800</pubDate>
+            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v2.1.0</link>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Control Tutti with AI assistants and the command
+line:&lt;/strong&gt; Ask Claude Code, Codex, Cursor, or Gemini CLI — or your
+own terminal scripts — to check your setup and adjust volume, display
+brightness, Presets, speakers, microphones, per-app audio, and music
+playback.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-minute setup in Settings → Controllers:&lt;/strong&gt; Turn on
+&lt;strong&gt;Allow Local Control&lt;/strong&gt; (off by default) to copy an offline
+setup prompt straight into your AI assistant, install or remove the
+&lt;code&gt;tutti&lt;/code&gt; command at &lt;code&gt;~/.local/bin/tutti&lt;/code&gt; without an
+admin password, or copy ready-made MCP and Agent Skill snippets from
+&lt;strong&gt;Manual setup&lt;/strong&gt;. Everything stays strictly on your Mac —
+never exposed to your local network. Checking status and connection
+health is free; changing volume, brightness, devices, and Presets is
+included with Tutti Pro and runs quietly without on-screen popups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Brightness and Microphone desktop widgets:&lt;/strong&gt;
+Adjust display brightness (macOS 15+) and check, mute, or adjust your
+microphone right from the desktop or Notification Center.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display brightness and microphone mute&lt;/strong&gt; — Adjust
+display brightness or mute your microphone using Apple Shortcuts or
+&lt;code&gt;tutti://&lt;/code&gt; links. The updated Tutti extension on the Raycast Store also lets you set, raise, or lower display brightness and toggle microphone mute.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;More controls in the menu bar right-click menu:&lt;/strong&gt;
+Adjust group volume, switch your system microphone, pick Presets by
+group, and check for updates directly from Tutti’s menu bar icon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Turning speakers on or off in the menu bar right-click menu now
+keeps the menu open with live updates, making it quicker to switch
+several outputs in a row.&lt;/li&gt;
+&lt;li&gt;Updated desktop volume and Preset widgets with step-by-step volume
+buttons and clearer active-preset highlighting across widget sizes.&lt;/li&gt;
+&lt;li&gt;Streamlined the update controls and release notes link in
+&lt;strong&gt;Settings → About&lt;/strong&gt;, with a clearer hint for copying the
+version number.&lt;/li&gt;
+&lt;li&gt;Added a QuickTime recording permission tip inside Input Mix so it is
+easier to fix silent recordings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed onboarding and &lt;strong&gt;Settings → Permissions&lt;/strong&gt; getting
+out of sync with live media-key access, aligned the permission label
+with the current macOS System Settings name, and ensured the floating
+permission guide closes when leaving onboarding setup. (thanks
+数码旭)&lt;/li&gt;
+&lt;li&gt;Fixed reliability issues with desktop widget controls and several
+macOS interaction bugs.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v2.1.0/Tutti-2.1.0.zip" length="12920794" type="application/octet-stream" sparkle:edSignature="aZCESuGtzlf5iicyIfMi73UnntesVWC17hZHSm7BH2gZ8ibKcxZbgIHwSfMsGKZd+amA9Q2rygvUM9lulA/XDg==" />
+        <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用 AI 助手和命令行控制 Tutti&lt;/strong&gt;：现在可以直接让 Claude
+Code、Codex、Cursor、Gemini CLI
+或终端脚本查看当前桌面状态，并调节音量、屏幕亮度、切换预设、切音箱和麦克风、控制单个
+App 声音与音乐播放。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「设置 →
+控制器」一键完成配置&lt;/strong&gt;：打开默认关闭的「允许本机控制」后，点一下即可复制离线配置提示词发给
+AI 助手自动接好，也可免密码把 &lt;code&gt;tutti&lt;/code&gt; 命令安装到
+&lt;code&gt;~/.local/bin/tutti&lt;/code&gt;，或在「手动配置」菜单中复制现成的 MCP 与
+Agent Skill 配置。所有连接只留在你这台 Mac
+本机，绝不暴露到局域网；查看状态和检查连接免费，控制操作属于 Tutti
+Pro，且调节时不会弹出屏幕提示打扰工作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;显示器亮度与麦克风桌面小组件&lt;/strong&gt;：在桌面或通知中心直接调节屏幕亮度（macOS
+15+），或随时查看当前麦克风、一键静音和调节输入音量。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;显示器亮度与麦克风静音&lt;/strong&gt;：现在可以通过 Apple
+快捷指令或 &lt;code&gt;tutti://&lt;/code&gt;
+链接调节显示器亮度、将麦克风静音。新版 Tutti 扩展已在 Raycast Store 上架，可设定、提高或降低屏幕亮度，也可切换麦克风静音。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更顺手的菜单栏右键菜单&lt;/strong&gt;：右键点击 Tutti
+菜单栏图标，现在可以直接调节总音量、切换系统麦克风、按分组切换预设，以及检查更新。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在菜单栏右键菜单里勾选或取消音箱时，菜单会保持展开并实时更新状态，连续切换多台设备更省事。&lt;/li&gt;
+&lt;li&gt;优化桌面音量与预设小组件：新增音量步进按钮，并在不同尺寸下更清楚地高亮当前生效的预设。&lt;/li&gt;
+&lt;li&gt;简化「设置 →
+关于」里的检查更新与更新说明入口，鼠标停在版本号上时提示更清晰。&lt;/li&gt;
+&lt;li&gt;在输入混音（Input Mix）里补充了 QuickTime
+录音权限提示，方便快速排查录到静音的问题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;修复首次引导与「设置 →
+权限」中键盘音量键、亮度键权限状态可能与实际媒体键授权不一致的问题，权限名称现已对齐各版本
+macOS
+的系统设置标题，离开首次引导权限页时也会自动关闭引导浮窗。（感谢用户数码旭）&lt;/li&gt;
+&lt;li&gt;修复桌面小组件控制及多项 macOS 交互细节问题。&lt;/li&gt;
+&lt;/ul&gt;
+</description><description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用 AI 助手與命令列控制 Tutti&lt;/strong&gt;：現在可以直接讓 Claude
+Code、Codex、Cursor、Gemini CLI
+或終端機指令碼查看目前桌面狀態，並調整音量、螢幕亮度、切換預設、切換喇叭與麥克風、控制單一
+App 聲音與音樂播放。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「設定 →
+控制器」一鍵完成設定&lt;/strong&gt;：開啟預設關閉的「允許本機控制」後，點一下即可複製離線提示詞發給
+AI 助手自動接好，也可免密碼將 &lt;code&gt;tutti&lt;/code&gt; 指令安裝到
+&lt;code&gt;~/.local/bin/tutti&lt;/code&gt;，或在「手動設定」選單中複製現成的 MCP 與
+Agent Skill 設定。所有連線只留在這台 Mac
+本機，絕不暴露至區域網路；查看狀態與檢查連線免費，控制操作屬於 Tutti
+Pro，且調整時不會跳出螢幕提示打擾工作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;顯示器亮度與麥克風桌面小工具&lt;/strong&gt;：在桌面或通知中心直接調整螢幕亮度（macOS
+15+），或隨時查看目前麥克風、一鍵靜音與調整輸入音量。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;顯示器亮度與麥克風靜音&lt;/strong&gt;：現在可以透過 Apple 捷徑或
+&lt;code&gt;tutti://&lt;/code&gt; 連結調整顯示器亮度、將麥克風靜音。新版 Tutti 擴充功能已在 Raycast Store 上架，可設定、提高或降低螢幕亮度，也可切換麥克風靜音。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更順手的選單列右鍵選單&lt;/strong&gt;：右鍵點擊 Tutti
+選單列圖示，現在可以直接調整總音量、切換系統麥克風、依分組切換預設，以及檢查更新。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在選單列右鍵選單中勾選或取消喇叭時，選單會保持展開並即時更新狀態，連續切換多台裝置更省事。&lt;/li&gt;
+&lt;li&gt;最佳化桌面音量與預設小工具：新增音量步進按鈕，並在不同尺寸下更清楚標示目前生效的預設。&lt;/li&gt;
+&lt;li&gt;簡化「設定 →
+關於」裡的檢查更新與更新說明入口，滑鼠停在版本號上時提示更清晰。&lt;/li&gt;
+&lt;li&gt;在輸入混音（Input Mix）裡補充了 QuickTime
+錄音權限提示，方便快速排查錄到靜音的問題。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;修復首次引導與「設定 →
+權限」中鍵盤音量鍵、亮度鍵權限狀態可能與實際媒體鍵授權不一致的問題，權限名稱現已對齊各版本
+macOS
+的系統設定標題，離開首次引導權限頁時也會自動關閉引導浮窗。（感謝使用者数码旭）&lt;/li&gt;
+&lt;li&gt;修復桌面小工具控制及多項 macOS 互動細節問題。&lt;/li&gt;
+&lt;/ul&gt;
+</description></item>
+        <item>
             <title>2.0.1</title>
             <pubDate>Sat, 21 Nov 2026 07:35:49 +0800</pubDate>
             <link>https://github.com/BarryBarrywu/tutti/releases/tag/v2.0.1</link>
@@ -21,19 +155,21 @@ resume with their saved settings when you use the output again. (thanks
 &lt;/ul&gt;
 </description>
             <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v2.0.1/Tutti-2.0.1.zip" length="12039481" type="application/octet-stream" sparkle:edSignature="ynlSrTp/7BZNZIkwCf8DoTIoG0uYXXymhpI+JMH8d6c2q9OP+5FbP/gB6197r7exqcQLV8Pjrcn826m/4bQfBg==" />
-        <description xml:lang="zh-Hans">&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
+            <description xml:lang="zh-Hans">&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;已连接的输出没有播放路由时，音效面板曾误报失败并显示“重试”。现在会保留已启用的
 EQ、Audio Unit
 音效及参数，再次向该输出播放时自动恢复。（感谢用户安竹）&lt;/li&gt;
 &lt;/ul&gt;
-</description><description xml:lang="zh-Hant">&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
+</description>
+            <description xml:lang="zh-Hant">&lt;h2 id="修正"&gt;修正&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;已連接的輸出沒有播放路由時，音效面板曾誤報失敗並顯示「重試」。現在會保留已啟用的
 EQ、Audio Unit
 音效及參數，再次透過該輸出播放時自動恢復。（感謝使用者安竹）&lt;/li&gt;
 &lt;/ul&gt;
-</description></item>
+</description>
+        </item>
         <item>
             <title>2.0.0</title>
             <pubDate>Fri, 20 Nov 2026 17:39:50 +0800</pubDate>
@@ -285,141 +421,6 @@ VoiceOver 語音。&lt;/li&gt;
 DAC 時，需手動切換對應的耳機校正曲線。&lt;/li&gt;
 &lt;li&gt;啟用立體聲配對模式時，暫不支援輸出 EQ、耳機校正和 Audio Unit
 處理。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-            <title>1.11.0</title>
-            <pubDate>Fri, 18 Sep 2026 22:53:52 +0800</pubDate>
-            <link>https://github.com/BarryBarrywu/tutti/releases/tag/v1.11.0</link>
-            <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description>&lt;h2 id="added"&gt;Added&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Change resolution, refresh rate, existing HiDPI modes, and the main
-display from the Displays card on macOS 15 or later. These local
-controls are free. Display-mode changes include a 15-second Keep /
-Restore confirmation; changing the main display takes effect
-immediately.&lt;/li&gt;
-&lt;li&gt;Brightness Upscaling now supports eligible built-in displays and
-external HDR displays beyond the existing XDR compatibility list. Each
-display uses its own route; available gain depends on the display, EDR
-headroom, and connection. Requires Tutti Pro.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="changed"&gt;Changed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Settings now shows the real menu panel as a companion preview.
-Switching to another app keeps Settings open and hides the preview;
-returning restores your editing context.&lt;/li&gt;
-&lt;li&gt;Preview resolution while dragging the slider and apply it on
-release. Resolution menus group related modes and show HiDPI status,
-with reference markers to help navigate available choices.&lt;/li&gt;
-&lt;li&gt;Refined display controls and latency adjustment. Follow Built-in
-uses a native switch; Set as Main Display uses a separate button with a
-read-only current-display status.&lt;/li&gt;
-&lt;li&gt;Simplified brightness-upscaling notices and aligned failure actions
-with other panel notices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="fixed"&gt;Fixed&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Keep Settings beside its preview when space permits, preserve manual
-placement, and make menu-bar clicks, shortcuts, and window dismissal
-behave consistently.&lt;/li&gt;
-&lt;li&gt;Clear an external display’s old recovery-failure notice after
-recovery succeeds, and keep the menu panel anchored when displays
-disconnect or reconnect.&lt;/li&gt;
-&lt;li&gt;Discard stale resolution interactions after display state
-changes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="known-issues"&gt;Known Issues&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Brightness Upscaling can affect HDR content and color accuracy.
-Tutti does not detect HDR content or automatically disable gain.
-Capability detection is not a guarantee of compatibility or a measured
-brightness multiplier; adapters and hubs can change availability.&lt;/li&gt;
-&lt;li&gt;Some restoration, sleep/wake, third-party Gamma conflict, and
-mixed-display failure/disconnection scenarios remain unverified for this
-release.&lt;/li&gt;
-&lt;li&gt;Resolution, refresh rate, HiDPI, and main-display changes are local
-manual controls only; they are not saved in presets or exposed through
-Remote, shortcuts, widgets, or automation. Brightness group controls,
-keys, scrolling, Remote, and automation remain within 100%.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <enclosure url="https://github.com/BarryBarrywu/tutti/releases/download/v1.11.0/Tutti-1.11.0.zip" length="6515413" type="application/octet-stream" sparkle:edSignature="rT2qtYfuz8jr2Ouxc9ceDItS05WvXnbj0Y/c7hPQ8iGpShVaPlVF4n2MX5mL5JJfCnH11tnwTAhX+3BDdmEYCw==" />
-            <description xml:lang="zh-Hans">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在 macOS 15 及以上，可从「显示器」卡片调整分辨率、刷新率、现有 HiDPI
-模式和主显示器。这些本机控制免费使用。显示模式切换提供 15
-秒「保留／恢复」确认；主显示器切换直接生效。&lt;/li&gt;
-&lt;li&gt;亮度增益扩展到既有 XDR 兼容清单之外、符合条件的内置屏和外接 HDR
-显示器。每台显示器使用独立路线，可用增益取决于屏幕、EDR
-余量及连接链路。需要 Tutti Pro。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="变更"&gt;变更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;设置窗口提供真实菜单面板作为伴随预览。切换到其他 App
-时保留设置并隐藏预览，返回后恢复原有操作状态。&lt;/li&gt;
-&lt;li&gt;分辨率滑杆拖动时预览、松手后应用；菜单按相关模式分组并标注
-HiDPI，参考标记帮助定位可用选项。&lt;/li&gt;
-&lt;li&gt;优化显示器控制区和延迟调整。「跟随内置屏」使用原生开关；「设为主显示器」使用独立按钮，当前主显示器显示为只读状态。&lt;/li&gt;
-&lt;li&gt;简化亮度增益状态通知，统一失败通知与其他面板通知的操作布局。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修复"&gt;修复&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;空间允许时将设置窗口与预览并排摆放，保留手动位置，并统一菜单栏点击、快捷键与窗口关闭行为。&lt;/li&gt;
-&lt;li&gt;外接显示器恢复成功后清除旧的恢复失败通知；显示器断开或重连时，菜单面板继续对齐菜单栏图标。&lt;/li&gt;
-&lt;li&gt;显示状态变化后丢弃过期的分辨率操作。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="已知问题"&gt;已知问题&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;亮度增益可能影响 HDR 内容与色彩准确性。Tutti 不会检测 HDR
-内容或自动关闭增益。能力检测不代表完整兼容性保证或实测亮度倍率；转接器和
-Hub 可能影响可用性。&lt;/li&gt;
-&lt;li&gt;本次发布仍有部分恢复、睡眠唤醒、第三方 Gamma
-冲突，以及混合显示器失败／断线隔离场景未经验证。&lt;/li&gt;
-&lt;li&gt;分辨率、刷新率、HiDPI
-和主显示器仅支持本机手动操作，不保存到预设，也不提供
-Remote、快捷键、小组件或自动化入口。群组亮度、亮度键、滚动、Remote
-和自动化仍限制在 100% 以内。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-            <description xml:lang="zh-Hant">&lt;h2 id="新增"&gt;新增&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;在 macOS 15 及以上，可從「顯示器」卡片調整解析度、更新頻率、現有
-HiDPI 模式和主顯示器。這些本機控制免費使用。顯示模式切換提供 15
-秒「保留／還原」確認；主顯示器切換直接生效。&lt;/li&gt;
-&lt;li&gt;亮度增益擴展到既有 XDR 相容清單之外、符合條件的內建螢幕和外接 HDR
-顯示器。每台顯示器使用獨立路線，可用增益取決於螢幕、EDR
-餘裕及連接方式。需要 Tutti Pro。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="變更"&gt;變更&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;設定視窗提供真實選單面板作為伴隨預覽。切換到其他 App
-時保留設定並隱藏預覽，返回後恢復原有操作狀態。&lt;/li&gt;
-&lt;li&gt;解析度滑桿拖動時預覽、放開後套用；選單按相關模式分組並標示
-HiDPI，參考標記協助定位可用選項。&lt;/li&gt;
-&lt;li&gt;改善顯示器控制區和延遲調整。「跟隨內建螢幕」使用原生開關；「設為主顯示器」使用獨立按鈕，目前的主顯示器顯示為唯讀狀態。&lt;/li&gt;
-&lt;li&gt;簡化亮度增益狀態通知，統一失敗通知與其他面板通知的操作配置。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="修復"&gt;修復&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;空間允許時將設定視窗與預覽並排擺放，保留手動位置，並統一選單列點擊、快捷鍵與視窗關閉行為。&lt;/li&gt;
-&lt;li&gt;外接顯示器還原成功後清除舊的還原失敗通知；顯示器斷開或重新連接時，選單面板繼續對齊選單列圖示。&lt;/li&gt;
-&lt;li&gt;顯示狀態變化後捨棄過期的解析度操作。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="已知問題"&gt;已知問題&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;亮度增益可能影響 HDR 內容與色彩準確性。Tutti 不會偵測 HDR
-內容或自動關閉增益。能力偵測不代表完整相容性保證或實測亮度倍率；轉接器和
-Hub 可能影響可用性。&lt;/li&gt;
-&lt;li&gt;本次發布仍有部分還原、睡眠喚醒、第三方 Gamma
-衝突，以及混合顯示器失敗／斷線隔離情境未經驗證。&lt;/li&gt;
-&lt;li&gt;解析度、更新頻率、HiDPI
-和主顯示器僅支援本機手動操作，不儲存至預設，也不提供
-Remote、快捷鍵、小工具或自動化入口。群組亮度、亮度鍵、捲動、Remote
-和自動化仍限制在 100% 以內。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
